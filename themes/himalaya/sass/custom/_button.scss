@@ -1,0 +1,29 @@
+/** css for button **/
+span.slider-link a {
+  padding: 10px 20px;
+  min-width: 250px;
+  background: transparent;
+  border-radius: 5px;
+  margin-top: 8em;
+  color: $white;
+  text-transform: capitalize;
+  font-size: 20px;
+  border: 2px solid $white;
+  position: relative;
+  &:hover {
+    background: $white;
+    color: $black;
+  }
+  &:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: $white;
+    opacity: 0.2;
+    border-radius: 5px;
+    border: 2px solid $white;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+}
