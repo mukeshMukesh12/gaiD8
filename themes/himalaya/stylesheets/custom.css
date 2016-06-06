@@ -262,13 +262,13 @@ span.slider-des {
   height: 100%;
 }
 /* line 78, ../sass/custom/_global.scss */
-#block-views-block-our-work-block-4 .views-field.views-field-title a,
-#block-views-block-our-work-block-1 .views-field.views-field-title a,
-#block-views-block-our-work-block-2 .views-field.views-field-title a {
+#block-views-block-our-work-block-4 .views-field.views-field-title p,
+#block-views-block-our-work-block-1 .views-field.views-field-title p,
+#block-views-block-our-work-block-2 .views-field.views-field-title p {
   font-size: 24px;
   color: #fff;
   position: relative;
-  top: 43%;
+  top: 3%;
   z-index: 9;
 }
 /* line 85, ../sass/custom/_global.scss */
@@ -393,6 +393,81 @@ span.slider-des {
   transform: scale(1, 1);
 }
 
+/* Css for Homepage agent brasnd logo slider*/
+/* line 193, ../sass/custom/_global.scss */
+#block-views-block-client-logo-slider-block-1 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  background: rgba(0, 0, 0, 0.5) url("../images/images.jpg") repeat scroll 0 0;
+}
+/* line 198, ../sass/custom/_global.scss */
+#block-views-block-client-logo-slider-block-1 .views-row {
+  float: left;
+  margin-right: 5%;
+}
+/* line 202, ../sass/custom/_global.scss */
+#block-views-block-client-logo-slider-block-1 > h2 {
+  text-align: center;
+}
+/* line 205, ../sass/custom/_global.scss */
+#block-views-block-client-logo-slider-block-1 img {
+  width: 100% !important;
+}
+/* line 208, ../sass/custom/_global.scss */
+#block-views-block-client-logo-slider-block-1 .contextual-region {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 15px 0px 15px 0px;
+}
+
+/* our services blcok */
+/* line 216, ../sass/custom/_global.scss */
+#block-views-block-our-services-block-block-1 {
+  background: #7BB2D0;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 2em 5em;
+  text-align: center;
+  width: 100%;
+}
+/* line 223, ../sass/custom/_global.scss */
+#block-views-block-our-services-block-block-1 h2 {
+  color: #ffffff;
+}
+/* line 226, ../sass/custom/_global.scss */
+#block-views-block-our-services-block-block-1 .views-row {
+  float: left;
+  margin: 0 auto;
+  width: 25%;
+}
+/* line 231, ../sass/custom/_global.scss */
+#block-views-block-our-services-block-block-1 h3 {
+  color: #ffffff;
+}
+
+/* css for Testimonai block */
+/* line 237, ../sass/custom/_global.scss */
+.testimonial_block h2 {
+  color: #7BB2D0;
+  font-size: 40px;
+  text-align: center;
+}
+/* line 242, ../sass/custom/_global.scss */
+.testimonial_block .views-row {
+  float: left;
+  width: 50%;
+}
+/* line 245, ../sass/custom/_global.scss */
+.testimonial_block .views-row .views-field-field-image {
+  float: left;
+  padding-right: 3em;
+}
+/* line 250, ../sass/custom/_global.scss */
+.testimonial_block .views-row .views-field-title a {
+  color: #7BB2D0;
+}
+
 /** css for button **/
 /* line 2, ../sass/custom/_button.scss */
 span.slider-link a {
@@ -424,6 +499,23 @@ span.slider-link a:after {
   top: 0;
   left: 0;
   position: absolute;
+}
+
+/* line 1, ../sass/custom/_footer.scss */
+#footer {
+  background: url("../images/images.jpg") repeat scroll 0 0;
+}
+/* line 4, ../sass/custom/_footer.scss */
+#footer .section-full-colored .section-content {
+  background: none;
+}
+/* line 8, ../sass/custom/_footer.scss */
+#footer h2 {
+  color: #000000;
+}
+/* line 12, ../sass/custom/_footer.scss */
+#footer li a {
+  color: #000000;
 }
 
 @media (min-width: 992px) {
@@ -495,53 +587,4 @@ span.slider-link a:after {
   .views_slideshow_cycle_slide {
     height: 265px !important;
   }
-}
-
-
-#block-views-block-client-logo-slider-block-1 .views-row {
-  float: left;
-  margin-right: 5%;
-}
-/*#block-views-block-client-logo-slider-block-1 .views-row:nth-child(3) {
-  margin-right: 0;
-}*/
-#block-views-block-client-logo-slider-block-1 {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-  background-color: #d9d9d9;
-}
-
-#block-views-block-client-logo-slider-block-1 > h2 {
-  text-align: center;
-}
-.home-slider img {
-  width: 100% !important;
-  max-height: 600px;
-}
-#block-views-block-client-logo-slider-block-1 .contextual-region {
-  width: 1170px;  
-  margin: 0 auto;
-  padding: 15px 0px 15px 0px;
-}
-#views_slideshow_cycle_main_testimonials-block_1 .views-field.views-field-field-image {
-  float: left;
-  width: 50%;
-}
-#views_slideshow_cycle_main_testimonials-block_1 .views-field.views-field-title {
-  float: left;
-  width: 50%;
-}
-#views_slideshow_cycle_main_testimonials-block_1 .views-field.views-field-body {
-  float: left;
-  width: 50%;
-}
-
-#block-views-block-testimonials-block-1 {
- /* float: right;*/
-  width: 100%;
-  text-align: right;
-}
-#block-views-block-testimonials-block-1 > h2 {
-  text-align: center;
 }

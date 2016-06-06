@@ -12,12 +12,12 @@ regions:
   logo: Logo
   primary_menu: 'Primary menu'
   secondary_menu: 'Secondary menu'
-  help: Help 
-  breadcrumb: Breadcrumb
-  top_content: Top Content
-  content: Content
+  help: 'Help' 
+  breadcrumb: 'Breadcrumb'
+  top_content: 'Top Content'
+  content: 'Content'
   sidebar_first: 'Sidebar first'
-  bottom_content: Bottom Content
+  bottom_content: 'Bottom Content'
   footer_first: 'Footer first'
   footer_second: 'Footer second'
   footer_third: 'Footer third'
