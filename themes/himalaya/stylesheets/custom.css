@@ -399,22 +399,21 @@ span.slider-des {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
-  background: rgba(0, 0, 0, 0.5) url("../images/images.jpg") repeat scroll 0 0;
 }
-/* line 198, ../sass/custom/_global.scss */
+/* line 197, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 .views-row {
   float: left;
   margin-right: 5%;
 }
-/* line 202, ../sass/custom/_global.scss */
+/* line 201, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 > h2 {
   text-align: center;
 }
-/* line 205, ../sass/custom/_global.scss */
+/* line 204, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 img {
   width: 100% !important;
 }
-/* line 208, ../sass/custom/_global.scss */
+/* line 207, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 .contextual-region {
   width: 1170px;
   margin: 0 auto;
@@ -422,7 +421,7 @@ span.slider-des {
 }
 
 /* our services blcok */
-/* line 216, ../sass/custom/_global.scss */
+/* line 215, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 {
   background: #7BB2D0;
   display: inline-block;
@@ -431,39 +430,39 @@ span.slider-des {
   text-align: center;
   width: 100%;
 }
-/* line 223, ../sass/custom/_global.scss */
+/* line 222, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 h2 {
   color: #ffffff;
 }
-/* line 226, ../sass/custom/_global.scss */
+/* line 225, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 .views-row {
   float: left;
   margin: 0 auto;
   width: 25%;
 }
-/* line 231, ../sass/custom/_global.scss */
+/* line 230, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 h3 {
   color: #ffffff;
 }
 
 /* css for Testimonai block */
-/* line 237, ../sass/custom/_global.scss */
+/* line 236, ../sass/custom/_global.scss */
 .testimonial_block h2 {
   color: #7BB2D0;
   font-size: 40px;
   text-align: center;
 }
-/* line 242, ../sass/custom/_global.scss */
+/* line 241, ../sass/custom/_global.scss */
 .testimonial_block .views-row {
   float: left;
   width: 50%;
 }
-/* line 245, ../sass/custom/_global.scss */
+/* line 244, ../sass/custom/_global.scss */
 .testimonial_block .views-row .views-field-field-image {
   float: left;
   padding-right: 3em;
 }
-/* line 250, ../sass/custom/_global.scss */
+/* line 249, ../sass/custom/_global.scss */
 .testimonial_block .views-row .views-field-title a {
   color: #7BB2D0;
 }
