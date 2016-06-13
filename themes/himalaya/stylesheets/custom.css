@@ -469,38 +469,48 @@ span.slider-des {
 /* line 253, ../sass/custom/_global.scss */
 .listing-of-our-work .views-field-title a {
   color: #ffffff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  padding: 20px;
 }
-/* line 257, ../sass/custom/_global.scss */
+/* line 267, ../sass/custom/_global.scss */
 .listing-of-our-work .views-field.views-field-field-image {
   overflow: hidden;
 }
-/* line 259, ../sass/custom/_global.scss */
+/* line 269, ../sass/custom/_global.scss */
 .listing-of-our-work .views-field.views-field-field-image img {
   transition: all 500ms;
   transform: scale(1, 1);
 }
 
 /* Css for Homepage agent brasnd logo slider*/
-/* line 266, ../sass/custom/_global.scss */
+/* line 276, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
-/* line 270, ../sass/custom/_global.scss */
+/* line 280, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 .views-row {
   float: left;
   margin-right: 5%;
 }
-/* line 274, ../sass/custom/_global.scss */
+/* line 284, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 > h2 {
   text-align: center;
 }
-/* line 277, ../sass/custom/_global.scss */
+/* line 287, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 img {
   width: 100% !important;
 }
-/* line 280, ../sass/custom/_global.scss */
+/* line 290, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 .contextual-region {
   width: 1170px;
   margin: 0 auto;
@@ -508,7 +518,7 @@ span.slider-des {
 }
 
 /* our services blcok */
-/* line 288, ../sass/custom/_global.scss */
+/* line 298, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 {
   background: #7BB2D0;
   display: inline-block;
@@ -517,39 +527,39 @@ span.slider-des {
   text-align: center;
   width: 100%;
 }
-/* line 295, ../sass/custom/_global.scss */
+/* line 305, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 h2 {
   color: #ffffff;
 }
-/* line 298, ../sass/custom/_global.scss */
+/* line 308, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 .views-row {
   float: left;
   margin: 0 auto;
   width: 25%;
 }
-/* line 303, ../sass/custom/_global.scss */
+/* line 313, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 h3 {
   color: #ffffff;
 }
 
 /* css for Testimonai block */
-/* line 309, ../sass/custom/_global.scss */
+/* line 319, ../sass/custom/_global.scss */
 .testimonial_block h2 {
   color: #7BB2D0;
   font-size: 40px;
   text-align: center;
 }
-/* line 314, ../sass/custom/_global.scss */
+/* line 324, ../sass/custom/_global.scss */
 .testimonial_block .views-row {
   float: left;
   width: 50%;
 }
-/* line 317, ../sass/custom/_global.scss */
+/* line 327, ../sass/custom/_global.scss */
 .testimonial_block .views-row .views-field-field-image {
   float: left;
   padding-right: 3em;
 }
-/* line 322, ../sass/custom/_global.scss */
+/* line 332, ../sass/custom/_global.scss */
 .testimonial_block .views-row .views-field-title a {
   color: #7BB2D0;
 }
