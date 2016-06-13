@@ -231,13 +231,12 @@ span.slider-des {
     margin-right: 1%;
     position: relative;
     &:hover {
-      img {
+      + img {
         transition: all 500ms;
         transform: scale(1.5,1.5);
        }
     }
      &:hover {
-      
       .views-field-title {
         background: $black;
         opacity: 0.8;
