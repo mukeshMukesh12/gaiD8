@@ -93,14 +93,16 @@ span.slider-des {
       top: 3%;
       z-index: 9;
     }
-    .field-content {
-      position: relative;
+    .field-content {  
+      font-size: 24px;
       width: 100%;
-      text-align: center;
-      color: #fff;
+      color: #fff;  
       height: 100%;
       position: relative;
       display: block;
+      text-align: left;
+      padding-top: 57px !important;
+      padding: 0 20px;
       &:after {
           position: absolute;
           content: "";
@@ -110,7 +112,7 @@ span.slider-des {
           left: 0;
           top: 0;
           opacity: 0.7;
-          z-index: 0;
+          z-index: -1;
       }
     }
   }
