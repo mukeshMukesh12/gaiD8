@@ -67,6 +67,9 @@ span.slider-des {
 #block-views-block-our-work-block-4,
 #block-views-block-our-work-block-1,
 #block-views-block-our-work-block-2 {
+  img {
+    width: 100%;
+  }
   .views-row {
     position: relative;
     &:hover {
