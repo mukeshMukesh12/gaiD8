@@ -230,6 +230,16 @@ span.slider-des {
     margin-left: 1%;
     margin-right: 1%;
   }
+  .views-field.views-field-field-image {
+    img {
+      transition: all 500ms;
+      transform: scale(1,1);
+      &:hover {
+        transition: all 500ms;
+        transform: scale(1.5,1.5);
+      }
+    }
+  }
 } 
 /* Css for Homepage agent brasnd logo slider*/
 #block-views-block-client-logo-slider-block-1 {
