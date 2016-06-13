@@ -564,6 +564,11 @@ span.slider-des {
   color: #7BB2D0;
 }
 
+/* line 342, ../sass/custom/_global.scss */
+.listing-of-our-work .views-row:hover img {
+  transform: scale(1.5, 1.5);
+}
+
 /** css for button **/
 /* line 2, ../sass/custom/_button.scss */
 span.slider-link a {
