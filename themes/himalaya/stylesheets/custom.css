@@ -445,12 +445,7 @@ span.slider-des {
   margin-right: 1%;
   position: relative;
 }
-/* line 234, ../sass/custom/_global.scss */
-.listing-of-our-work .views-row:hover img {
-  transition: all 500ms;
-  transform: scale(1.5, 1.5);
-}
-/* line 238, ../sass/custom/_global.scss */
+/* line 235, ../sass/custom/_global.scss */
 .listing-of-our-work .views-row:hover .views-field-title {
   background: #000000;
   opacity: 0.8;
@@ -462,11 +457,16 @@ span.slider-des {
   align-items: center;
   justify-content: center;
 }
-/* line 251, ../sass/custom/_global.scss */
+/* line 246, ../sass/custom/_global.scss */
+.listing-of-our-work .views-row:hover img {
+  transition: all 500ms;
+  transform: scale(1.5, 1.5);
+}
+/* line 252, ../sass/custom/_global.scss */
 .listing-of-our-work .views-field-title {
   display: none;
 }
-/* line 253, ../sass/custom/_global.scss */
+/* line 254, ../sass/custom/_global.scss */
 .listing-of-our-work .views-field-title a {
   color: #ffffff;
   width: 100%;
@@ -480,37 +480,37 @@ span.slider-des {
   font-size: 26px;
   padding: 20px;
 }
-/* line 267, ../sass/custom/_global.scss */
+/* line 268, ../sass/custom/_global.scss */
 .listing-of-our-work .views-field.views-field-field-image {
   overflow: hidden;
 }
-/* line 269, ../sass/custom/_global.scss */
+/* line 270, ../sass/custom/_global.scss */
 .listing-of-our-work .views-field.views-field-field-image img {
   transition: all 500ms;
   transform: scale(1, 1);
 }
 
 /* Css for Homepage agent brasnd logo slider*/
-/* line 276, ../sass/custom/_global.scss */
+/* line 277, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
-/* line 280, ../sass/custom/_global.scss */
+/* line 281, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 .views-row {
   float: left;
   margin-right: 5%;
 }
-/* line 284, ../sass/custom/_global.scss */
+/* line 285, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 > h2 {
   text-align: center;
 }
-/* line 287, ../sass/custom/_global.scss */
+/* line 288, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 img {
   width: 100% !important;
 }
-/* line 290, ../sass/custom/_global.scss */
+/* line 291, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 .contextual-region {
   width: 1170px;
   margin: 0 auto;
@@ -518,7 +518,7 @@ span.slider-des {
 }
 
 /* our services blcok */
-/* line 298, ../sass/custom/_global.scss */
+/* line 299, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 {
   background: #7BB2D0;
   display: inline-block;
@@ -527,39 +527,39 @@ span.slider-des {
   text-align: center;
   width: 100%;
 }
-/* line 305, ../sass/custom/_global.scss */
+/* line 306, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 h2 {
   color: #ffffff;
 }
-/* line 308, ../sass/custom/_global.scss */
+/* line 309, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 .views-row {
   float: left;
   margin: 0 auto;
   width: 25%;
 }
-/* line 313, ../sass/custom/_global.scss */
+/* line 314, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 h3 {
   color: #ffffff;
 }
 
 /* css for Testimonai block */
-/* line 319, ../sass/custom/_global.scss */
+/* line 320, ../sass/custom/_global.scss */
 .testimonial_block h2 {
   color: #7BB2D0;
   font-size: 40px;
   text-align: center;
 }
-/* line 324, ../sass/custom/_global.scss */
+/* line 325, ../sass/custom/_global.scss */
 .testimonial_block .views-row {
   float: left;
   width: 50%;
 }
-/* line 327, ../sass/custom/_global.scss */
+/* line 328, ../sass/custom/_global.scss */
 .testimonial_block .views-row .views-field-field-image {
   float: left;
   padding-right: 3em;
 }
-/* line 332, ../sass/custom/_global.scss */
+/* line 333, ../sass/custom/_global.scss */
 .testimonial_block .views-row .views-field-title a {
   color: #7BB2D0;
 }
