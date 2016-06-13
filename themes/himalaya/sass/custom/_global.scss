@@ -44,14 +44,22 @@ span.slider-des {
   display: block;
 }
 /** our work block **/
-#block-views-block-our-work-block-4,
-#block-views-block-our-work-block-1 {
+.path-frontpage {
+  .top-content {
+    max-width: 1180px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 25px !important;
+  }
+}
+#block-views-block-our-work-block-1,
+#block-views-block-our-work-block-2 {
     display: inline-block;
     margin-right: 5%;
     width: 29.7%;
     text-align: center;
 }
-#block-views-block-our-work-block-2 {
+#block-views-block-our-work-block-4 {
     width: 29.7%;
     display: inline-block;
     text-align: center;
