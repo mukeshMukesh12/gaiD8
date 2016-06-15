@@ -326,16 +326,20 @@ span.slider-des {
   }
   .views-row {
     float: left;
-    width: 50%;
+    width: 100%;
     .views-field-field-image {
       float: left;
       padding-right: 3em;
+      min-height: 220px;
     }
     .views-field-title{
       a{
         color: $base_color;
       }
     }
+  }
+  .views-field.views-field-body {
+    font-size: 22px;
   }
 }
 
@@ -377,8 +381,8 @@ span.slider-des {
 }
 
 .footer_first_wrapper {
-  width: 30%;
+  width: 25%;
 }
 .footer_fourth_wrapper {
-  width: 67%;
+  width: 73%;
 }
