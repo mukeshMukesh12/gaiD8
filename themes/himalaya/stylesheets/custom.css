@@ -636,7 +636,7 @@ span.slider-des {
   z-index: 1;
 }
 /* line 397, ../sass/custom/_global.scss */
-.footer-inner-section:hover {
+.footer-inner-section:before {
   content: "";
   height: 100%;
   width: 100%;
