@@ -1,5 +1,4 @@
 #footer{
-	background: url("../images/images.jpg") repeat scroll 0 0;
 	.section-full-colored {
 		.section-content {
     		background: none;
@@ -9,8 +8,16 @@
     	color: $black;
     }
     li{
+        display: inline-block;
+        width: 100%;
     	a{
     		color: $black;
     	}
     }
+    #block-ourwork,
+    #block-aboutus,
+    #block-resources {
+      width: 31%;
+      display: inline-block;
+    }   
 }

@@ -320,7 +320,7 @@ span.slider-des {
 /* css for Testimonai block */
 .testimonial_block {
   h2{
-    color: $base_color;
+    color: $white;
     font-size: 40px;
     text-align: center;
   }
@@ -334,12 +334,14 @@ span.slider-des {
     }
     .views-field-title{
       a{
-        color: $base_color;
+        color: $white;
+        font-size: 26px;
       }
     }
   }
   .views-field.views-field-body {
     font-size: 22px;
+    color: $white;
   }
 }
 
@@ -385,4 +387,25 @@ span.slider-des {
 }
 .footer_fourth_wrapper {
   width: 73%;
+}
+.footer-inner-section {
+  padding: 20px 0 0 0;
+  background: url("../images/images.jpg");
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+  &:hover {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: $black;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.6;
+    top: 0;
+  }
+  .footer-col {
+   position: relative;
+   z-index: 1;
+  }
 }
