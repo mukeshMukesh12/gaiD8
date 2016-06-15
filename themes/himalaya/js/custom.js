@@ -31,8 +31,7 @@
           $('.meanmenu-reveal').removeClass('mean-close');
         });
         // js for to wrap div in one 
-        $('.testimonial_block .views-row ').append("<div class='title-disc' />");
-        $('.testimonial_block .views-row .views-field-title, .testimonial_block .views-row .views-field-body').appendTo(".title-desc");
+        
       }
     };
 })(jQuery);
