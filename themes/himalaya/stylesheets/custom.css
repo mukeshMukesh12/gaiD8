@@ -566,7 +566,7 @@ span.slider-des {
 
 /* line 342, ../sass/custom/_global.scss */
 .listing-of-our-work .views-row:hover img {
-  transform: scale(1.5, 1.5);
+  transform: scale(1.25, 1.25);
 }
 
 /** css for button **/
