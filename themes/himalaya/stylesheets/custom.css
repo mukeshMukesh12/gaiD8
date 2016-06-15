@@ -569,6 +569,40 @@ span.slider-des {
   transform: scale(1.25, 1.25);
 }
 
+/** our work node listing **/
+/* line 347, ../sass/custom/_global.scss */
+.our-work-node-title {
+  font-size: 26px;
+  font-weight: bold;
+  padding: 25px 0;
+  text-align: center;
+}
+
+/* line 353, ../sass/custom/_global.scss */
+.our-wrok-node-image {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 357, ../sass/custom/_global.scss */
+.our-wrok-node-image img {
+  width: 100%;
+}
+
+/* line 361, ../sass/custom/_global.scss */
+.our-work-node-desc {
+  font-size: 20px;
+  font-family: cursive;
+  padding: 20px 20px;
+}
+
+/* line 366, ../sass/custom/_global.scss */
+.our-work-website-link {
+  font-size: 25px;
+  padding: 20px;
+  font-weight: bold;
+}
+
 /** css for button **/
 /* line 2, ../sass/custom/_button.scss */
 span.slider-link a {
