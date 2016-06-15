@@ -351,7 +351,7 @@ span.slider-des {
   text-align: center;
 }
 .our-wrok-node-image {
-  max-width: 500px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   img {
@@ -367,4 +367,17 @@ span.slider-des {
   font-size: 25px;
   padding: 20px;
   font-weight: bold;
+}
+/**** testimonial block ***/
+.testimonial_block {
+  .footer_first_wrapper {
+    width: 30%;
+  }
+  .footer_fourth_wrapper {
+    width: 70%;
+  }
+  .views_slideshow_cycle_teaser_section,
+  .views_slideshow_cycle_slide {
+    max-height: 220px !important;
+  }
 }

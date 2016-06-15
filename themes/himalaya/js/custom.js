@@ -30,6 +30,8 @@
           $(".meanmenu-reveal").attr('id', '');
           $('.meanmenu-reveal').removeClass('mean-close');
         });
+        // js for to wrap div in one 
+        $('.testimonial_block .views-field-title, .testimonial_block .views-field-body').wrapAll("<div class='title-disc' />");
       }
     };
 })(jQuery);
