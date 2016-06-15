@@ -23,6 +23,9 @@
     #block-resources {
       width: 31%;
       display: inline-block;
+      .menu {
+        display: none;
+      }
     }
     nav {
         h2 {
