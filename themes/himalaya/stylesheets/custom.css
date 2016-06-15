@@ -605,17 +605,19 @@ span.slider-des {
 
 /**** testimonial block ***/
 /* line 373, ../sass/custom/_global.scss */
-.testimonial_block .footer_first_wrapper {
-  width: 30%;
-}
-/* line 376, ../sass/custom/_global.scss */
-.testimonial_block .footer_fourth_wrapper {
-  width: 70%;
-}
-/* line 379, ../sass/custom/_global.scss */
 .testimonial_block .views_slideshow_cycle_teaser_section,
 .testimonial_block .views_slideshow_cycle_slide {
   max-height: 220px !important;
+}
+
+/* line 379, ../sass/custom/_global.scss */
+.footer_first_wrapper {
+  width: 30%;
+}
+
+/* line 382, ../sass/custom/_global.scss */
+.footer_fourth_wrapper {
+  width: 70%;
 }
 
 /** css for button **/

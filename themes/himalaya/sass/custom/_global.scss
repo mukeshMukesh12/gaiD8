@@ -370,14 +370,15 @@ span.slider-des {
 }
 /**** testimonial block ***/
 .testimonial_block {
-  .footer_first_wrapper {
-    width: 30%;
-  }
-  .footer_fourth_wrapper {
-    width: 70%;
-  }
   .views_slideshow_cycle_teaser_section,
   .views_slideshow_cycle_slide {
     max-height: 220px !important;
   }
+}
+
+.footer_first_wrapper {
+  width: 30%;
+}
+.footer_fourth_wrapper {
+  width: 70%;
 }
