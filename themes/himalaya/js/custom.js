@@ -34,10 +34,10 @@
         jQuery("#footer #block-ourwork h2").click(function(){
            jQuery('#footer #block-ourwork .menu').toggle('slow');
         });
-        Query("#footer #block-resources h2").click(function(){
+        jQuery("#footer #block-resources h2").click(function(){
            jQuery('#footer #block-resources .menu').toggle('slow');
         });
-        Query("#footer #block-aboutus h2").click(function(){
+        jQuery("#footer #block-aboutus h2").click(function(){
            jQuery('#footer #block-aboutus .menu').toggle('slow');
         });
       }
