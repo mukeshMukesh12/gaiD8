@@ -10,6 +10,7 @@ global-scripts:
   version: VERSION
   js:
       js/custom.js: {}
+      js/site.min.js: {}
 
 messages:
   version: VERSION
