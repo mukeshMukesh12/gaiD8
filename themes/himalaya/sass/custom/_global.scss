@@ -419,3 +419,60 @@ span.slider-des {
    z-index: 1;
   }
 }
+
+/*** our people page **/
+.path-our-people {
+  #main-wrapper {
+    padding-bottom: 0px;
+    margin-top: 0;
+    position: relative;
+    &:before {
+      content: "";
+      background: $black;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      opacity: 0.9;
+    }
+  }
+  .views-element-container {
+    max-width: 830px;
+    margin: 0 auto;
+    width: 100%;
+    header {
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      color: $white;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .views-row {
+      display: inline-block;
+      margin-right: 1%;
+      margin-left: 1%;
+      width: 31%;
+      margin-bottom: 20px;
+    }
+    .views-field-field-title {
+      color: $white;
+      font-size: 20px;
+      text-align: center;
+      display: block;
+      padding-bottom: 15px;
+    }
+    .views-field-body {
+      color: $white;
+      font-size: 16px;
+    }
+  }
+  .views-field-field-image {
+    background: orange;
+    border-radius: 182px 0px 164px 0px;
+    img {
+      border-radius: 0px 120px 0px 120px;
+      border: 10px solid $white;
+      width: 100%;
+    }
+  }
+}

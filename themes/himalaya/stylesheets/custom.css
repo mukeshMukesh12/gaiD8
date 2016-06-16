@@ -662,6 +662,70 @@ span.slider-des {
   z-index: 1;
 }
 
+/*** our people page **/
+/* line 425, ../sass/custom/_global.scss */
+.path-our-people #main-wrapper {
+  padding-bottom: 0px;
+  margin-top: 0;
+  position: relative;
+}
+/* line 429, ../sass/custom/_global.scss */
+.path-our-people #main-wrapper:before {
+  content: "";
+  background: #000000;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.9;
+}
+/* line 438, ../sass/custom/_global.scss */
+.path-our-people .views-element-container {
+  max-width: 830px;
+  margin: 0 auto;
+  width: 100%;
+}
+/* line 442, ../sass/custom/_global.scss */
+.path-our-people .views-element-container header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* line 450, ../sass/custom/_global.scss */
+.path-our-people .views-element-container .views-row {
+  display: inline-block;
+  margin-right: 1%;
+  margin-left: 1%;
+  width: 31%;
+  margin-bottom: 20px;
+}
+/* line 457, ../sass/custom/_global.scss */
+.path-our-people .views-element-container .views-field-field-title {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  padding-bottom: 15px;
+}
+/* line 464, ../sass/custom/_global.scss */
+.path-our-people .views-element-container .views-field-body {
+  color: #ffffff;
+  font-size: 16px;
+}
+/* line 469, ../sass/custom/_global.scss */
+.path-our-people .views-field-field-image {
+  background: orange;
+  border-radius: 182px 0px 164px 0px;
+}
+/* line 472, ../sass/custom/_global.scss */
+.path-our-people .views-field-field-image img {
+  border-radius: 0px 120px 0px 120px;
+  border: 10px solid #ffffff;
+  width: 100%;
+}
+
 /** css for button **/
 /* line 2, ../sass/custom/_button.scss */
 span.slider-link a {
