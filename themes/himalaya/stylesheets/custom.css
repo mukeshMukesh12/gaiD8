@@ -892,7 +892,7 @@ span.slider-link a:after {
 }
 
 /* line 50, ../sass/custom/_footer.scss */
-.back-to-top {
+.scrolltop {
   background: none;
   margin: 0;
   position: fixed;
@@ -906,11 +906,6 @@ span.slider-link a:after {
   text-decoration: none;
   color: #ffffff;
   background-color: #0678be;
-}
-
-/* line 65, ../sass/custom/_footer.scss */
-.back-to-top i {
-  font-size: 60px;
 }
 
 @media (min-width: 992px) {
