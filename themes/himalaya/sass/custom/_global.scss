@@ -467,12 +467,16 @@ span.slider-des {
     }
   }
   .views-field-field-image {
-    background: orange;
     border-radius: 182px 0px 164px 0px;
     img {
       border-radius: 0px 120px 0px 120px;
       border: 10px solid $white;
       width: 100%;
+      transition: 0.5s linear all;
+      &:hover {
+       transition: 0.5s linear all;
+       border-radius: 0px;
+      }
     }
   }
 }
