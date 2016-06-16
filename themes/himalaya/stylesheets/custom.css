@@ -893,23 +893,22 @@ span.slider-link a:after {
 
 /* line 50, ../sass/custom/_footer.scss */
 .back-to-top {
-  background: none;
-  margin: 0;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 70px;
-  height: 70px;
-  z-index: 100;
-  display: none;
+  width: 100px;
+  height: 130px;
+  padding: 10px;
+  text-align: center;
+  background: red;
+  font-weight: bold;
+  color: #444;
   text-decoration: none;
-  color: #ffffff;
-  background-color: #ff9000;
+  position: fixed;
+  top: 75px;
+  right: 40px;
+  display: none;
 }
-
-/* line 64, ../sass/custom/_footer.scss */
-.back-to-top i {
-  font-size: 60px;
+/* line 63, ../sass/custom/_footer.scss */
+.back-to-top:hover {
+  text-decoration: none;
 }
 
 @media (min-width: 992px) {

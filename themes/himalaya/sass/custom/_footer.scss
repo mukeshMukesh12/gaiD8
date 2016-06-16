@@ -48,19 +48,19 @@
 
 
 .back-to-top { 
-  background: none;
-  margin: 0;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 70px;
-  height: 70px;
-  z-index: 100;
-  display: none;
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #ff9000;
+ width:100px; 
+    height:130px;
+    padding:10px; 
+    text-align:center; 
+    background: red;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    top:75px;
+    right:40px;
+    display:none;
+    &:hover {
+        text-decoration:none;
+    }
 } 
-.back-to-top i {
-  font-size: 60px;
-}
