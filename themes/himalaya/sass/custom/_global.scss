@@ -1,3 +1,23 @@
+/** about block gai **/
+.about-gai-block {
+  margin-top: 30px;
+  display: block;
+  width: 100%; 
+  .about-title {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    h2 {
+     font-size: 56px;
+     margin-top: 17px;
+    }
+  }
+  .about-desc {
+    display: inline-block;
+    width: 69%;
+    font-size: 22px;
+  }
+}
 /*** slider css **/
 #main-wrapper {
   padding-bottom: 0px;
