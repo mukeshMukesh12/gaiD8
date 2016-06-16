@@ -700,8 +700,10 @@ span.slider-des {
   margin-left: 1%;
   width: 31%;
   margin-bottom: 20px;
+  min-height: 340px;
+  vertical-align: top;
 }
-/* line 457, ../sass/custom/_global.scss */
+/* line 459, ../sass/custom/_global.scss */
 .path-our-people .views-element-container .views-field-field-title {
   color: #ffffff;
   font-size: 20px;
@@ -709,23 +711,23 @@ span.slider-des {
   display: block;
   padding-bottom: 15px;
 }
-/* line 464, ../sass/custom/_global.scss */
+/* line 466, ../sass/custom/_global.scss */
 .path-our-people .views-element-container .views-field-body {
   color: #ffffff;
   font-size: 16px;
 }
-/* line 469, ../sass/custom/_global.scss */
+/* line 471, ../sass/custom/_global.scss */
 .path-our-people .views-field-field-image {
   border-radius: 182px 0px 164px 0px;
 }
-/* line 471, ../sass/custom/_global.scss */
+/* line 473, ../sass/custom/_global.scss */
 .path-our-people .views-field-field-image img {
   border-radius: 0px 120px 0px 120px;
   border: 10px solid #ffffff;
   width: 100%;
   transition: 0.5s linear all;
 }
-/* line 476, ../sass/custom/_global.scss */
+/* line 478, ../sass/custom/_global.scss */
 .path-our-people .views-field-field-image img:hover {
   transition: 0.5s linear all;
   border-radius: 0px;
