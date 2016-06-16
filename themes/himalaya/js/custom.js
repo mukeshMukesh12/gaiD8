@@ -44,20 +44,37 @@
           $('html, body').animate({scrollTop: 0}, duration);
           return false;
         });*/
-        $(window).scroll(function(){
-          if ($(this).scrollTop() > 100) {
-            $('.back-to-top').fadeIn();
-          } else {
-            $('.back-to-top').fadeOut();
-          }
+        
+ 
+        var offset = 250;
+         
+        var duration = 700;
+         
+        jQuery(window).scroll(function() {
+         
+        if (jQuery(this).scrollTop() > offset) {
+         
+        jQuery(‘'.back-to-top').fadeIn(duration);
+         
+        } else {
+         
+        jQuery('.back-to-top’').fadeOut(duration);
+         
+        }
+         
         });
-  
-        //Click event to scroll to top
-        $('.back-to-top').click(function(){
-          $('html, body').animate({scrollTop : 0},800);
-          return false;
+         
+                 
+        jQuery('.back-to-top').click(function(event) {
+         
+        event.preventDefault();
+         
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+         
+        return false;
+         
         });
-                        
+         
        
         // js for to wrap div in one 
         jQuery("#footer #block-ourwork h2").click(function(){
