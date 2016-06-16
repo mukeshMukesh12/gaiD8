@@ -467,6 +467,11 @@ span.slider-des {
       color: $white;
       font-size: 16px;
     }
+    /** css for page **/
+    .js-pager__items {
+      display: block;
+      text-align: center;
+    }
   }
   .views-field-field-image {
     border-radius: 182px 0px 164px 0px;

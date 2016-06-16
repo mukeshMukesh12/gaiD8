@@ -683,6 +683,7 @@ span.slider-des {
   max-width: 830px;
   margin: 0 auto;
   width: 100%;
+  /** css for page **/
 }
 /* line 442, ../sass/custom/_global.scss */
 .path-our-people .views-element-container header {
@@ -717,17 +718,22 @@ span.slider-des {
   font-size: 16px;
 }
 /* line 471, ../sass/custom/_global.scss */
+.path-our-people .views-element-container .js-pager__items {
+  display: block;
+  text-align: center;
+}
+/* line 476, ../sass/custom/_global.scss */
 .path-our-people .views-field-field-image {
   border-radius: 182px 0px 164px 0px;
 }
-/* line 473, ../sass/custom/_global.scss */
+/* line 478, ../sass/custom/_global.scss */
 .path-our-people .views-field-field-image img {
   border-radius: 0px 120px 0px 120px;
   border: 10px solid #ffffff;
   width: 100%;
   transition: 0.5s linear all;
 }
-/* line 478, ../sass/custom/_global.scss */
+/* line 483, ../sass/custom/_global.scss */
 .path-our-people .views-field-field-image img:hover {
   transition: 0.5s linear all;
   border-radius: 0px;
