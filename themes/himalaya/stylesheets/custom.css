@@ -891,6 +891,27 @@ span.slider-link a:after {
   color: #000000;
 }
 
+/* line 50, ../sass/custom/_footer.scss */
+.back-to-top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff9000;
+}
+
+/* line 64, ../sass/custom/_footer.scss */
+.back-to-top i {
+  font-size: 60px;
+}
+
 @media (min-width: 992px) {
   /* line 3, ../sass/custom/_responsive.scss */
   .sub-menu-himalaya {
