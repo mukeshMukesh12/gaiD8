@@ -92,18 +92,20 @@
     </div>
   </div>
 </div>
+{% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
   <div id="footer-section container">
     <div class="col-100 float_left footer-inner-section">
-      {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
+      
         <div id="footer-columns" class="clearfix col-100 float_left">
           <div class="footer-col footer_first_wrapper column-3  float_left">{{ page.footer_first }}</div>
           <div class="footer-col footer_second_wrapper column-3 float_left">{{ page.footer_second }}</div>
           <div class="footer-col footer_third_wrapper column-3 float_left">{{ page.footer_third }}</div>
           <div class="footer-col footer_fourth_wrapper column-3 float_left">{{ page.footer_fourth }}</div>
         </div>
-      {% endif %}
+     
     </div>
   </div>
+{% endif %}
 </div>
 <div id="footer">
   {% if page.footer %}
