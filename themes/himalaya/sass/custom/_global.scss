@@ -506,6 +506,8 @@ span.slider-des {
 
 /** css for pager **/
 .pager {
+  display: block;
+  padding: 50px 0;
  .js-pager__items {
     display: block;
     text-align: center;
@@ -513,4 +515,35 @@ span.slider-des {
      display: inline-block;
     }
   }
+  .pager__item--first,
+  .pager__item--previous,
+  .pager__item--next,
+  .pager__item--last {
+    a {
+      padding: 5px 15px;
+      border: 1px solid $white;
+      color: $white;
+    }
+  }
+  li.pager__item {
+    margin-right: 5px;
+    margin-left: 5px;
+    a {
+      font-size: 18px;
+      color: $white;
+      padding: 0 9px;
+      transition: 0.9s linear all;
+      &:hover {
+       background: $grey;
+       transition: 0.9s linear all;
+       color: $black;
+      }
+    }
+    &.is-active {
+     background: #0678be;
+     padding: 0 9px;
+     border-radius: 3px;
+    }
+  }
+
 }

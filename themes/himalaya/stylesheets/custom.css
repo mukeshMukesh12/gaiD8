@@ -759,14 +759,52 @@ span.slider-des {
 }
 
 /** css for pager **/
-/* line 509, ../sass/custom/_global.scss */
+/* line 508, ../sass/custom/_global.scss */
+.pager {
+  display: block;
+  padding: 50px 0;
+}
+/* line 511, ../sass/custom/_global.scss */
 .pager .js-pager__items {
   display: block;
   text-align: center;
 }
-/* line 512, ../sass/custom/_global.scss */
+/* line 514, ../sass/custom/_global.scss */
 .pager .js-pager__items li {
   display: inline-block;
+}
+/* line 522, ../sass/custom/_global.scss */
+.pager .pager__item--first a,
+.pager .pager__item--previous a,
+.pager .pager__item--next a,
+.pager .pager__item--last a {
+  padding: 5px 15px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+/* line 528, ../sass/custom/_global.scss */
+.pager li.pager__item {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+/* line 531, ../sass/custom/_global.scss */
+.pager li.pager__item a {
+  font-size: 18px;
+  color: #ffffff;
+  padding: 0 9px;
+  transition: 0.9s linear all;
+}
+/* line 536, ../sass/custom/_global.scss */
+.pager li.pager__item a:hover {
+  background: #e7e7e7;
+  transition: 0.9s linear all;
+  color: #000000;
+}
+/* line 542, ../sass/custom/_global.scss */
+.pager li.pager__item.is-active {
+  background: #0678be;
+  padding: 0 9px;
+  border-radius: 3px;
 }
 
 /** css for button **/
