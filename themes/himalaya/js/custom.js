@@ -30,7 +30,7 @@
           $(".meanmenu-reveal").attr('id', '');
           $('.meanmenu-reveal').removeClass('mean-close');
         });
-        var offset = 250;
+        /*var offset = 250;
         var duration = 300;
         $(window).scroll(function() {
           if (jQuery(this).scrollTop() > offset) { 
@@ -43,7 +43,39 @@
           event.preventDefault();
           $('html, body').animate({scrollTop: 0}, duration);
           return false;
+        });*/
+        
+ 
+        var offset = 250;
+         
+        var duration = 300;
+         
+        jQuery(window).scroll(function() {
+         
+        if (jQuery(this).scrollTop() > offset) {
+         
+        jQuery(‘'.back-to-top').fadeIn(duration);
+         
+        } else {
+         
+        jQuery('.back-to-top’').fadeOut(duration);
+         
+        }
+         
         });
+         
+                 
+        jQuery('.back-to-top').click(function(event) {
+         
+        event.preventDefault();
+         
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+         
+        return false;
+         
+        });
+         
+       
         // js for to wrap div in one 
         jQuery("#footer #block-ourwork h2").click(function(){
            jQuery('#footer #block-ourwork .menu').toggle('slow');
