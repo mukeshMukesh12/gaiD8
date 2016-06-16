@@ -467,11 +467,7 @@ span.slider-des {
       color: $white;
       font-size: 16px;
     }
-    /** css for page **/
-    .js-pager__items {
-      display: block;
-      text-align: center;
-    }
+    
   }
   .views-field-field-image {
     border-radius: 182px 0px 164px 0px;
@@ -484,6 +480,17 @@ span.slider-des {
        transition: 0.5s linear all;
        border-radius: 0px;
       }
+    }
+  }
+}
+
+/** css for pager **/
+.pager {
+ .js-pager__items {
+    display: block;
+    text-align: center;
+    li {
+     display: inline-block;
     }
   }
 }
