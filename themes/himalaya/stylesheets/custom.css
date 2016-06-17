@@ -1011,7 +1011,7 @@ html {
 /* line 66, ../sass/custom/_footer.scss */
 div#page-wrapper {
   min-height: 100%;
-  margin-bottom: -160px;
+  /*  margin-bottom: -160px; */
 }
 
 /* line 70, ../sass/custom/_footer.scss */
