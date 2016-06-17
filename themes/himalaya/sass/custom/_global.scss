@@ -627,3 +627,32 @@ span.slider-des {
     }
   }
 }
+
+/** contact us page **/
+.path-contact {
+  .contact-message-form {
+    max-width: 780px;
+    margin: 30px auto;
+  }
+}
+.be-contact-column-inner {
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: center;
+  .contact-us-wrap {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 0 30px;
+    p {
+     font-size: 16px;
+     font-weight: bold;
+     line-height: 28px;
+    }
+  }
+}
+.contact-us-page-block {
+ h2 {
+  text-align: center;
+ }
+}

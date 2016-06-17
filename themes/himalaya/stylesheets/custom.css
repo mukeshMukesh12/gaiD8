@@ -900,6 +900,38 @@ span.slider-des {
   margin-bottom: 20px;
 }
 
+/** contact us page **/
+/* line 633, ../sass/custom/_global.scss */
+.path-contact .contact-message-form {
+  max-width: 780px;
+  margin: 30px auto;
+}
+
+/* line 638, ../sass/custom/_global.scss */
+.be-contact-column-inner {
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 642, ../sass/custom/_global.scss */
+.be-contact-column-inner .contact-us-wrap {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  padding: 0 30px;
+}
+/* line 647, ../sass/custom/_global.scss */
+.be-contact-column-inner .contact-us-wrap p {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+/* line 655, ../sass/custom/_global.scss */
+.contact-us-page-block h2 {
+  text-align: center;
+}
+
 /** css for button **/
 /* line 2, ../sass/custom/_button.scss */
 span.slider-link a {
