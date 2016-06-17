@@ -606,7 +606,7 @@ span.slider-des {
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  form#user-login-form {
+  form {
     label {
       font-size: 26px;
       font-weight: bold;
@@ -625,6 +625,33 @@ span.slider-des {
     .form-item {
       margin-bottom: 20px;
     }
+  }
+  #block-himalaya-local-tasks {
+   ul {
+    border-bottom: none;
+    padding-left: 0;
+   }
+   li {
+    a {
+     color: #333;
+     border: 1px solid #d8d8d8 !important;
+     border-bottom: none;
+     padding: 12px 15px;
+     background-color: #fff;
+     border-radius: 5px 5px 5px 5px;
+     font-weight: bold;
+     transition: 0.9s linears all;
+     &.is-active {
+      background: #333;
+      color: $white;
+     }
+     &:hover {
+      background: #333;
+      color: $white
+      transition: 0.9s linears all;
+     }
+    }
+   }
   }
 }
 
