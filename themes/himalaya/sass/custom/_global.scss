@@ -21,6 +21,7 @@
 /*** slider css **/
 #main-wrapper {
   padding-bottom: 0px;
+  margin-top: 0px;
 }
 .path-frontpage {
   #content {
@@ -456,16 +457,18 @@ span.slider-des {
     }
   } */
   .top-contributor {
-    max-width: 830px;
-    margin: 0 auto;
-    width: 100%;
-    header {
+    background: #0678be;
+    > div {
+     max-width: 830px;
+     margin: 0 auto;
+     width: 100%;
+    }
+    h2 {
+      width: 100%;
+      display: inline-block;
       text-align: center;
-      font-size: 30px;
       font-weight: bold;
       color: $white;
-      padding-top: 40px;
-      padding-bottom: 40px;
     }
     .views-row {
       display: inline-block;
@@ -478,27 +481,47 @@ span.slider-des {
     }
     .views-field-field-title {
       color: $white;
-      font-size: 20px;
+      font-size: 24px;
       text-align: center;
       display: block;
       padding-bottom: 15px;
     }
     .views-field-body {
       color: $white;
-      font-size: 16px;
+      font-size: 20px;
+      text-align: center;
+    }
+    .views-field.views-field-field-link {
+      text-align: center;
+      margin-bottom: 25px;
+      display: inline-block;
+      width: 100%;
+      margin-top: 10px;
+      a {
+       font-size: 20px;
+       padding: 10px;
+       border: 1px solid $white;
+       color: $white;
+       transition: 0.9s linear all;
+       border-radius: 5px;
+       &:hover {
+        transition: 0.9s linear all;
+        background: $black;
+       }
+      }
     }
     
-  .views-field-field-image {
-    border-radius: 182px 0px 164px 0px;
-    img {
-      border-radius: 0px 120px 0px 120px;
-      border: 10px solid $white;
-      width: 100%;
-      transition: 0.5s linear all;
-      &:hover {
+    .views-field-field-image {
+      border-radius: 182px 0px 164px 0px;
+      img {
+       border-radius: 0px 120px 0px 120px;
+       border: 10px solid $white;
+       width: 100%;
        transition: 0.5s linear all;
-       border-radius: 0px;
-      }
+       &:hover {
+        transition: 0.5s linear all;
+        border-radius: 0px;
+       }
     }
   }
 }

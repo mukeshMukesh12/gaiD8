@@ -198,20 +198,21 @@
 /* line 22, ../sass/custom/_global.scss */
 #main-wrapper {
   padding-bottom: 0px;
+  margin-top: 0px;
 }
 
-/* line 27, ../sass/custom/_global.scss */
+/* line 28, ../sass/custom/_global.scss */
 .path-frontpage #content article {
   display: none;
 }
 
-/* line 32, ../sass/custom/_global.scss */
+/* line 33, ../sass/custom/_global.scss */
 .home-slider {
   position: relative;
   overflow: hidden;
   /* slider effects **/
 }
-/* line 36, ../sass/custom/_global.scss */
+/* line 37, ../sass/custom/_global.scss */
 .home-slider img {
   transform: scale(1, 1);
   visibility: visible !important;
@@ -220,7 +221,7 @@
   -moz-transition: transform 500ms;
   -ms-transition: transform 500ms;
 }
-/* line 45, ../sass/custom/_global.scss */
+/* line 46, ../sass/custom/_global.scss */
 .home-slider:hover img {
   transform: scale(1.05, 1.05);
   transition: transform 500ms;
@@ -229,7 +230,7 @@
   -ms-transition: transform 500ms;
 }
 
-/* line 54, ../sass/custom/_global.scss */
+/* line 55, ../sass/custom/_global.scss */
 .slider-content {
   position: absolute;
   top: 40%;
@@ -238,7 +239,7 @@
   color: #ffffff;
 }
 
-/* line 61, ../sass/custom/_global.scss */
+/* line 62, ../sass/custom/_global.scss */
 span.slider-title a {
   text-transform: uppercase;
   font-size: 50px;
@@ -247,20 +248,20 @@ span.slider-title a {
   color: #ffffff;
 }
 
-/* line 68, ../sass/custom/_global.scss */
+/* line 69, ../sass/custom/_global.scss */
 span.slider-des {
   font-size: 25px;
   line-height: 5px;
 }
 
-/* line 72, ../sass/custom/_global.scss */
+/* line 73, ../sass/custom/_global.scss */
 .slider-link {
   margin-top: 42px;
   display: block;
 }
 
 /** our work block **/
-/* line 78, ../sass/custom/_global.scss */
+/* line 79, ../sass/custom/_global.scss */
 .path-frontpage .top-content {
   max-width: 1180px;
   margin: 0 auto;
@@ -268,7 +269,7 @@ span.slider-des {
   margin-bottom: 25px !important;
 }
 
-/* line 85, ../sass/custom/_global.scss */
+/* line 86, ../sass/custom/_global.scss */
 #block-views-block-our-work-block-1,
 #block-views-block-our-work-block-2 {
   display: inline-block;
@@ -277,32 +278,32 @@ span.slider-des {
   text-align: center;
 }
 
-/* line 92, ../sass/custom/_global.scss */
+/* line 93, ../sass/custom/_global.scss */
 #block-views-block-our-work-block-4 {
   width: 29.7%;
   display: inline-block;
   text-align: center;
 }
 
-/* line 100, ../sass/custom/_global.scss */
+/* line 101, ../sass/custom/_global.scss */
 #block-views-block-our-work-block-4 img,
 #block-views-block-our-work-block-1 img,
 #block-views-block-our-work-block-2 img {
   width: 100%;
 }
-/* line 103, ../sass/custom/_global.scss */
+/* line 104, ../sass/custom/_global.scss */
 #block-views-block-our-work-block-4 .views-row,
 #block-views-block-our-work-block-1 .views-row,
 #block-views-block-our-work-block-2 .views-row {
   position: relative;
 }
-/* line 106, ../sass/custom/_global.scss */
+/* line 107, ../sass/custom/_global.scss */
 #block-views-block-our-work-block-4 .views-row:hover .views-field.views-field-title,
 #block-views-block-our-work-block-1 .views-row:hover .views-field.views-field-title,
 #block-views-block-our-work-block-2 .views-row:hover .views-field.views-field-title {
   display: block;
 }
-/* line 111, ../sass/custom/_global.scss */
+/* line 112, ../sass/custom/_global.scss */
 #block-views-block-our-work-block-4 .views-field.views-field-title,
 #block-views-block-our-work-block-1 .views-field.views-field-title,
 #block-views-block-our-work-block-2 .views-field.views-field-title {
@@ -314,7 +315,7 @@ span.slider-des {
   color: #ffffff;
   height: 100%;
 }
-/* line 119, ../sass/custom/_global.scss */
+/* line 120, ../sass/custom/_global.scss */
 #block-views-block-our-work-block-4 .views-field.views-field-title p,
 #block-views-block-our-work-block-1 .views-field.views-field-title p,
 #block-views-block-our-work-block-2 .views-field.views-field-title p {
@@ -324,7 +325,7 @@ span.slider-des {
   top: 3%;
   z-index: 9;
 }
-/* line 126, ../sass/custom/_global.scss */
+/* line 127, ../sass/custom/_global.scss */
 #block-views-block-our-work-block-4 .views-field.views-field-title .field-content,
 #block-views-block-our-work-block-1 .views-field.views-field-title .field-content,
 #block-views-block-our-work-block-2 .views-field.views-field-title .field-content {
@@ -339,7 +340,7 @@ span.slider-des {
   padding: 0 20px;
   z-index: 2;
 }
-/* line 137, ../sass/custom/_global.scss */
+/* line 138, ../sass/custom/_global.scss */
 #block-views-block-our-work-block-4 .views-field.views-field-title .field-content:after,
 #block-views-block-our-work-block-1 .views-field.views-field-title .field-content:after,
 #block-views-block-our-work-block-2 .views-field.views-field-title .field-content:after {
@@ -355,7 +356,7 @@ span.slider-des {
 }
 
 /** our work listing page **/
-/* line 153, ../sass/custom/_global.scss */
+/* line 154, ../sass/custom/_global.scss */
 .views-exposed-form select {
   color: #000000;
   border: 2px solid #000000;
@@ -363,55 +364,55 @@ span.slider-des {
   height: 40px;
   margin-top: -2px;
 }
-/* line 160, ../sass/custom/_global.scss */
+/* line 161, ../sass/custom/_global.scss */
 .views-exposed-form .form-submit {
   font-size: 18px;
 }
 
-/* line 165, ../sass/custom/_global.scss */
+/* line 166, ../sass/custom/_global.scss */
 #block-views-block-our-work-block-3 h2 {
   width: 100%;
   text-align: center;
 }
-/* line 169, ../sass/custom/_global.scss */
+/* line 170, ../sass/custom/_global.scss */
 #block-views-block-our-work-block-3 .views-row {
   display: inline-block;
   width: 33%;
   padding: 0 15px;
   margin-bottom: 30px;
 }
-/* line 175, ../sass/custom/_global.scss */
+/* line 176, ../sass/custom/_global.scss */
 #block-views-block-our-work-block-3 .views-exposed-form {
   margin-bottom: 25px;
 }
-/* line 178, ../sass/custom/_global.scss */
+/* line 179, ../sass/custom/_global.scss */
 #block-views-block-our-work-block-3 .js-form-type-select {
   display: inline-block;
   width: auto;
   margin-left: 1.3%;
 }
-/* line 183, ../sass/custom/_global.scss */
+/* line 184, ../sass/custom/_global.scss */
 #block-views-block-our-work-block-3 .form-actions {
   display: inline-block;
   width: auto !important;
 }
 
-/* line 188, ../sass/custom/_global.scss */
+/* line 189, ../sass/custom/_global.scss */
 .our-work-listing-wrapper {
   position: relative;
 }
 
-/* line 191, ../sass/custom/_global.scss */
+/* line 192, ../sass/custom/_global.scss */
 .our-work-img {
   text-align: center;
 }
-/* line 193, ../sass/custom/_global.scss */
+/* line 194, ../sass/custom/_global.scss */
 .our-work-img img {
   width: 100%;
   height: 100%;
 }
 
-/* line 198, ../sass/custom/_global.scss */
+/* line 199, ../sass/custom/_global.scss */
 .our-work-des {
   position: absolute;
   color: #ffffff;
@@ -424,7 +425,7 @@ span.slider-des {
   transition: all 500ms;
   transform: scale(0, 1);
 }
-/* line 209, ../sass/custom/_global.scss */
+/* line 210, ../sass/custom/_global.scss */
 .our-work-des:after {
   content: "";
   width: 100%;
@@ -437,20 +438,20 @@ span.slider-des {
   z-index: -1;
 }
 
-/* line 222, ../sass/custom/_global.scss */
+/* line 223, ../sass/custom/_global.scss */
 .our-work-list-title a {
   color: #ffffff;
   font-size: 30px;
 }
 
-/* line 229, ../sass/custom/_global.scss */
+/* line 230, ../sass/custom/_global.scss */
 .our-work-listing-wrapper:hover .our-work-des {
   transition: all 500ms;
   transform: scale(1, 1);
 }
 
 /** non-profit page **/
-/* line 237, ../sass/custom/_global.scss */
+/* line 238, ../sass/custom/_global.scss */
 .our-work-description {
   text-align: center;
   display: block;
@@ -459,7 +460,7 @@ span.slider-des {
   margin-bottom: 27px;
 }
 
-/* line 244, ../sass/custom/_global.scss */
+/* line 245, ../sass/custom/_global.scss */
 .our-work-title {
   font-size: 36px;
   font-weight: bold;
@@ -469,13 +470,13 @@ span.slider-des {
   padding: 25px;
 }
 
-/* line 252, ../sass/custom/_global.scss */
+/* line 253, ../sass/custom/_global.scss */
 .listing-of-our-work {
   max-width: 1100px;
   margin: 0 auto;
   width: 100%;
 }
-/* line 256, ../sass/custom/_global.scss */
+/* line 257, ../sass/custom/_global.scss */
 .listing-of-our-work .views-row {
   width: 31%;
   display: inline-block;
@@ -484,12 +485,12 @@ span.slider-des {
   margin-right: 1%;
   position: relative;
 }
-/* line 264, ../sass/custom/_global.scss */
+/* line 265, ../sass/custom/_global.scss */
 .listing-of-our-work .views-row:hover + img {
   transition: all 500ms;
   transform: scale(1.5, 1.5);
 }
-/* line 270, ../sass/custom/_global.scss */
+/* line 271, ../sass/custom/_global.scss */
 .listing-of-our-work .views-row:hover .views-field-title {
   background: #000000;
   opacity: 0.8;
@@ -501,11 +502,11 @@ span.slider-des {
   align-items: center;
   justify-content: center;
 }
-/* line 284, ../sass/custom/_global.scss */
+/* line 285, ../sass/custom/_global.scss */
 .listing-of-our-work .views-field-title {
   display: none;
 }
-/* line 286, ../sass/custom/_global.scss */
+/* line 287, ../sass/custom/_global.scss */
 .listing-of-our-work .views-field-title a {
   color: #ffffff;
   width: 100%;
@@ -519,37 +520,37 @@ span.slider-des {
   font-size: 26px;
   padding: 20px;
 }
-/* line 300, ../sass/custom/_global.scss */
+/* line 301, ../sass/custom/_global.scss */
 .listing-of-our-work .views-field.views-field-field-image {
   overflow: hidden;
 }
-/* line 302, ../sass/custom/_global.scss */
+/* line 303, ../sass/custom/_global.scss */
 .listing-of-our-work .views-field.views-field-field-image img {
   transition: all 500ms;
   transform: scale(1, 1);
 }
 
 /* Css for Homepage agent brasnd logo slider*/
-/* line 309, ../sass/custom/_global.scss */
+/* line 310, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
-/* line 313, ../sass/custom/_global.scss */
+/* line 314, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 .views-row {
   float: left;
   margin-right: 5%;
 }
-/* line 317, ../sass/custom/_global.scss */
+/* line 318, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 > h2 {
   text-align: center;
 }
-/* line 320, ../sass/custom/_global.scss */
+/* line 321, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 img {
   width: 100% !important;
 }
-/* line 323, ../sass/custom/_global.scss */
+/* line 324, ../sass/custom/_global.scss */
 #block-views-block-client-logo-slider-block-1 .contextual-region {
   width: 1170px;
   margin: 0 auto;
@@ -557,7 +558,7 @@ span.slider-des {
 }
 
 /* our services blcok */
-/* line 331, ../sass/custom/_global.scss */
+/* line 332, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 {
   background: #7BB2D0;
   display: inline-block;
@@ -566,57 +567,57 @@ span.slider-des {
   text-align: center;
   width: 100%;
 }
-/* line 338, ../sass/custom/_global.scss */
+/* line 339, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 h2 {
   color: #ffffff;
 }
-/* line 341, ../sass/custom/_global.scss */
+/* line 342, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 .views-row {
   float: left;
   margin: 0 auto;
   width: 25%;
 }
-/* line 346, ../sass/custom/_global.scss */
+/* line 347, ../sass/custom/_global.scss */
 #block-views-block-our-services-block-block-1 h3 {
   color: #ffffff;
 }
 
 /* css for Testimonai block */
-/* line 352, ../sass/custom/_global.scss */
+/* line 353, ../sass/custom/_global.scss */
 .testimonial_block h2 {
   color: #ffffff;
   font-size: 40px;
   text-align: center;
 }
-/* line 357, ../sass/custom/_global.scss */
+/* line 358, ../sass/custom/_global.scss */
 .testimonial_block .views-row {
   float: left;
   width: 100%;
 }
-/* line 360, ../sass/custom/_global.scss */
+/* line 361, ../sass/custom/_global.scss */
 .testimonial_block .views-row .views-field-field-image {
   float: left;
   padding-right: 3em;
   min-height: 220px;
 }
-/* line 366, ../sass/custom/_global.scss */
+/* line 367, ../sass/custom/_global.scss */
 .testimonial_block .views-row .views-field-title a {
   color: #ffffff;
   font-size: 26px;
 }
-/* line 372, ../sass/custom/_global.scss */
+/* line 373, ../sass/custom/_global.scss */
 .testimonial_block .views-field.views-field-body {
   font-size: 22px;
   color: #ffffff;
 }
 
-/* line 378, ../sass/custom/_global.scss */
+/* line 379, ../sass/custom/_global.scss */
 .listing-of-our-work .views-row:hover img {
   transform: scale(1.25, 1.25);
 }
 
 /** our work node listing **/
-/* line 383, ../sass/custom/_global.scss */
+/* line 384, ../sass/custom/_global.scss */
 .our-work-node-title {
   font-size: 26px;
   font-weight: bold;
@@ -624,25 +625,25 @@ span.slider-des {
   text-align: center;
 }
 
-/* line 389, ../sass/custom/_global.scss */
+/* line 390, ../sass/custom/_global.scss */
 .our-wrok-node-image {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
-/* line 393, ../sass/custom/_global.scss */
+/* line 394, ../sass/custom/_global.scss */
 .our-wrok-node-image img {
   width: 100%;
 }
 
-/* line 397, ../sass/custom/_global.scss */
+/* line 398, ../sass/custom/_global.scss */
 .our-work-node-desc {
   font-size: 20px;
   font-family: cursive;
   padding: 20px 20px;
 }
 
-/* line 402, ../sass/custom/_global.scss */
+/* line 403, ../sass/custom/_global.scss */
 .our-work-website-link {
   font-size: 25px;
   padding: 20px;
@@ -650,23 +651,23 @@ span.slider-des {
 }
 
 /**** testimonial block ***/
-/* line 409, ../sass/custom/_global.scss */
+/* line 410, ../sass/custom/_global.scss */
 .testimonial_block .views_slideshow_cycle_teaser_section,
 .testimonial_block .views_slideshow_cycle_slide {
   max-height: 220px !important;
 }
 
-/* line 415, ../sass/custom/_global.scss */
+/* line 416, ../sass/custom/_global.scss */
 .footer_first_wrapper {
   width: 25%;
 }
 
-/* line 418, ../sass/custom/_global.scss */
+/* line 419, ../sass/custom/_global.scss */
 .footer_fourth_wrapper {
   width: 73%;
 }
 
-/* line 421, ../sass/custom/_global.scss */
+/* line 422, ../sass/custom/_global.scss */
 .footer-inner-section {
   padding: 20px 0 0 0;
   background: url("../images/images.jpg");
@@ -674,7 +675,7 @@ span.slider-des {
   position: relative;
   z-index: 1;
 }
-/* line 427, ../sass/custom/_global.scss */
+/* line 428, ../sass/custom/_global.scss */
 .footer-inner-section:before {
   content: "";
   height: 100%;
@@ -685,7 +686,7 @@ span.slider-des {
   opacity: 0.6;
   top: 0;
 }
-/* line 437, ../sass/custom/_global.scss */
+/* line 438, ../sass/custom/_global.scss */
 .footer-inner-section .footer-col {
   position: relative;
   z-index: 1;
@@ -706,22 +707,25 @@ span.slider-des {
       opacity: 0.9;
     }
   } */
-/* line 458, ../sass/custom/_global.scss */
+/* line 459, ../sass/custom/_global.scss */
 .top-contributor {
+  background: #0678be;
+}
+/* line 461, ../sass/custom/_global.scss */
+.top-contributor > div {
   max-width: 830px;
   margin: 0 auto;
   width: 100%;
 }
-/* line 462, ../sass/custom/_global.scss */
-.top-contributor header {
+/* line 466, ../sass/custom/_global.scss */
+.top-contributor h2 {
+  width: 100%;
+  display: inline-block;
   text-align: center;
-  font-size: 30px;
   font-weight: bold;
   color: #ffffff;
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
-/* line 470, ../sass/custom/_global.scss */
+/* line 473, ../sass/custom/_global.scss */
 .top-contributor .views-row {
   display: inline-block;
   margin-right: 1%;
@@ -731,52 +735,75 @@ span.slider-des {
   min-height: 340px;
   vertical-align: top;
 }
-/* line 479, ../sass/custom/_global.scss */
+/* line 482, ../sass/custom/_global.scss */
 .top-contributor .views-field-field-title {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   display: block;
   padding-bottom: 15px;
 }
-/* line 486, ../sass/custom/_global.scss */
+/* line 489, ../sass/custom/_global.scss */
 .top-contributor .views-field-body {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 20px;
+  text-align: center;
 }
-/* line 491, ../sass/custom/_global.scss */
+/* line 494, ../sass/custom/_global.scss */
+.top-contributor .views-field.views-field-field-link {
+  text-align: center;
+  margin-bottom: 25px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+}
+/* line 500, ../sass/custom/_global.scss */
+.top-contributor .views-field.views-field-field-link a {
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  transition: 0.9s linear all;
+  border-radius: 5px;
+}
+/* line 507, ../sass/custom/_global.scss */
+.top-contributor .views-field.views-field-field-link a:hover {
+  transition: 0.9s linear all;
+  background: #000000;
+}
+/* line 514, ../sass/custom/_global.scss */
 .top-contributor .views-field-field-image {
   border-radius: 182px 0px 164px 0px;
 }
-/* line 493, ../sass/custom/_global.scss */
+/* line 516, ../sass/custom/_global.scss */
 .top-contributor .views-field-field-image img {
   border-radius: 0px 120px 0px 120px;
   border: 10px solid #ffffff;
   width: 100%;
   transition: 0.5s linear all;
 }
-/* line 498, ../sass/custom/_global.scss */
+/* line 521, ../sass/custom/_global.scss */
 .top-contributor .views-field-field-image img:hover {
   transition: 0.5s linear all;
   border-radius: 0px;
 }
 
 /** css for pager **/
-/* line 507, ../sass/custom/_global.scss */
+/* line 530, ../sass/custom/_global.scss */
 .pager {
   display: block;
   padding: 50px 0;
 }
-/* line 510, ../sass/custom/_global.scss */
+/* line 533, ../sass/custom/_global.scss */
 .pager .js-pager__items {
   display: block;
   text-align: center;
 }
-/* line 513, ../sass/custom/_global.scss */
+/* line 536, ../sass/custom/_global.scss */
 .pager .js-pager__items li {
   display: inline-block;
 }
-/* line 521, ../sass/custom/_global.scss */
+/* line 544, ../sass/custom/_global.scss */
 .pager .pager__item--first a,
 .pager .pager__item--previous a,
 .pager .pager__item--next a,
@@ -785,25 +812,25 @@ span.slider-des {
   border: 1px solid #ffffff;
   color: #ffffff;
 }
-/* line 527, ../sass/custom/_global.scss */
+/* line 550, ../sass/custom/_global.scss */
 .pager li.pager__item {
   margin-right: 5px;
   margin-left: 5px;
 }
-/* line 530, ../sass/custom/_global.scss */
+/* line 553, ../sass/custom/_global.scss */
 .pager li.pager__item a {
   font-size: 18px;
   color: #ffffff;
   padding: 0 9px;
   transition: 0.9s linear all;
 }
-/* line 535, ../sass/custom/_global.scss */
+/* line 558, ../sass/custom/_global.scss */
 .pager li.pager__item a:hover {
   background: #e7e7e7;
   transition: 0.9s linear all;
   color: #000000;
 }
-/* line 541, ../sass/custom/_global.scss */
+/* line 564, ../sass/custom/_global.scss */
 .pager li.pager__item.is-active {
   background: #0678be;
   padding: 0 9px;
@@ -899,8 +926,6 @@ span.slider-link a:after {
   background: none;
   margin: 0;
   position: fixed;
-  bottom: 0;
-  right: 0;
   width: 50px;
   height: 50px;
   border-radius: 100%;
@@ -909,6 +934,11 @@ span.slider-link a:after {
   text-decoration: none;
   color: #ffffff;
   background-color: #0678be;
+  border: 3px solid;
+  line-height: 42px;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
 }
 
 @media (min-width: 992px) {
