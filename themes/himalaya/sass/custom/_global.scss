@@ -569,3 +569,12 @@ span.slider-des {
   }
 
 }
+
+/** css for node page **/
+.node--type-page {
+ &.node {
+   max-width: 1187px;
+   width:100%;
+   margin: 0 auto;
+ }
+}
