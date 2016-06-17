@@ -1,4 +1,5 @@
 /*** header **/
+
 #navigation {
   height: 63px !important;
   background: #fff !important;
@@ -6,6 +7,9 @@
   padding: 0 0 0 0;
   opacity: 0.9;
   line-height: 35px;
+  a.nested-menu-item-toggle {
+    display: none;
+  }
 } 
 #navigation .menu a {
   color: #000 !important;
