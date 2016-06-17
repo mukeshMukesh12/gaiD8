@@ -1015,13 +1015,19 @@ div#page-wrapper {
 }
 
 /* line 70, ../sass/custom/_footer.scss */
+#page-wrapper:after {
+  content: "";
+  display: block;
+}
+
+/* line 74, ../sass/custom/_footer.scss */
 div#page-wrapper:after,
 #footer {
   height: 160px;
 }
 
 /** back to top */
-/* line 76, ../sass/custom/_footer.scss */
+/* line 80, ../sass/custom/_footer.scss */
 .scrolltop {
   background: none;
   margin: 0;

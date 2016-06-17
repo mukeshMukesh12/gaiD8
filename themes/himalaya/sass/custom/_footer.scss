@@ -67,6 +67,10 @@ div#page-wrapper {
   min-height: 100%;
   margin-bottom: -160px;
 }
+#page-wrapper:after {
+  content: "";
+  display: block;
+}
 div#page-wrapper:after, 
 #footer {
    height: 160px;
