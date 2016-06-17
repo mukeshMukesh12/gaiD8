@@ -965,6 +965,13 @@ span.slider-link a:after {
   position: absolute;
 }
 
+/* line 30, ../sass/custom/_button.scss */
+.form-submit {
+  background-color: #0678be;
+  height: auto !important;
+  font-size: 20px;
+}
+
 /* line 1, ../sass/custom/_footer.scss */
 #footer {
   background: #333;
