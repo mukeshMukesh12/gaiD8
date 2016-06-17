@@ -58,8 +58,21 @@ div#block-footerblock {
     }
   }
 }
+/** sticky footer **/
+body, 
+html {
+  height: 100%;
+}
+div#page-wrapper {
+  min-height: 100%;
+  margin-bottom: -160px;
+}
+div#page-wrapper:after, 
+#footer {
+   height: 160px;
+}
 
-
+/** back to top */
 .scrolltop { 
  background: none;
  margin: 0;

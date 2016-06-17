@@ -1001,7 +1001,27 @@ div#block-footerblock li a {
   display: block;
 }
 
-/* line 63, ../sass/custom/_footer.scss */
+/** sticky footer **/
+/* line 62, ../sass/custom/_footer.scss */
+body,
+html {
+  height: 100%;
+}
+
+/* line 66, ../sass/custom/_footer.scss */
+div#page-wrapper {
+  min-height: 100%;
+  margin-bottom: -160px;
+}
+
+/* line 70, ../sass/custom/_footer.scss */
+div#page-wrapper:after,
+#footer {
+  height: 160px;
+}
+
+/** back to top */
+/* line 76, ../sass/custom/_footer.scss */
 .scrolltop {
   background: none;
   margin: 0;
