@@ -682,16 +682,17 @@ span.slider-des {
 }
 
 /* line 435, ../sass/custom/_global.scss */
-.footer_first_wrapper {
-  width: 25%;
+.path-frontpage .footer_first_wrapper {
+  width: 26%;
+  float: right;
+}
+/* line 439, ../sass/custom/_global.scss */
+.path-frontpage .footer_fourth_wrapper {
+  width: 70%;
+  padding-left: 5%;
 }
 
-/* line 438, ../sass/custom/_global.scss */
-.footer_fourth_wrapper {
-  width: 73%;
-}
-
-/* line 441, ../sass/custom/_global.scss */
+/* line 444, ../sass/custom/_global.scss */
 .footer-inner-section {
   padding: 20px 0 0 0;
   background: url("../images/images.jpg");
@@ -699,7 +700,7 @@ span.slider-des {
   position: relative;
   z-index: 1;
 }
-/* line 447, ../sass/custom/_global.scss */
+/* line 450, ../sass/custom/_global.scss */
 .footer-inner-section:before {
   content: "";
   height: 100%;
@@ -710,7 +711,7 @@ span.slider-des {
   opacity: 0.6;
   top: 0;
 }
-/* line 457, ../sass/custom/_global.scss */
+/* line 460, ../sass/custom/_global.scss */
 .footer-inner-section .footer-col {
   position: relative;
   z-index: 1;
@@ -731,17 +732,17 @@ span.slider-des {
       opacity: 0.9;
     }
   } */
-/* line 478, ../sass/custom/_global.scss */
+/* line 481, ../sass/custom/_global.scss */
 .top-contributor {
   background: #0678be;
 }
-/* line 480, ../sass/custom/_global.scss */
+/* line 483, ../sass/custom/_global.scss */
 .top-contributor > div {
   max-width: 830px;
   margin: 0 auto;
   width: 100%;
 }
-/* line 485, ../sass/custom/_global.scss */
+/* line 488, ../sass/custom/_global.scss */
 .top-contributor h2 {
   width: 100%;
   display: inline-block;
@@ -749,7 +750,7 @@ span.slider-des {
   font-weight: bold;
   color: #ffffff;
 }
-/* line 492, ../sass/custom/_global.scss */
+/* line 495, ../sass/custom/_global.scss */
 .top-contributor .views-row {
   display: inline-block;
   margin-right: 1%;
@@ -759,7 +760,7 @@ span.slider-des {
   min-height: 340px;
   vertical-align: top;
 }
-/* line 501, ../sass/custom/_global.scss */
+/* line 504, ../sass/custom/_global.scss */
 .top-contributor .views-field-field-title {
   color: #ffffff;
   font-size: 24px;
@@ -767,13 +768,13 @@ span.slider-des {
   display: block;
   padding-bottom: 15px;
 }
-/* line 508, ../sass/custom/_global.scss */
+/* line 511, ../sass/custom/_global.scss */
 .top-contributor .views-field-body {
   color: #ffffff;
   font-size: 20px;
   text-align: center;
 }
-/* line 513, ../sass/custom/_global.scss */
+/* line 516, ../sass/custom/_global.scss */
 .top-contributor .views-field.views-field-field-link {
   text-align: center;
   margin-bottom: 25px;
@@ -781,7 +782,7 @@ span.slider-des {
   width: 100%;
   margin-top: 10px;
 }
-/* line 519, ../sass/custom/_global.scss */
+/* line 522, ../sass/custom/_global.scss */
 .top-contributor .views-field.views-field-field-link a {
   font-size: 20px;
   padding: 10px;
@@ -790,44 +791,44 @@ span.slider-des {
   transition: 0.9s linear all;
   border-radius: 5px;
 }
-/* line 526, ../sass/custom/_global.scss */
+/* line 529, ../sass/custom/_global.scss */
 .top-contributor .views-field.views-field-field-link a:hover {
   transition: 0.9s linear all;
   background: #000000;
 }
-/* line 533, ../sass/custom/_global.scss */
+/* line 536, ../sass/custom/_global.scss */
 .top-contributor .views-field-field-image {
   border-radius: 182px 0px 164px 0px;
 }
-/* line 535, ../sass/custom/_global.scss */
+/* line 538, ../sass/custom/_global.scss */
 .top-contributor .views-field-field-image img {
   border-radius: 0px 120px 0px 120px;
   border: 10px solid #ffffff;
   width: 100%;
   transition: 0.5s linear all;
 }
-/* line 540, ../sass/custom/_global.scss */
+/* line 543, ../sass/custom/_global.scss */
 .top-contributor .views-field-field-image img:hover {
   transition: 0.5s linear all;
   border-radius: 0px;
 }
 
 /** css for pager **/
-/* line 549, ../sass/custom/_global.scss */
+/* line 552, ../sass/custom/_global.scss */
 .pager {
   display: block;
   padding: 50px 0;
 }
-/* line 552, ../sass/custom/_global.scss */
+/* line 555, ../sass/custom/_global.scss */
 .pager .js-pager__items {
   display: block;
   text-align: center;
 }
-/* line 555, ../sass/custom/_global.scss */
+/* line 558, ../sass/custom/_global.scss */
 .pager .js-pager__items li {
   display: inline-block;
 }
-/* line 563, ../sass/custom/_global.scss */
+/* line 566, ../sass/custom/_global.scss */
 .pager .pager__item--first a,
 .pager .pager__item--previous a,
 .pager .pager__item--next a,
@@ -836,25 +837,25 @@ span.slider-des {
   border: 1px solid #ffffff;
   color: #ffffff;
 }
-/* line 569, ../sass/custom/_global.scss */
+/* line 572, ../sass/custom/_global.scss */
 .pager li.pager__item {
   margin-right: 5px;
   margin-left: 5px;
 }
-/* line 572, ../sass/custom/_global.scss */
+/* line 575, ../sass/custom/_global.scss */
 .pager li.pager__item a {
   font-size: 18px;
   color: #ffffff;
   padding: 0 9px;
   transition: 0.9s linear all;
 }
-/* line 577, ../sass/custom/_global.scss */
+/* line 580, ../sass/custom/_global.scss */
 .pager li.pager__item a:hover {
   background: #e7e7e7;
   transition: 0.9s linear all;
   color: #000000;
 }
-/* line 583, ../sass/custom/_global.scss */
+/* line 586, ../sass/custom/_global.scss */
 .pager li.pager__item.is-active {
   background: #0678be;
   padding: 0 9px;
@@ -862,7 +863,7 @@ span.slider-des {
 }
 
 /** css for node page **/
-/* line 594, ../sass/custom/_global.scss */
+/* line 597, ../sass/custom/_global.scss */
 .node--type-page.node {
   max-width: 1187px;
   width: 100%;
@@ -870,41 +871,41 @@ span.slider-des {
 }
 
 /** user login form **/
-/* line 603, ../sass/custom/_global.scss */
+/* line 606, ../sass/custom/_global.scss */
 .path-user section.section {
   max-width: 1187px;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-/* line 610, ../sass/custom/_global.scss */
+/* line 613, ../sass/custom/_global.scss */
 .path-user form label {
   font-size: 26px;
   font-weight: bold;
   padding-bottom: 5px;
   display: inline-block;
 }
-/* line 616, ../sass/custom/_global.scss */
+/* line 619, ../sass/custom/_global.scss */
 .path-user form input {
   height: 40px;
   margin-bottom: 10px;
 }
-/* line 620, ../sass/custom/_global.scss */
+/* line 623, ../sass/custom/_global.scss */
 .path-user form .form-submit {
   background-color: #0678be;
   font-size: 20px;
   height: auto;
 }
-/* line 625, ../sass/custom/_global.scss */
+/* line 628, ../sass/custom/_global.scss */
 .path-user form .form-item {
   margin-bottom: 20px;
 }
-/* line 630, ../sass/custom/_global.scss */
+/* line 633, ../sass/custom/_global.scss */
 .path-user #block-himalaya-local-tasks ul {
   border-bottom: none;
   padding-left: 0;
 }
-/* line 635, ../sass/custom/_global.scss */
+/* line 638, ../sass/custom/_global.scss */
 .path-user #block-himalaya-local-tasks li a {
   color: #333;
   border: 1px solid #d8d8d8 !important;
@@ -915,12 +916,12 @@ span.slider-des {
   font-weight: bold;
   transition: 0.9s linears all;
 }
-/* line 644, ../sass/custom/_global.scss */
+/* line 647, ../sass/custom/_global.scss */
 .path-user #block-himalaya-local-tasks li a.is-active {
   background: #333;
   color: #ffffff;
 }
-/* line 648, ../sass/custom/_global.scss */
+/* line 651, ../sass/custom/_global.scss */
 .path-user #block-himalaya-local-tasks li a:hover {
   background: #333;
   color: #ffffff;
@@ -928,33 +929,33 @@ span.slider-des {
 }
 
 /** contact us page **/
-/* line 660, ../sass/custom/_global.scss */
+/* line 663, ../sass/custom/_global.scss */
 .path-contact .contact-message-form {
   max-width: 780px;
   margin: 30px auto;
 }
 
-/* line 665, ../sass/custom/_global.scss */
+/* line 668, ../sass/custom/_global.scss */
 .be-contact-column-inner {
   max-width: 880px;
   margin: 0 auto;
   text-align: center;
 }
-/* line 669, ../sass/custom/_global.scss */
+/* line 672, ../sass/custom/_global.scss */
 .be-contact-column-inner .contact-us-wrap {
   display: inline-block;
   width: 30%;
   vertical-align: top;
   padding: 0 30px;
 }
-/* line 674, ../sass/custom/_global.scss */
+/* line 677, ../sass/custom/_global.scss */
 .be-contact-column-inner .contact-us-wrap p {
   font-size: 16px;
   font-weight: bold;
   line-height: 28px;
 }
 
-/* line 682, ../sass/custom/_global.scss */
+/* line 685, ../sass/custom/_global.scss */
 .contact-us-page-block h2 {
   text-align: center;
 }

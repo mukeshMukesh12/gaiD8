@@ -431,12 +431,15 @@ span.slider-des {
     max-height: 220px !important;
   }
 }
-
-.footer_first_wrapper {
-  width: 25%;
-}
-.footer_fourth_wrapper {
-  width: 73%;
+.path-frontpage {
+  .footer_first_wrapper {
+    width: 26%;
+    float: right;
+  }
+  .footer_fourth_wrapper {
+    width: 70%;
+    padding-left: 5%;
+  }
 }
 .footer-inner-section {
   padding: 20px 0 0 0;
