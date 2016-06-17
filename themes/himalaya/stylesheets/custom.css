@@ -1021,13 +1021,13 @@ div#page-wrapper {
 }
 
 /* line 74, ../sass/custom/_footer.scss */
-div#page-wrapper:after,
-#footer {
+#footer,
+#page-wrapper:after {
   height: 160px;
 }
 
 /** back to top */
-/* line 80, ../sass/custom/_footer.scss */
+/* line 81, ../sass/custom/_footer.scss */
 .scrolltop {
   background: none;
   margin: 0;

@@ -71,8 +71,9 @@ div#page-wrapper {
   content: "";
   display: block;
 }
-div#page-wrapper:after, 
-#footer {
+#footer,
+#page-wrapper:after
+ {
    height: 160px;
 }
 
