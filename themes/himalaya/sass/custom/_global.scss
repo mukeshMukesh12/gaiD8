@@ -178,6 +178,7 @@ span.slider-des {
     width: 33%;
     padding: 0 15px;
     margin-bottom: 30px;
+    vertical-align: top;
   }
   .views-exposed-form {
     margin-bottom: 25px;
@@ -190,6 +191,18 @@ span.slider-des {
   .form-actions {
     display: inline-block;
     width: auto !important;
+  }
+  .views-field.views-field-body {
+    font-weight: bold;
+  }
+  .views-field.views-field-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: $black;
+    padding-bottom: 10px;
+    a {
+     color: $black;
+    }
   }
 }
 .our-work-listing-wrapper {
