@@ -869,6 +869,37 @@ span.slider-des {
   margin: 0 auto;
 }
 
+/** user login form **/
+/* line 603, ../sass/custom/_global.scss */
+.path-user section.section {
+  max-width: 1187px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* line 610, ../sass/custom/_global.scss */
+.path-user form#user-login-form label {
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+/* line 616, ../sass/custom/_global.scss */
+.path-user form#user-login-form input {
+  height: 40px;
+  margin-bottom: 10px;
+}
+/* line 620, ../sass/custom/_global.scss */
+.path-user form#user-login-form .form-submit {
+  background-color: #0678be;
+  font-size: 20px;
+  height: auto;
+}
+/* line 625, ../sass/custom/_global.scss */
+.path-user form#user-login-form .form-item {
+  margin-bottom: 20px;
+}
+
 /** css for button **/
 /* line 2, ../sass/custom/_button.scss */
 span.slider-link a {
@@ -904,7 +935,7 @@ span.slider-link a:after {
 
 /* line 1, ../sass/custom/_footer.scss */
 #footer {
-  background: #555;
+  background: #333;
 }
 /* line 4, ../sass/custom/_footer.scss */
 #footer .section-full-colored .section-content {
@@ -957,7 +988,20 @@ span.slider-link a:after {
   color: #000000;
 }
 
-/* line 51, ../sass/custom/_footer.scss */
+/* line 50, ../sass/custom/_footer.scss */
+div#block-footerblock li {
+  font-size: 16px;
+}
+/* line 52, ../sass/custom/_footer.scss */
+div#block-footerblock li a {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 14px;
+  display: block;
+}
+
+/* line 63, ../sass/custom/_footer.scss */
 .scrolltop {
   background: none;
   margin: 0;

@@ -1,5 +1,5 @@
 #footer {
-    background: #555;
+    background: #333;
 	.section-full-colored {
 		.section-content {
     		background: none;
@@ -45,6 +45,18 @@
         }
     }
 
+}
+div#block-footerblock {
+  li {
+    font-size: 16px;
+    a {
+      font-size: 24px;
+      color: $white;
+      font-weight: bold;
+      padding: 14px;
+      display: block;
+    }
+  }
 }
 
 

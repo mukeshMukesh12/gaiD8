@@ -597,3 +597,33 @@ span.slider-des {
    margin: 0 auto;
  }
 }
+
+/** user login form **/
+.path-user {
+  section.section {
+    max-width: 1187px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  form#user-login-form {
+    label {
+      font-size: 26px;
+      font-weight: bold;
+      padding-bottom: 5px;
+      display: inline-block;
+    }
+    input {
+     height: 40px;
+     margin-bottom: 10px;
+    }
+    .form-submit {
+        background-color: #0678be;
+        font-size: 20px;
+        height: auto;
+    }
+    .form-item {
+      margin-bottom: 20px;
+    }
+  }
+}
