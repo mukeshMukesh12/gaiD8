@@ -706,4 +706,20 @@ span.slider-des {
     color: $white;
     background-attachment: fixed;
   }
+  .views-row {
+    max-width: 1186px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px 0;
+  }
+}
+.blog-img {
+    display: inline-block;
+    width: 30%;
+}
+.blog-content {
+    display: inline-block;
+    width: 69%;
+    vertical-align: top;
+    padding: 0 30px;
 }
