@@ -47,6 +47,7 @@
 
 }
 div#block-footerblock {
+  .detail {
   li {
     font-size: 16px;
     a {
@@ -66,6 +67,7 @@ div#block-footerblock {
       line-height: 32px;
     }
   }
+ }
 }
 /** sticky footer **/
 body, 

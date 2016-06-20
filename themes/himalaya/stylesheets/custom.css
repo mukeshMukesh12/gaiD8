@@ -1142,12 +1142,12 @@ span.slider-link a:after {
   color: #000000;
 }
 
-/* line 50, ../sass/custom/_footer.scss */
-div#block-footerblock li {
+/* line 51, ../sass/custom/_footer.scss */
+div#block-footerblock .detail li {
   font-size: 16px;
 }
-/* line 52, ../sass/custom/_footer.scss */
-div#block-footerblock li a {
+/* line 53, ../sass/custom/_footer.scss */
+div#block-footerblock .detail li a {
   font-size: 24px;
   color: #ffffff;
   font-weight: bold;
@@ -1156,8 +1156,8 @@ div#block-footerblock li a {
   background: url("../images/message.png") no-repeat;
   background-position: 37%;
 }
-/* line 61, ../sass/custom/_footer.scss */
-div#block-footerblock li:last-child {
+/* line 62, ../sass/custom/_footer.scss */
+div#block-footerblock .detail li:last-child {
   background: url("../images/phone.png");
   background-repeat: no-repeat;
   height: 32px;
@@ -1166,32 +1166,32 @@ div#block-footerblock li:last-child {
 }
 
 /** sticky footer **/
-/* line 71, ../sass/custom/_footer.scss */
+/* line 73, ../sass/custom/_footer.scss */
 body,
 html {
   height: 100%;
 }
 
-/* line 75, ../sass/custom/_footer.scss */
+/* line 77, ../sass/custom/_footer.scss */
 div#page-wrapper {
   min-height: 80%;
   /*  margin-bottom: -160px; */
 }
 
-/* line 79, ../sass/custom/_footer.scss */
+/* line 81, ../sass/custom/_footer.scss */
 #page-wrapper:after {
   content: "";
   display: block;
 }
 
-/* line 83, ../sass/custom/_footer.scss */
+/* line 85, ../sass/custom/_footer.scss */
 #footer,
 #page-wrapper:after {
   height: 160px;
 }
 
 /** back to top */
-/* line 90, ../sass/custom/_footer.scss */
+/* line 92, ../sass/custom/_footer.scss */
 .scrolltop {
   background: none;
   margin: 0;
