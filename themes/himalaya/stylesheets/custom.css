@@ -1008,6 +1008,44 @@ span.slider-des {
   padding: 0 30px;
 }
 
+/* line 729, ../sass/custom/_global.scss */
+.blog-date {
+  font-size: 20px;
+  font-weight: bold;
+  color: #666;
+  font-family: cursive;
+  padding-bottom: 10px;
+  display: block;
+}
+
+/* line 737, ../sass/custom/_global.scss */
+.blog-title {
+  padding-bottom: 10px;
+  display: block;
+}
+/* line 740, ../sass/custom/_global.scss */
+.blog-title a {
+  font-size: 24px;
+  color: #000000;
+}
+/* line 743, ../sass/custom/_global.scss */
+.blog-title a:hover {
+  color: #009fda;
+}
+
+/* line 748, ../sass/custom/_global.scss */
+.blog-body {
+  font-size: 16px;
+  font-family: cursive;
+  font-weight: normal;
+}
+
+/* line 753, ../sass/custom/_global.scss */
+.blog-uid {
+  font-size: 14px;
+  font-weight: bold;
+}
+
 /** css for button **/
 /* line 2, ../sass/custom/_button.scss */
 span.slider-link a {
