@@ -961,6 +961,11 @@ span.slider-des {
   text-align: center;
 }
 
+/* line 691, ../sass/custom/_global.scss */
+.contact-message-feedback-form label {
+  color: #000000;
+}
+
 /** css for button **/
 /* line 2, ../sass/custom/_button.scss */
 span.slider-link a {
