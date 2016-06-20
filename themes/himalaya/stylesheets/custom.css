@@ -968,6 +968,18 @@ span.slider-des {
   color: #000000;
 }
 
+/** css for blog **/
+/* line 700, ../sass/custom/_global.scss */
+.blogs-views-page header {
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  padding: 6% 0;
+  background: url("../images/bg-blue-blueprint.jpg");
+  color: #ffffff;
+  background-attachment: fixed;
+}
+
 /** css for button **/
 /* line 2, ../sass/custom/_button.scss */
 span.slider-link a {
