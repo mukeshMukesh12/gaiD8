@@ -55,6 +55,15 @@ div#block-footerblock {
       font-weight: bold;
       padding: 14px;
       display: block;
+      background: url("../images/message.png") no-repeat;
+      background-position: 37%;
+    }
+    &:last-child {
+      background: url("../images/phone.png");
+      background-repeat: no-repeat;
+      height: 32px;
+      background-position: 38%;
+      line-height: 32px;
     }
   }
 }
