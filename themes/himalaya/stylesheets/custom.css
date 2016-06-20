@@ -1099,20 +1099,21 @@ div#page-wrapper {
   background: none;
   margin: 0;
   position: fixed;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 100%;
   z-index: 100;
   display: none;
   text-decoration: none;
   color: #ffffff;
-  background-color: #0678be;
-  border: 3px solid;
   line-height: 42px;
   bottom: 20px;
   right: 20px;
   text-align: center;
   background-image: url("../images/top-arrow.png");
+  background-size: 104%;
+  font-size: 0;
+  transform: rotate(90deg);
 }
 
 @media (min-width: 992px) {
