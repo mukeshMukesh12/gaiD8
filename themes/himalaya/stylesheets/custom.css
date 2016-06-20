@@ -992,8 +992,15 @@ span.slider-des {
   display: inline-block;
   width: 30%;
 }
+/* line 719, ../sass/custom/_global.scss */
+.blog-img img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
 
-/* line 720, ../sass/custom/_global.scss */
+/* line 723, ../sass/custom/_global.scss */
 .blog-content {
   display: inline-block;
   width: 69%;

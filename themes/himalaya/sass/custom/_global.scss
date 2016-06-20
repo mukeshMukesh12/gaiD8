@@ -716,10 +716,40 @@ span.slider-des {
 .blog-img {
     display: inline-block;
     width: 30%;
+    img {
+     @include border-radius(10px);
+    }
 }
 .blog-content {
     display: inline-block;
     width: 69%;
     vertical-align: top;
     padding: 0 30px;
+}
+.blog-date {
+    font-size: 20px;
+    font-weight: bold;
+    color: #666;
+    font-family: cursive;
+    padding-bottom: 10px;
+    display: block;
+}
+.blog-title  {
+  padding-bottom: 10px;
+  display: block;
+  a {
+   font-size: 24px;
+   color: $black;
+   &:hover {
+    color: #009fda;
+   }
+  }
+}
+.blog-body {
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: normal;
+}
+.blog-uid {
+ font-size: 14px;
 }
