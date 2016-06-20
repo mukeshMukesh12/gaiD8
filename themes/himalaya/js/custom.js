@@ -29,18 +29,9 @@
           $(".submenu").hide();
           $(".meanmenu-reveal").attr('id', '');
           $('.meanmenu-reveal').removeClass('mean-close');
-        });    
-      
-        // js for to wrap div in one 
-        jQuery("#footer #block-ourwork h2").click(function(){
-           jQuery('#footer #block-ourwork .menu').toggle('slow');
         });
-        jQuery("#footer #block-resources h2").click(function(){
-           jQuery('#footer #block-resources .menu').toggle('slow');
-        });
-        jQuery("#footer #block-aboutus h2").click(function(){
-           jQuery('#footer #block-aboutus .menu').toggle('slow');
-        });
+        // change text of filter any to all in our listing page
+        $('#block-views-block-our-work-block-3 .form-select option:first-child').text('All');    
       }
     };
 })(jQuery);
