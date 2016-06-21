@@ -1160,39 +1160,38 @@ div#block-footerblock .detail li a {
 div#block-footerblock .detail li:last-child a {
   background: url("../images/phone.png");
   background-repeat: no-repeat;
-  height: 32px;
   background-position: 38%;
   line-height: 32px;
   font-size: 16px;
 }
 
 /** sticky footer **/
-/* line 76, ../sass/custom/_footer.scss */
+/* line 75, ../sass/custom/_footer.scss */
 body,
 html {
   height: 100%;
 }
 
-/* line 80, ../sass/custom/_footer.scss */
+/* line 79, ../sass/custom/_footer.scss */
 div#page-wrapper {
   min-height: 80%;
   /*  margin-bottom: -160px; */
 }
 
-/* line 84, ../sass/custom/_footer.scss */
+/* line 83, ../sass/custom/_footer.scss */
 #page-wrapper:after {
   content: "";
   display: block;
 }
 
-/* line 88, ../sass/custom/_footer.scss */
+/* line 87, ../sass/custom/_footer.scss */
 #footer,
 #page-wrapper:after {
   height: 160px;
 }
 
 /** back to top */
-/* line 95, ../sass/custom/_footer.scss */
+/* line 94, ../sass/custom/_footer.scss */
 .scrolltop {
   background: none;
   margin: 0;
