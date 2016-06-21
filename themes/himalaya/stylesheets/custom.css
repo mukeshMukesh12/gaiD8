@@ -821,17 +821,18 @@ span.slider-des {
 .pager {
   display: block;
   padding: 50px 0;
+  background: #000000;
 }
-/* line 558, ../sass/custom/_global.scss */
+/* line 559, ../sass/custom/_global.scss */
 .pager .js-pager__items {
   display: block;
   text-align: center;
 }
-/* line 561, ../sass/custom/_global.scss */
+/* line 562, ../sass/custom/_global.scss */
 .pager .js-pager__items li {
   display: inline-block;
 }
-/* line 569, ../sass/custom/_global.scss */
+/* line 570, ../sass/custom/_global.scss */
 .pager .pager__item--first a,
 .pager .pager__item--previous a,
 .pager .pager__item--next a,
@@ -840,25 +841,25 @@ span.slider-des {
   border: 1px solid #ffffff;
   color: #ffffff;
 }
-/* line 575, ../sass/custom/_global.scss */
+/* line 576, ../sass/custom/_global.scss */
 .pager li.pager__item {
   margin-right: 5px;
   margin-left: 5px;
 }
-/* line 578, ../sass/custom/_global.scss */
+/* line 579, ../sass/custom/_global.scss */
 .pager li.pager__item a {
   font-size: 18px;
   color: #ffffff;
   padding: 0 9px;
   transition: 0.9s linear all;
 }
-/* line 583, ../sass/custom/_global.scss */
+/* line 584, ../sass/custom/_global.scss */
 .pager li.pager__item a:hover {
   background: #e7e7e7;
   transition: 0.9s linear all;
   color: #000000;
 }
-/* line 589, ../sass/custom/_global.scss */
+/* line 590, ../sass/custom/_global.scss */
 .pager li.pager__item.is-active {
   background: #0678be;
   padding: 0 9px;
@@ -866,7 +867,7 @@ span.slider-des {
 }
 
 /** css for node page **/
-/* line 600, ../sass/custom/_global.scss */
+/* line 601, ../sass/custom/_global.scss */
 .node--type-page.node {
   max-width: 1187px;
   width: 100%;
@@ -874,41 +875,41 @@ span.slider-des {
 }
 
 /** user login form **/
-/* line 609, ../sass/custom/_global.scss */
+/* line 610, ../sass/custom/_global.scss */
 .path-user section.section {
   max-width: 1187px;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-/* line 616, ../sass/custom/_global.scss */
+/* line 617, ../sass/custom/_global.scss */
 .path-user form label {
   font-size: 26px;
   font-weight: bold;
   padding-bottom: 5px;
   display: inline-block;
 }
-/* line 622, ../sass/custom/_global.scss */
+/* line 623, ../sass/custom/_global.scss */
 .path-user form input {
   height: 40px;
   margin-bottom: 10px;
 }
-/* line 626, ../sass/custom/_global.scss */
+/* line 627, ../sass/custom/_global.scss */
 .path-user form .form-submit {
   background-color: #0678be;
   font-size: 20px;
   height: auto;
 }
-/* line 631, ../sass/custom/_global.scss */
+/* line 632, ../sass/custom/_global.scss */
 .path-user form .form-item {
   margin-bottom: 20px;
 }
-/* line 636, ../sass/custom/_global.scss */
+/* line 637, ../sass/custom/_global.scss */
 .path-user #block-himalaya-local-tasks ul {
   border-bottom: none;
   padding-left: 0;
 }
-/* line 641, ../sass/custom/_global.scss */
+/* line 642, ../sass/custom/_global.scss */
 .path-user #block-himalaya-local-tasks li a {
   color: #333;
   border: 1px solid #d8d8d8 !important;
@@ -919,12 +920,12 @@ span.slider-des {
   font-weight: bold;
   transition: 0.9s linears all;
 }
-/* line 650, ../sass/custom/_global.scss */
+/* line 651, ../sass/custom/_global.scss */
 .path-user #block-himalaya-local-tasks li a.is-active {
   background: #333;
   color: #ffffff;
 }
-/* line 654, ../sass/custom/_global.scss */
+/* line 655, ../sass/custom/_global.scss */
 .path-user #block-himalaya-local-tasks li a:hover {
   background: #333;
   color: #ffffff;
@@ -932,44 +933,44 @@ span.slider-des {
 }
 
 /** contact us page **/
-/* line 666, ../sass/custom/_global.scss */
+/* line 667, ../sass/custom/_global.scss */
 .path-contact .contact-message-form {
   max-width: 780px;
   margin: 30px auto;
 }
 
-/* line 671, ../sass/custom/_global.scss */
+/* line 672, ../sass/custom/_global.scss */
 .be-contact-column-inner {
   max-width: 880px;
   margin: 0 auto;
   text-align: center;
 }
-/* line 675, ../sass/custom/_global.scss */
+/* line 676, ../sass/custom/_global.scss */
 .be-contact-column-inner .contact-us-wrap {
   display: inline-block;
   width: 30%;
   vertical-align: top;
   padding: 0 30px;
 }
-/* line 680, ../sass/custom/_global.scss */
+/* line 681, ../sass/custom/_global.scss */
 .be-contact-column-inner .contact-us-wrap p {
   font-size: 16px;
   font-weight: bold;
   line-height: 28px;
 }
 
-/* line 688, ../sass/custom/_global.scss */
+/* line 689, ../sass/custom/_global.scss */
 .contact-us-page-block h2 {
   text-align: center;
 }
 
-/* line 693, ../sass/custom/_global.scss */
+/* line 694, ../sass/custom/_global.scss */
 .contact-message-feedback-form label {
   color: #000000;
 }
 
 /** css for blog **/
-/* line 700, ../sass/custom/_global.scss */
+/* line 701, ../sass/custom/_global.scss */
 .blogs-views-page header {
   font-size: 56px;
   font-weight: bold;
@@ -979,7 +980,7 @@ span.slider-des {
   color: #ffffff;
   background-attachment: fixed;
 }
-/* line 709, ../sass/custom/_global.scss */
+/* line 710, ../sass/custom/_global.scss */
 .blogs-views-page .views-row {
   max-width: 1186px;
   margin: 0 auto;
@@ -987,12 +988,12 @@ span.slider-des {
   padding: 20px 0;
 }
 
-/* line 716, ../sass/custom/_global.scss */
+/* line 717, ../sass/custom/_global.scss */
 .blog-img {
   display: inline-block;
   width: 30%;
 }
-/* line 719, ../sass/custom/_global.scss */
+/* line 720, ../sass/custom/_global.scss */
 .blog-img img {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -1000,7 +1001,7 @@ span.slider-des {
   border-radius: 10px;
 }
 
-/* line 723, ../sass/custom/_global.scss */
+/* line 724, ../sass/custom/_global.scss */
 .blog-content {
   display: inline-block;
   width: 69%;
@@ -1008,7 +1009,7 @@ span.slider-des {
   padding: 0 30px;
 }
 
-/* line 729, ../sass/custom/_global.scss */
+/* line 730, ../sass/custom/_global.scss */
 .blog-date {
   font-size: 14px;
   font-weight: bold;
@@ -1018,30 +1019,30 @@ span.slider-des {
   display: block;
 }
 
-/* line 737, ../sass/custom/_global.scss */
+/* line 738, ../sass/custom/_global.scss */
 .blog-title {
   padding-bottom: 10px;
   display: block;
 }
-/* line 740, ../sass/custom/_global.scss */
+/* line 741, ../sass/custom/_global.scss */
 .blog-title a {
   font-size: 24px;
   color: #000000;
   font-weight: bold;
 }
-/* line 744, ../sass/custom/_global.scss */
+/* line 745, ../sass/custom/_global.scss */
 .blog-title a:hover {
   color: #009fda;
 }
 
-/* line 749, ../sass/custom/_global.scss */
+/* line 750, ../sass/custom/_global.scss */
 .blog-body {
   font-size: 16px;
   font-family: cursive;
   font-weight: normal;
 }
 
-/* line 754, ../sass/custom/_global.scss */
+/* line 755, ../sass/custom/_global.scss */
 .blog-uid {
   font-size: 14px;
   font-weight: bold;
@@ -1148,13 +1149,13 @@ div#block-footerblock .detail li {
 }
 /* line 53, ../sass/custom/_footer.scss */
 div#block-footerblock .detail li a {
-  font-size: 24px;
+  font-size: 20px;
   color: #ffffff;
   font-weight: bold;
   padding: 14px;
   display: block;
   background: url("../images/message.png") no-repeat;
-  background-position: 37%;
+  background-position: 38%;
 }
 /* line 63, ../sass/custom/_footer.scss */
 div#block-footerblock .detail li:last-child a {
@@ -1204,8 +1205,8 @@ div#page-wrapper {
   text-decoration: none;
   color: #ffffff;
   line-height: 42px;
-  bottom: 20px;
-  right: 20px;
+  bottom: 10px;
+  right: 10px;
   text-align: center;
   background-image: url("../images/top-arrow.png");
   background-size: 104%;
