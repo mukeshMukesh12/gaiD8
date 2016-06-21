@@ -918,7 +918,7 @@ span.slider-des {
   background-color: #fff;
   border-radius: 5px 5px 5px 5px;
   font-weight: bold;
-  transition: 0.9s linears all;
+  transition: 0.9s linear all;
 }
 /* line 651, ../sass/custom/_global.scss */
 .path-user #block-himalaya-local-tasks li a.is-active {
@@ -929,7 +929,7 @@ span.slider-des {
 .path-user #block-himalaya-local-tasks li a:hover {
   background: #333;
   color: #ffffff;
-  transition: 0.9s linears all;
+  transition: 0.9s linear all;
 }
 
 /** contact us page **/
@@ -1065,13 +1065,13 @@ span.slider-des {
   -ms-border-radius: 5px;
   border-radius: 5px;
   color: #000;
-  transition: .9s linears all;
+  transition: .9s linear all;
 }
 /* line 771, ../sass/custom/_global.scss */
 .blog-read-more a:hover {
   background-color: #000000;
   color: #ffffff;
-  transition: .9s linears all;
+  transition: .9s linear all;
 }
 
 /** css for button **/
