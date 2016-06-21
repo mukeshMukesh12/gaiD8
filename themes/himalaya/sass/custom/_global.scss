@@ -756,3 +756,21 @@ span.slider-des {
  font-size: 14px;
  font-weight: bold;
 }
+.blog-read-more {
+  display: inline-block;
+  width: 100%;
+  a {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #000;
+    @include border-radius(5px);
+    color: #000;
+    transition: .9s linears all;
+    &:hover {
+       background-color: $black;
+       color: $white;
+       transition: .9s linears all;
+    }
+  }
+}

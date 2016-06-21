@@ -31,7 +31,8 @@
           $('.meanmenu-reveal').removeClass('mean-close');
         });
         // change text of filter any to all in our listing page
-        $('#block-views-block-our-work-block-3 .form-select option:first-child').text('All');    
+        $('#block-views-block-our-work-block-3 .form-select option:first-child').text('All');
+        $('.blog-read-more a').text('Read More');
       }
     };
 })(jQuery);
