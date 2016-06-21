@@ -1156,42 +1156,43 @@ div#block-footerblock .detail li a {
   background: url("../images/message.png") no-repeat;
   background-position: 37%;
 }
-/* line 62, ../sass/custom/_footer.scss */
-div#block-footerblock .detail li:last-child {
+/* line 63, ../sass/custom/_footer.scss */
+div#block-footerblock .detail li:last-child a {
   background: url("../images/phone.png");
   background-repeat: no-repeat;
   height: 32px;
-  background-position: 38%;
+  background-position: 37%;
   line-height: 32px;
+  font-size: 16px;
 }
 
 /** sticky footer **/
-/* line 73, ../sass/custom/_footer.scss */
+/* line 76, ../sass/custom/_footer.scss */
 body,
 html {
   height: 100%;
 }
 
-/* line 77, ../sass/custom/_footer.scss */
+/* line 80, ../sass/custom/_footer.scss */
 div#page-wrapper {
   min-height: 80%;
   /*  margin-bottom: -160px; */
 }
 
-/* line 81, ../sass/custom/_footer.scss */
+/* line 84, ../sass/custom/_footer.scss */
 #page-wrapper:after {
   content: "";
   display: block;
 }
 
-/* line 85, ../sass/custom/_footer.scss */
+/* line 88, ../sass/custom/_footer.scss */
 #footer,
 #page-wrapper:after {
   height: 160px;
 }
 
 /** back to top */
-/* line 92, ../sass/custom/_footer.scss */
+/* line 95, ../sass/custom/_footer.scss */
 .scrolltop {
   background: none;
   margin: 0;
