@@ -93,22 +93,20 @@ div#page-wrapper {
 
 /** back to top */
 .scrolltop { 
-    background: none;
-    margin: 0;
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    z-index: 100;
-    display: none;
-    text-decoration: none;
-    color: #ffffff;
-    line-height: 42px;
-    bottom: 10px;
-    right: 10px;
-    text-align: center;
-    background-image: url("../images/top-arrow.png");
-    background-size: 104%;
-    font-size: 0;
-    transform: rotate(90deg);
+  position: fixed;
+  width: 57px;
+  height: 54px;
+  border-radius: 100%;
+  z-index: 100;
+  display: none;
+  color: #ffffff;
+  bottom: 10px;
+  right: 10px;
+  text-align: center;
+  background: url("../images/top-arrow.png") #fff no-repeat;
+  font-size: 0;
+  transform: rotate(90deg);
+  background-size: 62px;
+  background-position: center;
+  border: 2px solid;
 } 
