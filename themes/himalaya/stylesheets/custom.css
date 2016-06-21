@@ -1052,8 +1052,9 @@ span.slider-des {
 .blog-read-more {
   display: inline-block;
   width: 100%;
+  margin-top: 20px;
 }
-/* line 762, ../sass/custom/_global.scss */
+/* line 763, ../sass/custom/_global.scss */
 .blog-read-more a {
   padding: 10px;
   font-size: 16px;
@@ -1066,7 +1067,7 @@ span.slider-des {
   color: #000;
   transition: .9s linears all;
 }
-/* line 770, ../sass/custom/_global.scss */
+/* line 771, ../sass/custom/_global.scss */
 .blog-read-more a:hover {
   background-color: #000000;
   color: #ffffff;
