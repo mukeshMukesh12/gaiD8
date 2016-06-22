@@ -809,6 +809,33 @@ span.slider-des {
    }
   }
   .sharethis-wrapper {
-    padding-bottom: 15px; 
+     padding-bottom: 15px;
+    > span {
+      margin-right: 15px;
+    }
+  }
+  .stButton {   
+    .facebook {
+      background-image: url("../images/social-image.png");
+      background-position: -2px -42px;
+    }
+    .twitter {
+      @extend .facebook;
+      background-position: -325px -42px;
+    }
+    .linkedin {
+      @extend .facebook;
+      background-position: -165px -42px;
+    }
+
+    .chicklets {
+     background-size: 443px;
+     height: 35px;
+     width: 35px;
+     &:hover { 
+       opacity: 1;
+       background-position-y: -82px;
+     }
+    }
   }
 }

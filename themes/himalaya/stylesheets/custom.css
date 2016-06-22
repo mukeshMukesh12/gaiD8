@@ -1111,6 +1111,34 @@ span.slider-des {
 .blogs .sharethis-wrapper {
   padding-bottom: 15px;
 }
+/* line 813, ../sass/custom/_global.scss */
+.blogs .sharethis-wrapper > span {
+  margin-right: 15px;
+}
+/* line 818, ../sass/custom/_global.scss */
+.blogs .stButton .facebook, .blogs .stButton .twitter, .blogs .stButton .linkedin {
+  background-image: url("../images/social-image.png");
+  background-position: -2px -42px;
+}
+/* line 822, ../sass/custom/_global.scss */
+.blogs .stButton .twitter {
+  background-position: -325px -42px;
+}
+/* line 826, ../sass/custom/_global.scss */
+.blogs .stButton .linkedin {
+  background-position: -165px -42px;
+}
+/* line 831, ../sass/custom/_global.scss */
+.blogs .stButton .chicklets {
+  background-size: 443px;
+  height: 35px;
+  width: 35px;
+}
+/* line 835, ../sass/custom/_global.scss */
+.blogs .stButton .chicklets:hover {
+  opacity: 1;
+  background-position-y: -82px;
+}
 
 /** css for button **/
 /* line 2, ../sass/custom/_button.scss */
