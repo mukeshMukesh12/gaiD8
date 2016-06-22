@@ -782,4 +782,16 @@ span.slider-des {
     font-size: 14px;
     font-family: cursive;
   }
+  .node__content {
+     div:first-child > div:first-child {
+     visibility: hidden;
+   }
+   p {
+    font-size: 18px;
+   }
+  }
+  .sharethis-wrapper {
+    padding-top: 20px;
+    padding-bottom: 26px; 
+  }
 }

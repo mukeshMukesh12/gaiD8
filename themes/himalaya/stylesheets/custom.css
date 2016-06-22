@@ -1084,6 +1084,19 @@ span.slider-des {
   font-size: 14px;
   font-family: cursive;
 }
+/* line 786, ../sass/custom/_global.scss */
+.blogs .node__content div:first-child > div:first-child {
+  visibility: hidden;
+}
+/* line 789, ../sass/custom/_global.scss */
+.blogs .node__content p {
+  font-size: 18px;
+}
+/* line 793, ../sass/custom/_global.scss */
+.blogs .sharethis-wrapper {
+  padding-top: 20px;
+  padding-bottom: 26px;
+}
 
 /** css for button **/
 /* line 2, ../sass/custom/_button.scss */
