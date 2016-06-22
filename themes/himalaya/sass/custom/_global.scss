@@ -764,14 +764,22 @@ span.slider-des {
     padding: 10px;
     font-size: 16px;
     font-weight: bold;
-    border: 1px solid #000;
+    border: 1px solid $black;
     @include border-radius(5px);
-    color: #000;
+    color: $black;
     transition: .9s linear all;
     &:hover {
        background-color: $black;
        color: $white;
        transition: .9s linear all;
     }
+  }
+}
+.blogs {
+  max-width: 1186px;
+  margin: 40px auto;
+  .submitted-by {
+    font-size: 14px;
+    font-family: cursive;
   }
 }

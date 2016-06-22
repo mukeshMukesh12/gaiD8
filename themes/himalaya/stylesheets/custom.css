@@ -1059,12 +1059,12 @@ span.slider-des {
   padding: 10px;
   font-size: 16px;
   font-weight: bold;
-  border: 1px solid #000;
+  border: 1px solid #000000;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px;
-  color: #000;
+  color: #000000;
   transition: .9s linear all;
 }
 /* line 771, ../sass/custom/_global.scss */
@@ -1072,6 +1072,17 @@ span.slider-des {
   background-color: #000000;
   color: #ffffff;
   transition: .9s linear all;
+}
+
+/* line 778, ../sass/custom/_global.scss */
+.blogs {
+  max-width: 1186px;
+  margin: 40px auto;
+}
+/* line 781, ../sass/custom/_global.scss */
+.blogs .submitted-by {
+  font-size: 14px;
+  font-family: cursive;
 }
 
 /** css for button **/
