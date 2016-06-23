@@ -1389,7 +1389,7 @@ div#page-wrapper {
     color: #ffffff !important;
   }
   /* line 43, ../sass/custom/_responsive.scss */
-  #navigation .menu .ul a {
+  #navigation .menu ul a {
     color: #000000 !important;
   }
 
