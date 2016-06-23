@@ -97,10 +97,26 @@
     <div class="col-100 float_left footer-inner-section">
       
         <div id="footer-columns" class="clearfix col-100 float_left">
-          <div class="footer-col footer_first_wrapper column-3  float_left">{{ page.footer_first }}</div>
-          <div class="footer-col footer_second_wrapper column-3 float_left">{{ page.footer_second }}</div>
-          <div class="footer-col footer_third_wrapper column-3 float_left">{{ page.footer_third }}</div>
-          <div class="footer-col footer_fourth_wrapper column-3 float_left">{{ page.footer_fourth }}</div>
+          {% if page.footer_first %} 
+            <div class="footer-col footer_first_wrapper column-3  float_left">  {{ page.footer_first }}
+            </div>
+          {% endif %}
+
+          {% if page.footer_second %}
+           <div class="footer-col footer_second_wrapper column-3 float_left">  {{ page.footer_second }}
+           </div>
+          {% endif %}
+
+          {% if page.footer_third %}
+           <div class="footer-col footer_third_wrapper column-3 float_left">
+             {{ page.footer_third }}
+           </div>
+          {% endif %}
+
+          {% if page.footer_fourth %}
+           <div class="footer-col footer_fourth_wrapper column-3 float_left">  {{ page.footer_fourth }}
+           </div>
+          {% endif %}
         </div>
      
     </div>
