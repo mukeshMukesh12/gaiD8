@@ -43,6 +43,16 @@
    #navigation {
     margin-bottom: 0px !important;
    }
+   .meanmenu-reveal {
+     right: 15px !important;
+   }
+   #navigation {
+    .menu {
+      a {
+        color: $white !important;
+      }
+    }
+   }
 }
 
 @media (max-width: 520px) {
@@ -51,4 +61,40 @@
    .views_slideshow_cycle_slide {
      height: 265px !important;
    }
+}
+@media (max-width: 768px) {
+  #block-views-block-our-work-block-1,
+  #block-views-block-our-work-block-2,
+  #block-views-block-our-work-block-4 {
+    width: 100%;
+    margin-right:0px;
+  }
+
+}
+@media (max-width: 480px) {
+  .slider-content {
+    top: 8%;
+  }
+  span.slider-title a {
+    font-size: 24px;
+    line-height: normal;
+  }
+  span.slider-des {
+    font-size: 18px;
+  }
+  .path-frontpage {
+    .top-content {
+      max-width: 300px;
+    }
+  }
+  #block-views-block-our-work-block-4,
+  #block-views-block-our-work-block-1,
+  #block-views-block-our-work-block-2 {
+   .views-field.views-field-title  {
+     .field-content {
+        font-size: 20px;
+        padding-top: 40px !important;
+     }
+   }
+  }
 }
