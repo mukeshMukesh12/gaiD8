@@ -150,10 +150,18 @@
     .top-content {
       max-width: 300px;
     }
+    .footer_first_wrapper {
+      width: 100%;
+      padding-bottom: 30px;
+    }
+    .footer_fourth_wrapper {
+      width: 100%;
+    }
   }
   #block-views-block-our-work-block-4,
   #block-views-block-our-work-block-1,
   #block-views-block-our-work-block-2 {
+    width: 100%;
    .views-field.views-field-title  {
      .field-content {
         font-size: 20px;
@@ -161,4 +169,46 @@
      }
    }
   }
+  .about-gai-block {
+    .about-title,
+    .about-desc {
+      width: 100%;
+      h2 {
+       font-size: 42px;
+       margin-top: 0;
+       margin-bottom: 0;
+      }
+    }
+  }
+  #block-views-block-our-services-block-block-1 {
+   .views-row {
+     width: 100%;
+   }
+  }
+  #footer-columns {
+    padding: 0 20px;
+  }
+  .testimonial_block {
+    h2 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+    .views-row {
+      .views-field-field-image {
+        padding-right: 0;
+        width: 100%;
+        text-align: center;
+        img {
+          border-radius: 10px;
+        }
+      }
+      .views-field-title  {
+        a {
+          font-size: 16px;
+        }
+      }
+      .views-field.views-field-body {
+        font-size: 12px;
+      }
+   } 
 }
