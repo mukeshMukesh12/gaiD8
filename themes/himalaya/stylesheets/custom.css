@@ -1500,29 +1500,33 @@ div#page-wrapper {
   /* line 146, ../sass/custom/_responsive.scss */
   span.slider-des {
     font-size: 18px;
+    line-height: normal;
+    padding: 0px 20px;
+    width: 100%;
+    display: block;
   }
 
-  /* line 150, ../sass/custom/_responsive.scss */
+  /* line 154, ../sass/custom/_responsive.scss */
   .path-frontpage .top-content {
     max-width: 300px;
   }
-  /* line 153, ../sass/custom/_responsive.scss */
+  /* line 157, ../sass/custom/_responsive.scss */
   .path-frontpage .footer_first_wrapper {
     width: 100%;
     padding-bottom: 30px;
   }
-  /* line 157, ../sass/custom/_responsive.scss */
+  /* line 161, ../sass/custom/_responsive.scss */
   .path-frontpage .footer_fourth_wrapper {
     width: 100%;
   }
 
-  /* line 161, ../sass/custom/_responsive.scss */
+  /* line 165, ../sass/custom/_responsive.scss */
   #block-views-block-our-work-block-4,
   #block-views-block-our-work-block-1,
   #block-views-block-our-work-block-2 {
     width: 100%;
   }
-  /* line 166, ../sass/custom/_responsive.scss */
+  /* line 170, ../sass/custom/_responsive.scss */
   #block-views-block-our-work-block-4 .views-field.views-field-title .field-content,
   #block-views-block-our-work-block-1 .views-field.views-field-title .field-content,
   #block-views-block-our-work-block-2 .views-field.views-field-title .field-content {
@@ -1530,12 +1534,12 @@ div#page-wrapper {
     padding-top: 40px !important;
   }
 
-  /* line 173, ../sass/custom/_responsive.scss */
+  /* line 177, ../sass/custom/_responsive.scss */
   .about-gai-block .about-title,
   .about-gai-block .about-desc {
     width: 100%;
   }
-  /* line 176, ../sass/custom/_responsive.scss */
+  /* line 180, ../sass/custom/_responsive.scss */
   .about-gai-block .about-title h2,
   .about-gai-block .about-desc h2 {
     font-size: 42px;
@@ -1543,38 +1547,38 @@ div#page-wrapper {
     margin-bottom: 0;
   }
 
-  /* line 184, ../sass/custom/_responsive.scss */
+  /* line 188, ../sass/custom/_responsive.scss */
   #block-views-block-our-services-block-block-1 .views-row {
     width: 100%;
   }
 
-  /* line 188, ../sass/custom/_responsive.scss */
+  /* line 192, ../sass/custom/_responsive.scss */
   #footer-columns {
     padding: 0 20px;
   }
 
-  /* line 192, ../sass/custom/_responsive.scss */
+  /* line 196, ../sass/custom/_responsive.scss */
   .testimonial_block h2 {
     font-size: 24px;
     margin-top: 0;
   }
-  /* line 197, ../sass/custom/_responsive.scss */
+  /* line 201, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-field-image {
     padding-right: 0;
     width: 100%;
     text-align: center;
     min-height: initial;
   }
-  /* line 202, ../sass/custom/_responsive.scss */
+  /* line 206, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-field-image img {
     border-radius: 10px;
     height: initial !important;
   }
-  /* line 208, ../sass/custom/_responsive.scss */
+  /* line 212, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-title a {
     font-size: 16px;
   }
-  /* line 212, ../sass/custom/_responsive.scss */
+  /* line 216, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field.views-field-body {
     font-size: 12px;
   }
