@@ -51,22 +51,34 @@ div#block-footerblock {
   .detail {
   li {
     font-size: 16px;
+    display: block;
     a {
       font-size: 20px;
       color: $white;
+      padding: 10px 0px;
+      display: inline-block;
       font-weight: bold;
-      padding: 14px;
-      display: block;
-      background: url("../images/message.png") no-repeat;
-      background-position: 38%;
+      position: relative;
+      &:before {
+        content: "";
+        background: url("../images/message.png") no-repeat;
+        height: 35px;
+        width: 35px;
+        position: absolute;
+        left: -45px;
+      }
     }
     &:last-child {
       a {
-       background: url("../images/phone.png");
-       background-repeat: no-repeat;
-       background-position: 38%;
-       line-height: 32px;
-       font-size: 16px;
+        font-size: 16px;
+        &:before {
+         content: "";
+         background: url("../images/phone.png") no-repeat;
+         height: 35px;
+         width: 35px;
+         position: absolute;
+         left: -43px;
+        }
       }
     }
   }

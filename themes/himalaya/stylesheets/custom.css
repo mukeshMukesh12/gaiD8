@@ -685,13 +685,13 @@ span.slider-des {
 
 /* line 437, ../sass/custom/_global.scss */
 .path-frontpage .footer_first_wrapper {
-  width: 26%;
-  float: right;
-}
-/* line 441, ../sass/custom/_global.scss */
-.path-frontpage .footer_fourth_wrapper {
   width: 70%;
-  padding-left: 5%;
+  float: left;
+  padding-left: 9%;
+}
+/* line 442, ../sass/custom/_global.scss */
+.path-frontpage .footer_fourth_wrapper {
+  width: 28%;
 }
 
 /* line 446, ../sass/custom/_global.scss */
@@ -1253,53 +1253,67 @@ span.slider-link a:after {
 /* line 52, ../sass/custom/_footer.scss */
 div#block-footerblock .detail li {
   font-size: 16px;
+  display: block;
 }
-/* line 54, ../sass/custom/_footer.scss */
+/* line 55, ../sass/custom/_footer.scss */
 div#block-footerblock .detail li a {
   font-size: 20px;
   color: #ffffff;
+  padding: 10px 0px;
+  display: inline-block;
   font-weight: bold;
-  padding: 14px;
-  display: block;
-  background: url("../images/message.png") no-repeat;
-  background-position: 38%;
+  position: relative;
 }
-/* line 64, ../sass/custom/_footer.scss */
+/* line 62, ../sass/custom/_footer.scss */
+div#block-footerblock .detail li a:before {
+  content: "";
+  background: url("../images/message.png") no-repeat;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  left: -45px;
+}
+/* line 72, ../sass/custom/_footer.scss */
 div#block-footerblock .detail li:last-child a {
-  background: url("../images/phone.png");
-  background-repeat: no-repeat;
-  background-position: 38%;
-  line-height: 32px;
   font-size: 16px;
+}
+/* line 74, ../sass/custom/_footer.scss */
+div#block-footerblock .detail li:last-child a:before {
+  content: "";
+  background: url("../images/phone.png") no-repeat;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  left: -43px;
 }
 
 /** sticky footer **/
-/* line 76, ../sass/custom/_footer.scss */
+/* line 88, ../sass/custom/_footer.scss */
 body,
 html {
   height: 100%;
 }
 
-/* line 80, ../sass/custom/_footer.scss */
+/* line 92, ../sass/custom/_footer.scss */
 div#page-wrapper {
   min-height: 80%;
   /*  margin-bottom: -160px; */
 }
 
-/* line 84, ../sass/custom/_footer.scss */
+/* line 96, ../sass/custom/_footer.scss */
 #page-wrapper:after {
   content: "";
   display: block;
 }
 
-/* line 88, ../sass/custom/_footer.scss */
+/* line 100, ../sass/custom/_footer.scss */
 #footer,
 #page-wrapper:after {
   height: 160px;
 }
 
 /** back to top */
-/* line 95, ../sass/custom/_footer.scss */
+/* line 107, ../sass/custom/_footer.scss */
 .scrolltop {
   position: fixed;
   width: 57px;
@@ -1407,30 +1421,80 @@ div#page-wrapper {
     width: 100%;
     margin-right: 0px;
   }
-}
-@media (max-width: 480px) {
-  /* line 75, ../sass/custom/_responsive.scss */
+
+  /* line 72, ../sass/custom/_responsive.scss */
   .slider-content {
     top: 8%;
   }
 
-  /* line 78, ../sass/custom/_responsive.scss */
+  /* line 75, ../sass/custom/_responsive.scss */
+  #block-views-block-our-services-block-block-1 {
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 480px) and (min-width: 768px) {
+  /* line 81, ../sass/custom/_responsive.scss */
+  span.slider-title a {
+    font-size: 32px;
+    line-height: normal;
+  }
+
+  /* line 86, ../sass/custom/_responsive.scss */
+  .path-frontpage .top-content {
+    max-width: 100%;
+    margin-bottom: 25px !important;
+    padding: 0px 20px;
+  }
+
+  /* line 96, ../sass/custom/_responsive.scss */
+  #block-views-block-our-work-block-4 .views-field.views-field-title .field-content,
+  #block-views-block-our-work-block-1 .views-field.views-field-title .field-content,
+  #block-views-block-our-work-block-2 .views-field.views-field-title .field-content {
+    font-size: 2vw;
+    padding-top: 15px !important;
+    padding: 0 15px;
+  }
+
+  /* line 104, ../sass/custom/_responsive.scss */
+  .about-gai-block .about-title {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 107, ../sass/custom/_responsive.scss */
+  .about-gai-block .about-title h2 {
+    font-size: 42px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  /* line 113, ../sass/custom/_responsive.scss */
+  .about-gai-block .about-desc {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  /* line 119, ../sass/custom/_responsive.scss */
+  #block-views-block-our-services-block-block-1 .views-row {
+    padding: 0px 10px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 127, ../sass/custom/_responsive.scss */
   span.slider-title a {
     font-size: 24px;
     line-height: normal;
   }
 
-  /* line 82, ../sass/custom/_responsive.scss */
+  /* line 131, ../sass/custom/_responsive.scss */
   span.slider-des {
     font-size: 18px;
   }
 
-  /* line 86, ../sass/custom/_responsive.scss */
+  /* line 135, ../sass/custom/_responsive.scss */
   .path-frontpage .top-content {
     max-width: 300px;
   }
 
-  /* line 94, ../sass/custom/_responsive.scss */
+  /* line 143, ../sass/custom/_responsive.scss */
   #block-views-block-our-work-block-4 .views-field.views-field-title .field-content,
   #block-views-block-our-work-block-1 .views-field.views-field-title .field-content,
   #block-views-block-our-work-block-2 .views-field.views-field-title .field-content {
