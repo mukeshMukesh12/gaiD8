@@ -1567,12 +1567,13 @@ div#page-wrapper {
   /* line 201, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-field-image img {
     border-radius: 10px;
+    height: initial !important;
   }
-  /* line 206, ../sass/custom/_responsive.scss */
+  /* line 207, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-title a {
     font-size: 16px;
   }
-  /* line 210, ../sass/custom/_responsive.scss */
+  /* line 211, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field.views-field-body {
     font-size: 12px;
   }
