@@ -843,9 +843,11 @@ span.slider-des {
      background-size: 443px;
      height: 35px;
      width: 35px;
+     transition: 0.4s linear all;
      &:hover { 
        opacity: 1;
        background-position-y: -82px;
+       transition: 0.4s linear all;
      }
     }
   }

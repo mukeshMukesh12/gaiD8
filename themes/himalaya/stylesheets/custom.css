@@ -1145,11 +1145,13 @@ span.slider-des {
   background-size: 443px;
   height: 35px;
   width: 35px;
+  transition: 0.4s linear all;
 }
-/* line 846, ../sass/custom/_global.scss */
+/* line 847, ../sass/custom/_global.scss */
 .blogs .stButton .chicklets:hover {
   opacity: 1;
   background-position-y: -82px;
+  transition: 0.4s linear all;
 }
 
 /** css for button **/
