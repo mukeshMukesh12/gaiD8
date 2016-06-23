@@ -31,6 +31,21 @@
    .mean-container .mean-nav {
       margin-top: 63px !important;
    }
+   .main-menu ul {
+     position: initial;
+   }
+   #navigation {
+     .menu {
+       a {
+        color: $white !important;
+       }
+       .ul {
+          a {
+           color: $black !important;
+          }
+        }
+      }
+    }
    .logo {
     position: absolute;
    }
