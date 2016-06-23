@@ -66,7 +66,6 @@
   #block-views-block-our-work-block-1,
   #block-views-block-our-work-block-2,
   #block-views-block-our-work-block-4 {
-    width: 100%;
     margin-right:0px;
   }
   .slider-content {
@@ -77,7 +76,7 @@
   }
 
 }
-@media (min-width: 480px) and (max-width: 768px){
+@media (min-width: 480px) and (max-width: 767px) {
   span.slider-title a {
     font-size: 32px;
     line-height: normal;
@@ -92,6 +91,7 @@
   #block-views-block-our-work-block-4,
   #block-views-block-our-work-block-1,
   #block-views-block-our-work-block-2 {
+
    .views-field.views-field-title  {
      .field-content {
         font-size: 2vw;
