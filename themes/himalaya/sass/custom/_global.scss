@@ -709,6 +709,9 @@ span.slider-des {
 
 /** css for blog **/
 .blogs-views-page {
+  .blog-user-pic {
+    display: none;
+  }
   header {
     font-size: 56px;
     font-weight: bold;
