@@ -1735,20 +1735,21 @@ div#page-wrapper {
   /* line 334, ../sass/custom/_responsive.scss */
   .listing-of-our-work {
     text-align: center;
+    max-width: 360px;
   }
-  /* line 336, ../sass/custom/_responsive.scss */
+  /* line 337, ../sass/custom/_responsive.scss */
   .listing-of-our-work .views-row {
     width: 96%;
     margin-left: 2%;
     margin-right: 2%;
   }
 
-  /* line 342, ../sass/custom/_responsive.scss */
+  /* line 343, ../sass/custom/_responsive.scss */
   .our-work-description {
     padding: 0 20px;
   }
 
-  /* line 346, ../sass/custom/_responsive.scss */
+  /* line 347, ../sass/custom/_responsive.scss */
   .blogs-views-page header {
     padding: 10% 0;
     font-size: 40px;
