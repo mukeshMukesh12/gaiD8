@@ -8,9 +8,10 @@ global-styling:
 
 global-scripts:
   version: VERSION
+  footer: true
   js:
-      js/custom.js: {}
       js/site.min.js: {}
+      js/custom.js: {}
 
 messages:
   version: VERSION
