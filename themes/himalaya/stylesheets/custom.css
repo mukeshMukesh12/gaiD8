@@ -1370,63 +1370,69 @@ div#page-wrapper {
   }
 
   /* line 28, ../sass/custom/_responsive.scss */
-  #main-wrapper {
+  .main-content-wrapper {
     position: relative;
-    z-index: -1;
+    z-index: 0;
   }
 
   /* line 32, ../sass/custom/_responsive.scss */
+  #header {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* line 36, ../sass/custom/_responsive.scss */
   .meanmenu-reveal {
     top: 50% !important;
   }
 
-  /* line 35, ../sass/custom/_responsive.scss */
+  /* line 39, ../sass/custom/_responsive.scss */
   .mean-container .mean-nav {
     margin-top: 63px !important;
   }
 
-  /* line 38, ../sass/custom/_responsive.scss */
+  /* line 42, ../sass/custom/_responsive.scss */
   .main-menu ul {
     position: initial;
   }
 
-  /* line 43, ../sass/custom/_responsive.scss */
+  /* line 47, ../sass/custom/_responsive.scss */
   #navigation .menu a {
     color: #ffffff !important;
   }
-  /* line 47, ../sass/custom/_responsive.scss */
+  /* line 51, ../sass/custom/_responsive.scss */
   #navigation .menu ul a {
     color: #000000 !important;
   }
 
-  /* line 53, ../sass/custom/_responsive.scss */
+  /* line 57, ../sass/custom/_responsive.scss */
   .logo {
     position: absolute;
   }
 
-  /* line 56, ../sass/custom/_responsive.scss */
+  /* line 60, ../sass/custom/_responsive.scss */
   .views_slideshow_cycle_teaser_section, .views_slideshow_cycle_slide {
     z-index: -1;
   }
 }
 @media (max-width: 992px) {
-  /* line 62, ../sass/custom/_responsive.scss */
+  /* line 66, ../sass/custom/_responsive.scss */
   #navigation {
     margin-bottom: 0px !important;
   }
 
-  /* line 65, ../sass/custom/_responsive.scss */
+  /* line 69, ../sass/custom/_responsive.scss */
   .meanmenu-reveal {
     right: 15px !important;
   }
 
-  /* line 70, ../sass/custom/_responsive.scss */
+  /* line 74, ../sass/custom/_responsive.scss */
   #navigation .menu a {
     color: #ffffff !important;
   }
 }
 @media (max-width: 520px) {
-  /* line 78, ../sass/custom/_responsive.scss */
+  /* line 82, ../sass/custom/_responsive.scss */
   .views_slideshow_cycle_slide img,
   .views_slideshow_cycle_teaser_section,
   .views_slideshow_cycle_slide {
@@ -1434,49 +1440,49 @@ div#page-wrapper {
   }
 }
 @media (max-width: 768px) {
-  /* line 85, ../sass/custom/_responsive.scss */
+  /* line 89, ../sass/custom/_responsive.scss */
   #block-views-block-our-work-block-1,
   #block-views-block-our-work-block-2,
   #block-views-block-our-work-block-4 {
     margin-right: 0px;
   }
 
-  /* line 90, ../sass/custom/_responsive.scss */
+  /* line 94, ../sass/custom/_responsive.scss */
   .slider-content {
     top: 8%;
   }
 
-  /* line 93, ../sass/custom/_responsive.scss */
+  /* line 97, ../sass/custom/_responsive.scss */
   #block-views-block-our-services-block-block-1 {
     padding: 15px 20px;
   }
 }
 @media (min-width: 480px) and (max-width: 767px) {
-  /* line 99, ../sass/custom/_responsive.scss */
+  /* line 103, ../sass/custom/_responsive.scss */
   span.slider-title a {
     font-size: 32px;
     line-height: normal;
   }
 
-  /* line 104, ../sass/custom/_responsive.scss */
+  /* line 108, ../sass/custom/_responsive.scss */
   .path-frontpage .top-content {
     max-width: 100%;
     margin-bottom: 25px !important;
     padding: 0px 20px;
   }
-  /* line 109, ../sass/custom/_responsive.scss */
+  /* line 113, ../sass/custom/_responsive.scss */
   .path-frontpage .footer_first_wrapper {
     width: 100%;
     padding: 0 20px;
   }
-  /* line 114, ../sass/custom/_responsive.scss */
+  /* line 118, ../sass/custom/_responsive.scss */
   .path-frontpage .footer_fourth_wrapper {
     width: 100%;
     text-align: center;
     padding: 0 20px;
   }
 
-  /* line 125, ../sass/custom/_responsive.scss */
+  /* line 129, ../sass/custom/_responsive.scss */
   #block-views-block-our-work-block-4 .views-field.views-field-title .field-content,
   #block-views-block-our-work-block-1 .views-field.views-field-title .field-content,
   #block-views-block-our-work-block-2 .views-field.views-field-title .field-content {
@@ -1485,53 +1491,53 @@ div#page-wrapper {
     padding: 0 15px;
   }
 
-  /* line 133, ../sass/custom/_responsive.scss */
+  /* line 137, ../sass/custom/_responsive.scss */
   .about-gai-block .about-title {
     width: 100%;
     text-align: center;
   }
-  /* line 136, ../sass/custom/_responsive.scss */
+  /* line 140, ../sass/custom/_responsive.scss */
   .about-gai-block .about-title h2 {
     font-size: 42px;
     margin-bottom: 0;
     margin-top: 0;
   }
-  /* line 142, ../sass/custom/_responsive.scss */
+  /* line 146, ../sass/custom/_responsive.scss */
   .about-gai-block .about-desc {
     font-size: 18px;
     width: 100%;
   }
 
-  /* line 148, ../sass/custom/_responsive.scss */
+  /* line 152, ../sass/custom/_responsive.scss */
   #block-views-block-our-services-block-block-1 .views-row {
     padding: 0px 10px;
   }
 
-  /* line 154, ../sass/custom/_responsive.scss */
+  /* line 158, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-field-image {
     min-height: auto;
   }
-  /* line 156, ../sass/custom/_responsive.scss */
+  /* line 160, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-field-image img {
     height: initial !important;
   }
-  /* line 160, ../sass/custom/_responsive.scss */
+  /* line 164, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-title a {
     font-size: 3vw;
   }
-  /* line 164, ../sass/custom/_responsive.scss */
+  /* line 168, ../sass/custom/_responsive.scss */
   .testimonial_block .views-field.views-field-body {
     font-size: 14px;
   }
 }
 @media (max-width: 480px) {
-  /* line 172, ../sass/custom/_responsive.scss */
+  /* line 176, ../sass/custom/_responsive.scss */
   span.slider-title a {
     font-size: 24px;
     line-height: normal;
   }
 
-  /* line 176, ../sass/custom/_responsive.scss */
+  /* line 180, ../sass/custom/_responsive.scss */
   span.slider-des {
     font-size: 18px;
     line-height: normal;
@@ -1540,27 +1546,28 @@ div#page-wrapper {
     display: block;
   }
 
-  /* line 184, ../sass/custom/_responsive.scss */
+  /* line 188, ../sass/custom/_responsive.scss */
   .path-frontpage .top-content {
     max-width: 300px;
   }
-  /* line 187, ../sass/custom/_responsive.scss */
+  /* line 191, ../sass/custom/_responsive.scss */
   .path-frontpage .footer_first_wrapper {
     width: 100%;
     padding-bottom: 30px;
   }
-  /* line 191, ../sass/custom/_responsive.scss */
+  /* line 195, ../sass/custom/_responsive.scss */
   .path-frontpage .footer_fourth_wrapper {
     width: 100%;
+    text-align: center;
   }
 
-  /* line 195, ../sass/custom/_responsive.scss */
+  /* line 200, ../sass/custom/_responsive.scss */
   #block-views-block-our-work-block-4,
   #block-views-block-our-work-block-1,
   #block-views-block-our-work-block-2 {
     width: 100%;
   }
-  /* line 200, ../sass/custom/_responsive.scss */
+  /* line 205, ../sass/custom/_responsive.scss */
   #block-views-block-our-work-block-4 .views-field.views-field-title .field-content,
   #block-views-block-our-work-block-1 .views-field.views-field-title .field-content,
   #block-views-block-our-work-block-2 .views-field.views-field-title .field-content {
@@ -1568,12 +1575,12 @@ div#page-wrapper {
     padding-top: 40px !important;
   }
 
-  /* line 207, ../sass/custom/_responsive.scss */
+  /* line 212, ../sass/custom/_responsive.scss */
   .about-gai-block .about-title,
   .about-gai-block .about-desc {
     width: 100%;
   }
-  /* line 210, ../sass/custom/_responsive.scss */
+  /* line 215, ../sass/custom/_responsive.scss */
   .about-gai-block .about-title h2,
   .about-gai-block .about-desc h2 {
     font-size: 42px;
@@ -1581,38 +1588,38 @@ div#page-wrapper {
     margin-bottom: 0;
   }
 
-  /* line 218, ../sass/custom/_responsive.scss */
+  /* line 223, ../sass/custom/_responsive.scss */
   #block-views-block-our-services-block-block-1 .views-row {
     width: 100%;
   }
 
-  /* line 222, ../sass/custom/_responsive.scss */
+  /* line 227, ../sass/custom/_responsive.scss */
   #footer-columns {
     padding: 0 20px;
   }
 
-  /* line 226, ../sass/custom/_responsive.scss */
+  /* line 231, ../sass/custom/_responsive.scss */
   .testimonial_block h2 {
     font-size: 24px;
     margin-top: 0;
   }
-  /* line 231, ../sass/custom/_responsive.scss */
+  /* line 236, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-field-image {
     padding-right: 0;
     width: 100%;
     text-align: center;
     min-height: initial;
   }
-  /* line 236, ../sass/custom/_responsive.scss */
+  /* line 241, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-field-image img {
     border-radius: 10px;
     height: initial !important;
   }
-  /* line 242, ../sass/custom/_responsive.scss */
+  /* line 247, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-title a {
     font-size: 16px;
   }
-  /* line 246, ../sass/custom/_responsive.scss */
+  /* line 251, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field.views-field-body {
     font-size: 12px;
   }

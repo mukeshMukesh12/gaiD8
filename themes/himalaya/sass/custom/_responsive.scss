@@ -25,9 +25,13 @@
    .meanmenu-reveal span {
       background: #000 !important;
    }
-   #main-wrapper {
+   .main-content-wrapper {
      position: relative;
-     z-index: -1;
+     z-index: 0;
+   }
+   #header {
+    position: relative;
+    z-index: 1;
    }
    .meanmenu-reveal {
     top: 50% !important;
@@ -190,6 +194,7 @@
     }
     .footer_fourth_wrapper {
       width: 100%;
+      text-align: center;
     }
   }
   #block-views-block-our-work-block-4,
