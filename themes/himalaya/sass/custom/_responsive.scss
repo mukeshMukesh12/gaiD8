@@ -102,6 +102,16 @@
       margin-bottom: 25px !important;
       padding: 0px 20px;
     }
+    .footer_first_wrapper {
+      width: 100%;
+      padding: 0 20px;
+    }
+
+    .footer_fourth_wrapper {
+      width: 100%;
+      text-align: center;
+      padding: 0 20px;
+    }
   }
   #block-views-block-our-work-block-4,
   #block-views-block-our-work-block-1,
@@ -133,6 +143,22 @@
   #block-views-block-our-services-block-block-1 {
     .views-row {
       padding: 0px 10px;
+    }
+  }
+  .testimonial_block {
+    .views-row {
+      .views-field-field-image {
+        min-height: auto;
+        img {
+          height: initial !important;
+        }
+      }
+      .views-field-title a {
+        font-size: 3vw;
+      }
+    }
+    .views-field.views-field-body {
+      font-size: 14px;
     }
   }
 
