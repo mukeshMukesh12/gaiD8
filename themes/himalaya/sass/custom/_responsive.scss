@@ -60,6 +60,9 @@
    .views_slideshow_cycle_teaser_section, .views_slideshow_cycle_slide {
     z-index: -1;
    }
+   div#block-drupalservicestomakeyourwebpresenceshine {
+    padding: 0 25px;
+   }
 }
 
 @media (max-width: 992px) {
@@ -169,6 +172,22 @@
       font-size: 14px;
     }
   }
+  #block-views-block-our-work-block-3 {
+    .views-row {
+       width: 49%;
+    }
+  }
+  .listing-of-our-work {
+    text-align: center;
+    .views-row {
+      width: 44.9%;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+  }
+  .our-work-description {
+    padding: 0 20px;
+  }
 
 }
 @media (max-width: 480px) {
@@ -252,5 +271,26 @@
         font-size: 12px;
       }
     } 
-  } 
+  }
+  .views-exposed-form {
+    select {
+      width: 175px;
+    }
+  }
+  #block-views-block-our-work-block-3 {
+    .views-row {
+       width: 100%;
+    }
+  }
+  .listing-of-our-work {
+    text-align: center;
+    .views-row {
+      width: 96%;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+  }
+  .our-work-description {
+    padding: 0 20px;
+  }
 }
