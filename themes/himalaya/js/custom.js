@@ -3,7 +3,7 @@
  * Code for humbergur menu.
  */
 
-(function($) {
+(function($, Drupal, drupalSettings) {
   Drupal.behaviors.himalaya = {
       attach: function(context, settings) {
         $(".meanmenu-reveal").click(function() {
@@ -35,4 +35,4 @@
         $('.blog-read-more a').text('Read More');
       }
     };
-})(jQuery);
+})(jQuery , Drupal, drupalSettings);
