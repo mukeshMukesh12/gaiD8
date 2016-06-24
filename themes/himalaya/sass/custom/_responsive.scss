@@ -25,6 +25,10 @@
    .meanmenu-reveal span {
       background: #000 !important;
    }
+   #main-wrapper {
+     position: relative;
+     z-index: -1;
+   }
    .meanmenu-reveal {
     top: 50% !important;
    }
