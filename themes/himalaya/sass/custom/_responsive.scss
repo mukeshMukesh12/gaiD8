@@ -224,7 +224,7 @@
   }
   .blog-img {
     width: 100%;
-    padding:  0 20px;
+    padding:  0 0px;
     img {
       @include border-radius(0px);
       padding-bottom: 15px;
@@ -232,6 +232,7 @@
   }
   .blog-content {
     width: 100%;
+    padding: 0 0px;
   }
   .blog-body {
     font-size: 16px;
@@ -383,6 +384,7 @@
     .footer_first_wrapper {
       width: 100%;
       padding-bottom: 30px;
+      padding-left: 0;
     }
     .footer_fourth_wrapper {
       width: 100%;
@@ -396,7 +398,7 @@
    .views-field.views-field-title  {
      .field-content {
         font-size: 20px;
-        padding-top: 40px !important;
+        padding-top: 20px !important;
      }
    }
   }
@@ -421,7 +423,7 @@
   }
   .testimonial_block {
     h2 {
-      font-size: 24px;
+      font-size: 22px;
       margin-top: 0;
     }
     .views-row {
@@ -472,5 +474,9 @@
       padding: 10% 0;
       font-size: 40px;
     }
+  }
+  h1#page__node--title {
+    padding: 10% 20px;
+    font-size: 40px;
   }
 }

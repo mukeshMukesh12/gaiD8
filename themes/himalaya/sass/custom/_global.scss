@@ -864,3 +864,10 @@ span.slider-des {
     }
   }
 }
+/* node title **/
+h1#page__node--title {
+  padding: 6% 20px;
+  background: url("../images/bg-blue-blueprint.jpg");
+  color: $white;
+  font-size: 56px;
+}
