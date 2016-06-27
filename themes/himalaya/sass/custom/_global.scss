@@ -81,12 +81,17 @@ span.slider-des {
   display: block;
 }
 /** our work block **/
+#block-drupalservicestomakeyourwebpresenceshine {
+  padding: 0 20px;
+}
 .path-frontpage {
   .top-content {
     max-width: 1180px;
     margin: 0 auto;
     float: none;
     margin-bottom: 25px !important;
+    width: 100%;
+    padding: 0 20px;
   }
 }
 #block-views-block-our-work-block-1,
@@ -727,7 +732,7 @@ span.slider-des {
     max-width: 1186px;
     margin: 0 auto;
     width: 100%;
-    padding: 20px 0;
+    padding: 20px 20px;
   }
 }
 .blog-img {
@@ -794,6 +799,8 @@ span.slider-des {
 .blogs {
   max-width: 1186px;
   margin: 40px auto;
+  width: 100%;
+  padding: 0 20px;
   .submitted-by {
     font-size: 14px;
     font-family: cursive;
@@ -855,5 +862,10 @@ span.slider-des {
        transition: 0.4s linear all;
      }
     }
+  }
+}
+.node--view-mode-full {
+  .node__content.clearfix {
+    padding: 0 20px;
   }
 }
