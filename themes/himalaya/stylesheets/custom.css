@@ -1177,6 +1177,7 @@ h1#page__node--title {
   color: #ffffff;
   font-size: 56px;
   text-align: center;
+  margin-top: 0px;
 }
 
 /** css for button **/
@@ -1921,7 +1922,7 @@ div#page-wrapper {
   }
 
   /* line 478, ../sass/custom/_responsive.scss */
-  #page__node--title {
+  h1#page__node--title {
     padding: 10% 20px;
     font-size: 40px;
   }
