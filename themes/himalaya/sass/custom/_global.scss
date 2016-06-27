@@ -34,7 +34,10 @@
    article {
      display: none;
    }
- } 
+ }
+ h1#page__node--title {
+  display: none;
+ }
 }
 .home-slider {
   position: relative;
