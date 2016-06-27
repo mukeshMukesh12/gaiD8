@@ -33,6 +33,14 @@
         // change text of filter any to all in our listing page
         $('#block-views-block-our-work-block-3 .form-select option:first-child').text('All');
         $('.blog-read-more a').text('Read More');
+        // js for main menu mobile **/
+        var allPanels = $('.menu-item--expanded .sub-menu-himalaya').hide();
+        $('.menu-item--expanded > a').click(function() {
+          allPanels.slideUp();
+          $(this).parent().children('ul').slideDown('slow');
+          return false;
+        });
+
       }
     };
 })(jQuery , Drupal, drupalSettings);

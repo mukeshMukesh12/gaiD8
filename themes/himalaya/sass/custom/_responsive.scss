@@ -3,6 +3,9 @@
   .sub-menu-himalaya {
     width: 170px !important;
   }
+  .menu > li:hover .sub-menu-himalaya {
+    display: block !important;
+  }
   #header {
     padding: 0;
     position: fixed;
@@ -55,6 +58,23 @@
    #navigation {
     margin-bottom: 0px !important;
    }
+   li.menu-item {
+      &.menu-item--active-trail {
+        background: red;
+      }  
+      &.menu-item--expanded {
+        background: transparent;
+        &.menu-item--active-trail {
+          
+          &:hover {
+            a {
+              color: $white;
+            }
+          }   
+        }
+      }
+    }
+
    .main-menu ul {
      position: initial;
    }
@@ -79,6 +99,10 @@
         color: $white !important;
       }
     }
+   }
+   .menu.sub-menu-himalaya {
+     visibility: visible;
+     opacity: 1;
    }
 }
 @media (min-width: 1024px) and (max-width: 1260px) { 
