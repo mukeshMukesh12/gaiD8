@@ -80,6 +80,71 @@
     }
    }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .slider-content {
+    top: 10%;
+    padding: 0 15px;
+  }
+  .path-frontpage {
+    .top-content {
+      text-align: center;
+      padding: 0 15px;
+      width: 100%;
+    }
+    .footer_first_wrapper {
+      padding-left: 20px;
+    }
+  }
+  #block-views-block-our-work-block-1, 
+  #block-views-block-our-work-block-2 {
+    width: 29.5%;
+  }
+  #block-views-block-our-work-block-4,
+  #block-views-block-our-work-block-1,
+  #block-views-block-our-work-block-2 {
+    .views-field.views-field-title {
+      .field-content {
+         font-size: 2vw;
+         padding-top: 10px !important;
+      }
+    }
+  }
+  .about-gai-block {
+    text-align: left;
+    .about-title {
+      width: 35%;
+    }
+    .about-desc {
+      width: 63%;
+    }
+  }
+  #block-views-block-our-services-block-block-1 {
+    padding: 15px;
+    .views-row {
+      padding: 10px;
+    }
+  }
+  .testimonial_block {
+    .views-row {
+      padding-right: 15px;
+      img {
+        border-radius: 100%;
+      }
+      .views-field-title  {
+        a {
+          font-size: 20px;
+        }
+      }
+    }
+    h2 {
+      text-align: left;
+    }
+    .views-field.views-field-body {
+      font-size: 16px;
+    }
+  }
+
+}
 
 @media (max-width: 520px) {
    .views_slideshow_cycle_slide img,
@@ -88,7 +153,7 @@
      height: 265px !important;
    }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #block-views-block-our-work-block-1,
   #block-views-block-our-work-block-2,
   #block-views-block-our-work-block-4 {
@@ -151,6 +216,7 @@
   }
 
 }
+
 @media (min-width: 480px) and (max-width: 767px) {
   span.slider-title a {
     font-size: 32px;
