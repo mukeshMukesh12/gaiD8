@@ -1921,7 +1921,7 @@ div#page-wrapper {
   }
 
   /* line 478, ../sass/custom/_responsive.scss */
-  h1#page__node--title {
+  #page__node--title {
     padding: 10% 20px;
     font-size: 40px;
   }
