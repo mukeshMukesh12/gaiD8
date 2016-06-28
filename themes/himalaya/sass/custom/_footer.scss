@@ -89,10 +89,7 @@ div#block-footerblock {
   @include display(flex);
 }
 .footer__wrapper {
-  @include display(flex);
   width: 100%;
-  align-items: center;
-  justify-content: center;
 }
 /** sticky footer **/
 body, 
