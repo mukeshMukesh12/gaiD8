@@ -250,6 +250,7 @@
   .social__link-main--wrapper {
     @include display(flex);
     min-height: 130px;
+    flex-direction: row-reverse;
   }
 
   .footer__wrapper {
@@ -258,9 +259,6 @@
     align-content: center;
     justify-content: center;
     @include display(flex);
-    &.contact__detail--wrapper {
-      justify-content: flex-end;
-    } 
   }
 }
 @media (max-width: 767px) {
@@ -324,6 +322,19 @@
   }
   .our-work-node-desc {
     padding: 0px 0px;
+  }
+  .career__detail--wrapper {
+    margin-top: 15px;
+  }
+  .contact__detail--wrapper {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  .social__link {
+    padding-left: 0px;
+  }
+  #footer {
+    height: auto;
   }
 
 }

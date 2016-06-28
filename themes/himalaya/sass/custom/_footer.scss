@@ -52,9 +52,7 @@ div#block-footerblock {
   li {
     font-size: 16px;
     @include display(flex);
-    &:first-child {
-       margin-right: 65px;
-    }
+    
     a {
       font-size: 20px;
       color: $white;

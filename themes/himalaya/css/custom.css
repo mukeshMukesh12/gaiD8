@@ -1345,11 +1345,7 @@ div#block-footerblock .detail li {
   /* NEW - Chrome */
   display: flex;
 }
-/* line 55, ../sass/custom/_footer.scss */
-div#block-footerblock .detail li:first-child {
-  margin-right: 65px;
-}
-/* line 58, ../sass/custom/_footer.scss */
+/* line 56, ../sass/custom/_footer.scss */
 div#block-footerblock .detail li a {
   font-size: 20px;
   color: #ffffff;
@@ -1358,7 +1354,7 @@ div#block-footerblock .detail li a {
   font-weight: bold;
   position: relative;
 }
-/* line 65, ../sass/custom/_footer.scss */
+/* line 63, ../sass/custom/_footer.scss */
 div#block-footerblock .detail li a:before {
   content: "";
   background: url("../images/message.png") no-repeat;
@@ -1367,11 +1363,11 @@ div#block-footerblock .detail li a:before {
   position: absolute;
   left: -45px;
 }
-/* line 75, ../sass/custom/_footer.scss */
+/* line 73, ../sass/custom/_footer.scss */
 div#block-footerblock .detail li:last-child a {
   font-size: 16px;
 }
-/* line 77, ../sass/custom/_footer.scss */
+/* line 75, ../sass/custom/_footer.scss */
 div#block-footerblock .detail li:last-child a:before {
   content: "";
   background: url("../images/phone.png") no-repeat;
@@ -1381,12 +1377,12 @@ div#block-footerblock .detail li:last-child a:before {
   left: -43px;
 }
 
-/* line 92, ../sass/custom/_footer.scss */
+/* line 90, ../sass/custom/_footer.scss */
 ul.social__link li {
   padding: 5px;
 }
 
-/* line 97, ../sass/custom/_footer.scss */
+/* line 95, ../sass/custom/_footer.scss */
 .career__detail--wrapper a {
   padding: 10px 20px;
   border: 1px solid;
@@ -1396,37 +1392,37 @@ ul.social__link li {
   border-radius: 5px;
   font-size: 18px;
 }
-/* line 102, ../sass/custom/_footer.scss */
+/* line 100, ../sass/custom/_footer.scss */
 .career__detail--wrapper a:hover {
   background: #c42431;
 }
 
 /** sticky footer **/
-/* line 108, ../sass/custom/_footer.scss */
+/* line 106, ../sass/custom/_footer.scss */
 body,
 html {
   height: 100%;
 }
 
-/* line 112, ../sass/custom/_footer.scss */
+/* line 110, ../sass/custom/_footer.scss */
 div#page-wrapper {
   min-height: 80%;
 }
 
-/* line 115, ../sass/custom/_footer.scss */
+/* line 113, ../sass/custom/_footer.scss */
 #page-wrapper:after {
   content: "";
   display: block;
 }
 
-/* line 119, ../sass/custom/_footer.scss */
+/* line 117, ../sass/custom/_footer.scss */
 #footer,
 #page-wrapper:after {
   height: 160px;
 }
 
 /** back to top */
-/* line 126, ../sass/custom/_footer.scss */
+/* line 124, ../sass/custom/_footer.scss */
 .scrolltop {
   position: fixed;
   width: 57px;
@@ -1852,39 +1848,60 @@ div#page-wrapper {
   .our-work-node-desc {
     padding: 0px 0px;
   }
+
+  /* line 326, ../sass/custom/_responsive.scss */
+  .career__detail--wrapper {
+    margin-top: 15px;
+  }
+
+  /* line 329, ../sass/custom/_responsive.scss */
+  .contact__detail--wrapper {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+
+  /* line 333, ../sass/custom/_responsive.scss */
+  .social__link {
+    padding-left: 0px;
+  }
+
+  /* line 336, ../sass/custom/_responsive.scss */
+  #footer {
+    height: auto;
+  }
 }
 @media (min-width: 480px) and (max-width: 767px) {
-  /* line 330, ../sass/custom/_responsive.scss */
+  /* line 343, ../sass/custom/_responsive.scss */
   span.slider-title a {
     font-size: 32px;
     line-height: normal;
   }
 
-  /* line 334, ../sass/custom/_responsive.scss */
+  /* line 347, ../sass/custom/_responsive.scss */
   .about-gai-block {
     text-align: left;
   }
 
-  /* line 338, ../sass/custom/_responsive.scss */
+  /* line 351, ../sass/custom/_responsive.scss */
   .path-frontpage .top-content {
     max-width: 100%;
     margin-bottom: 25px !important;
     padding: 0px 20px;
     text-align: center;
   }
-  /* line 344, ../sass/custom/_responsive.scss */
+  /* line 357, ../sass/custom/_responsive.scss */
   .path-frontpage .footer_first_wrapper {
     width: 100%;
     padding: 0 20px;
   }
-  /* line 349, ../sass/custom/_responsive.scss */
+  /* line 362, ../sass/custom/_responsive.scss */
   .path-frontpage .footer_fourth_wrapper {
     width: 100%;
     text-align: center;
     padding: 0 20px;
   }
 
-  /* line 360, ../sass/custom/_responsive.scss */
+  /* line 373, ../sass/custom/_responsive.scss */
   #block-views-block-our-work-block-4 .views-field.views-field-title .field-content,
   #block-views-block-our-work-block-1 .views-field.views-field-title .field-content,
   #block-views-block-our-work-block-2 .views-field.views-field-title .field-content {
@@ -1893,74 +1910,74 @@ div#page-wrapper {
     padding: 0 15px;
   }
 
-  /* line 368, ../sass/custom/_responsive.scss */
+  /* line 381, ../sass/custom/_responsive.scss */
   .about-gai-block .about-title {
     width: 100%;
     text-align: center;
   }
-  /* line 371, ../sass/custom/_responsive.scss */
+  /* line 384, ../sass/custom/_responsive.scss */
   .about-gai-block .about-title h2 {
     font-size: 42px;
     margin-bottom: 0;
     margin-top: 0;
   }
-  /* line 377, ../sass/custom/_responsive.scss */
+  /* line 390, ../sass/custom/_responsive.scss */
   .about-gai-block .about-desc {
     font-size: 18px;
     width: 100%;
   }
 
-  /* line 383, ../sass/custom/_responsive.scss */
+  /* line 396, ../sass/custom/_responsive.scss */
   #block-views-block-our-services-block-block-1 .views-row {
     padding: 0px 10px;
   }
 
-  /* line 389, ../sass/custom/_responsive.scss */
+  /* line 402, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-field-image {
     min-height: auto;
   }
-  /* line 391, ../sass/custom/_responsive.scss */
+  /* line 404, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-field-image img {
     height: initial !important;
   }
-  /* line 395, ../sass/custom/_responsive.scss */
+  /* line 408, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-title a {
     font-size: 3vw;
   }
-  /* line 399, ../sass/custom/_responsive.scss */
+  /* line 412, ../sass/custom/_responsive.scss */
   .testimonial_block .views-field.views-field-body {
     font-size: 14px;
   }
 
-  /* line 404, ../sass/custom/_responsive.scss */
+  /* line 417, ../sass/custom/_responsive.scss */
   #block-views-block-our-work-block-3 .views-row {
     width: 49%;
   }
 
-  /* line 408, ../sass/custom/_responsive.scss */
+  /* line 421, ../sass/custom/_responsive.scss */
   .listing-of-our-work {
     text-align: center;
   }
-  /* line 410, ../sass/custom/_responsive.scss */
+  /* line 423, ../sass/custom/_responsive.scss */
   .listing-of-our-work .views-row {
     width: 44.9%;
     margin-left: 2%;
     margin-right: 2%;
   }
 
-  /* line 416, ../sass/custom/_responsive.scss */
+  /* line 429, ../sass/custom/_responsive.scss */
   .our-work-description {
     padding: 0 20px;
   }
 }
 @media (max-width: 480px) {
-  /* line 423, ../sass/custom/_responsive.scss */
+  /* line 436, ../sass/custom/_responsive.scss */
   span.slider-title a {
     font-size: 24px;
     line-height: normal;
   }
 
-  /* line 427, ../sass/custom/_responsive.scss */
+  /* line 440, ../sass/custom/_responsive.scss */
   span.slider-des {
     font-size: 18px;
     line-height: normal;
@@ -1969,29 +1986,29 @@ div#page-wrapper {
     display: block;
   }
 
-  /* line 435, ../sass/custom/_responsive.scss */
+  /* line 448, ../sass/custom/_responsive.scss */
   .path-frontpage .top-content {
     max-width: 300px;
   }
-  /* line 438, ../sass/custom/_responsive.scss */
+  /* line 451, ../sass/custom/_responsive.scss */
   .path-frontpage .footer_first_wrapper {
     width: 100%;
     padding-bottom: 30px;
     padding-left: 0;
   }
-  /* line 443, ../sass/custom/_responsive.scss */
+  /* line 456, ../sass/custom/_responsive.scss */
   .path-frontpage .footer_fourth_wrapper {
     width: 100%;
     text-align: center;
   }
 
-  /* line 448, ../sass/custom/_responsive.scss */
+  /* line 461, ../sass/custom/_responsive.scss */
   #block-views-block-our-work-block-4,
   #block-views-block-our-work-block-1,
   #block-views-block-our-work-block-2 {
     width: 100%;
   }
-  /* line 453, ../sass/custom/_responsive.scss */
+  /* line 466, ../sass/custom/_responsive.scss */
   #block-views-block-our-work-block-4 .views-field.views-field-title .field-content,
   #block-views-block-our-work-block-1 .views-field.views-field-title .field-content,
   #block-views-block-our-work-block-2 .views-field.views-field-title .field-content {
@@ -1999,12 +2016,12 @@ div#page-wrapper {
     padding-top: 20px !important;
   }
 
-  /* line 460, ../sass/custom/_responsive.scss */
+  /* line 473, ../sass/custom/_responsive.scss */
   .about-gai-block .about-title,
   .about-gai-block .about-desc {
     width: 100%;
   }
-  /* line 463, ../sass/custom/_responsive.scss */
+  /* line 476, ../sass/custom/_responsive.scss */
   .about-gai-block .about-title h2,
   .about-gai-block .about-desc h2 {
     font-size: 42px;
@@ -2012,76 +2029,76 @@ div#page-wrapper {
     margin-bottom: 0;
   }
 
-  /* line 471, ../sass/custom/_responsive.scss */
+  /* line 484, ../sass/custom/_responsive.scss */
   #block-views-block-our-services-block-block-1 .views-row {
     width: 100%;
   }
 
-  /* line 475, ../sass/custom/_responsive.scss */
+  /* line 488, ../sass/custom/_responsive.scss */
   #footer-columns {
     padding: 0 20px;
   }
 
-  /* line 479, ../sass/custom/_responsive.scss */
+  /* line 492, ../sass/custom/_responsive.scss */
   .testimonial_block h2 {
     font-size: 22px;
     margin-top: 0;
   }
-  /* line 484, ../sass/custom/_responsive.scss */
+  /* line 497, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-field-image {
     padding-right: 0;
     width: 100%;
     text-align: center;
     min-height: initial;
   }
-  /* line 489, ../sass/custom/_responsive.scss */
+  /* line 502, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-field-image img {
     border-radius: 10px;
     height: initial !important;
   }
-  /* line 495, ../sass/custom/_responsive.scss */
+  /* line 508, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field-title a {
     font-size: 16px;
   }
-  /* line 499, ../sass/custom/_responsive.scss */
+  /* line 512, ../sass/custom/_responsive.scss */
   .testimonial_block .views-row .views-field.views-field-body {
     font-size: 12px;
   }
 
-  /* line 505, ../sass/custom/_responsive.scss */
+  /* line 518, ../sass/custom/_responsive.scss */
   .views-exposed-form select {
     width: 175px;
   }
 
-  /* line 510, ../sass/custom/_responsive.scss */
+  /* line 523, ../sass/custom/_responsive.scss */
   #block-views-block-our-work-block-3 .views-row {
     width: 100%;
   }
 
-  /* line 514, ../sass/custom/_responsive.scss */
+  /* line 527, ../sass/custom/_responsive.scss */
   .listing-of-our-work {
     text-align: center;
     max-width: 360px;
   }
-  /* line 517, ../sass/custom/_responsive.scss */
+  /* line 530, ../sass/custom/_responsive.scss */
   .listing-of-our-work .views-row {
     width: 96%;
     margin-left: 2%;
     margin-right: 2%;
   }
 
-  /* line 523, ../sass/custom/_responsive.scss */
+  /* line 536, ../sass/custom/_responsive.scss */
   .our-work-description {
     padding: 0 20px;
   }
 
-  /* line 527, ../sass/custom/_responsive.scss */
+  /* line 540, ../sass/custom/_responsive.scss */
   .blogs-views-page header {
     padding: 10% 0;
     font-size: 40px;
   }
 
-  /* line 532, ../sass/custom/_responsive.scss */
+  /* line 545, ../sass/custom/_responsive.scss */
   h1#page__node--title {
     padding: 10% 20px;
     font-size: 40px;
