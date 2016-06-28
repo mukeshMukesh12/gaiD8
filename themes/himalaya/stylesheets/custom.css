@@ -1090,14 +1090,18 @@ span.slider-des {
   font-family: cursive;
   color: #666;
 }
+/* line 793, ../sass/custom/_global.scss */
+.blog-uid a {
+  color: #666;
+}
 
-/* line 794, ../sass/custom/_global.scss */
+/* line 797, ../sass/custom/_global.scss */
 .blog-read-more {
   display: inline-block;
   width: 100%;
   margin-top: 20px;
 }
-/* line 798, ../sass/custom/_global.scss */
+/* line 801, ../sass/custom/_global.scss */
 .blog-read-more a {
   padding: 10px;
   font-size: 16px;
@@ -1110,7 +1114,7 @@ span.slider-des {
   color: #000000;
   transition: .9s linear all;
 }
-/* line 806, ../sass/custom/_global.scss */
+/* line 809, ../sass/custom/_global.scss */
 .blog-read-more a:hover {
   background-color: #c42431;
   color: #ffffff;
@@ -1118,70 +1122,70 @@ span.slider-des {
   border-color: #c42431;
 }
 
-/* line 814, ../sass/custom/_global.scss */
+/* line 817, ../sass/custom/_global.scss */
 .blogs {
   max-width: 1186px;
   margin: 40px auto;
   width: 100%;
   padding: 0 20px;
 }
-/* line 819, ../sass/custom/_global.scss */
+/* line 822, ../sass/custom/_global.scss */
 .blogs .submitted-by {
   font-size: 14px;
   font-family: cursive;
 }
-/* line 824, ../sass/custom/_global.scss */
+/* line 827, ../sass/custom/_global.scss */
 .blogs .node__content div:first-child > div:first-child {
   visibility: hidden;
 }
-/* line 829, ../sass/custom/_global.scss */
+/* line 832, ../sass/custom/_global.scss */
 .blogs .node__content div:first-child div:last-child {
   float: left;
   margin-right: 3%;
   margin-bottom: 28px;
 }
-/* line 836, ../sass/custom/_global.scss */
+/* line 839, ../sass/custom/_global.scss */
 .blogs .node__content div:nth-child(3) div:first-child {
   display: none;
 }
-/* line 839, ../sass/custom/_global.scss */
+/* line 842, ../sass/custom/_global.scss */
 .blogs .node__content div:nth-child(3) div:last-child {
   font-size: 32px;
   font-weight: bold;
 }
-/* line 845, ../sass/custom/_global.scss */
+/* line 848, ../sass/custom/_global.scss */
 .blogs .node__content p {
   font-size: 18px;
 }
-/* line 849, ../sass/custom/_global.scss */
+/* line 852, ../sass/custom/_global.scss */
 .blogs .sharethis-wrapper {
   padding-bottom: 15px;
 }
-/* line 851, ../sass/custom/_global.scss */
+/* line 854, ../sass/custom/_global.scss */
 .blogs .sharethis-wrapper > span {
   margin-right: 15px;
 }
-/* line 856, ../sass/custom/_global.scss */
+/* line 859, ../sass/custom/_global.scss */
 .blogs .stButton .facebook, .blogs .stButton .twitter, .blogs .stButton .linkedin {
   background-image: url("../images/social-image.png");
   background-position: -2px -42px;
 }
-/* line 860, ../sass/custom/_global.scss */
+/* line 863, ../sass/custom/_global.scss */
 .blogs .stButton .twitter {
   background-position: -325px -42px;
 }
-/* line 864, ../sass/custom/_global.scss */
+/* line 867, ../sass/custom/_global.scss */
 .blogs .stButton .linkedin {
   background-position: -165px -42px;
 }
-/* line 869, ../sass/custom/_global.scss */
+/* line 872, ../sass/custom/_global.scss */
 .blogs .stButton .chicklets {
   background-size: 443px;
   height: 35px;
   width: 35px;
   transition: 0.4s linear all;
 }
-/* line 874, ../sass/custom/_global.scss */
+/* line 877, ../sass/custom/_global.scss */
 .blogs .stButton .chicklets:hover {
   opacity: 1;
   background-position-y: -82px;
@@ -1189,7 +1193,7 @@ span.slider-des {
 }
 
 /* node title **/
-/* line 883, ../sass/custom/_global.scss */
+/* line 886, ../sass/custom/_global.scss */
 h1#page__node--title {
   padding: 6% 20px;
   background: url("../images/bg-blue-blueprint.jpg");
@@ -1199,7 +1203,7 @@ h1#page__node--title {
   margin-top: 0px;
 }
 
-/* line 891, ../sass/custom/_global.scss */
+/* line 894, ../sass/custom/_global.scss */
 .back-to-page {
   padding: 10px 20px;
   border: 1px solid;
