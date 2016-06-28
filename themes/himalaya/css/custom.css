@@ -1385,46 +1385,35 @@ div#block-footerblock .detail li:last-child a:before {
 
 /* line 91, ../sass/custom/_footer.scss */
 .footer__wrapper {
-  display: -webkit-box;
-  /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;
-  /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;
-  /* TWEENER - IE 10 */
-  display: -webkit-flex;
-  /* NEW - Chrome */
-  display: flex;
   width: 100%;
-  align-items: center;
-  justify-content: center;
 }
 
 /** sticky footer **/
-/* line 98, ../sass/custom/_footer.scss */
+/* line 95, ../sass/custom/_footer.scss */
 body,
 html {
   height: 100%;
 }
 
-/* line 102, ../sass/custom/_footer.scss */
+/* line 99, ../sass/custom/_footer.scss */
 div#page-wrapper {
   min-height: 80%;
 }
 
-/* line 105, ../sass/custom/_footer.scss */
+/* line 102, ../sass/custom/_footer.scss */
 #page-wrapper:after {
   content: "";
   display: block;
 }
 
-/* line 109, ../sass/custom/_footer.scss */
+/* line 106, ../sass/custom/_footer.scss */
 #footer,
 #page-wrapper:after {
   height: 160px;
 }
 
 /** back to top */
-/* line 116, ../sass/custom/_footer.scss */
+/* line 113, ../sass/custom/_footer.scss */
 .scrolltop {
   position: fixed;
   width: 57px;
