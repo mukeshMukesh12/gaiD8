@@ -95,7 +95,7 @@ ul.social__link {
   width: 100%;
   align-items: center;
   align-content: center;
-  justify-content: center
+  justify-content: center;
   @include display(flex);
   &.contact__detail--wrapper {
     justify-content: flex-end;
