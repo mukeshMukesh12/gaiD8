@@ -327,8 +327,11 @@
     margin-top: 15px;
   }
   .contact__detail--wrapper {
-    margin-top: 2em;
-    margin-bottom: 1em;
+    margin-top: 3em;
+    margin-bottom: 1.2em;
+    @include display(flex);
+    align-items: center;
+    justify-content: center;
   }
   .social__link {
     padding-left: 0px;
