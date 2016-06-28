@@ -87,10 +87,7 @@ div#block-footerblock {
   }
  }
 }
-.social__link-main--wrapper {
-  @include display(flex);
-  min-height: 130px;
-}
+
 ul.social__link {
   li {
     padding: 5px;
@@ -105,16 +102,6 @@ ul.social__link {
     &:hover {
       background: $color-red;
     }
-  }
-}
-.footer__wrapper {
-  width: 100%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  @include display(flex);
-  &.contact__detail--wrapper {
-    justify-content: flex-end;
   }
 }
 /** sticky footer **/
