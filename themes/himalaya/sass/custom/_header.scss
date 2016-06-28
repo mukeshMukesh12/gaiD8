@@ -10,11 +10,19 @@
   a.nested-menu-item-toggle {
     display: none;
   }
+  .menu {
+    a {
+      color: $black !important;
+     font-weight: bold;
+    }
+    .sub-menu-himalaya {
+      a {
+        border-bottom: 1px solid transparent;
+      }
+    }
+  }
 } 
-#navigation .menu a {
-  color: #000 !important;
-  font-weight: bold;
-}
+
 .main-menu > li > a {
   float: left;
   padding: 0.8em 1em;
