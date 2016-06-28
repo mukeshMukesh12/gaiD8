@@ -40,6 +40,11 @@
           $(this).parent().children('ul').slideDown('slow');
           return false;
         });
+        // click event for previous page
+        $('.back-to-page').click(function(){
+          parent.history.back();
+          return false;
+        });
 
       }
     };

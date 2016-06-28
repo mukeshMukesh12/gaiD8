@@ -1184,6 +1184,23 @@ h1#page__node--title {
   margin-top: 0px;
 }
 
+/* line 879, ../sass/custom/_global.scss */
+.back-to-page {
+  padding: 10px 20px;
+  border: 1px solid;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #0678be;
+  color: #ffffff;
+  font-size: 22px;
+}
+
 /** css for button **/
 /* line 2, ../sass/custom/_button.scss */
 span.slider-link a {
