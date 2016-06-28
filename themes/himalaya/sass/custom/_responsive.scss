@@ -230,6 +230,13 @@
       padding: 0 20px;
     }
   }
+  .node--type-blogs {
+    .node--view-mode-full {
+      .node__content.clearfix {
+        padding: 0 0px;
+      }
+    }
+  }
 }
 @media (max-width: 767px) {
   #block-views-block-our-work-block-1,
