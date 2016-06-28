@@ -4,7 +4,7 @@ global-styling:
     theme:
       css/style.css: {}
       css/responsive.css: {}
-      stylesheets/custom.css: {}
+      css/custom.css: {}
 
 global-scripts:
   version: VERSION
