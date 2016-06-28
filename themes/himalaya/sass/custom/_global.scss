@@ -599,15 +599,17 @@ span.slider-des {
       color: $white;
       padding: 0 9px;
       transition: 0.9s linear all;
+      border-radius: 5px;
       &:hover {
        background: $grey;
        transition: 0.9s linear all;
        color: $black;
+       border-radius: 5px;
       }
     }
     &.is-active {
      background: #0678be;
-     padding: 0 9px;
+     padding: 0;
      border-radius: 3px;
     }
   }
