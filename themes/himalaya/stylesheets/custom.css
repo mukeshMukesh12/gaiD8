@@ -1189,8 +1189,6 @@ h1#page__node--title {
   padding: 10px 20px;
   border: 1px solid;
   display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -1198,7 +1196,7 @@ h1#page__node--title {
   cursor: pointer;
   background: #0678be;
   color: #ffffff;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 /** css for button **/
