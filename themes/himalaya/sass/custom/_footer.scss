@@ -5,9 +5,11 @@
     		background: none;
             padding-top: 25px;
             width: 100%;
-            max-width: 845px;
+            max-width: 100px;
             margin: 0 auto;
             padding-bottom: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
         }
     }
     h2 { 
@@ -15,7 +17,6 @@
     }
     li {
         display: inline-block;
-        width: 100%;
     	a {
     		color: $black;
     	}
@@ -84,6 +85,15 @@ div#block-footerblock {
   }
  }
 }
+.social__link-main--wrapper {
+  @include display(flex);
+}
+.footer__wrapper {
+  @include display(flex);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
 /** sticky footer **/
 body, 
 html {
@@ -91,7 +101,6 @@ html {
 }
 div#page-wrapper {
   min-height: 80%;
- /*  margin-bottom: -160px; */
 }
 #page-wrapper:after {
   content: "";
