@@ -237,6 +237,15 @@
       }
     }
   }
+  div#footer {
+    margin-top: 3em;
+  }
+  .path-frontpage,
+  .path-blogs {
+    div#footer {
+      margin-top: 0;
+     }
+  }
 }
 @media (max-width: 767px) {
   #block-views-block-our-work-block-1,

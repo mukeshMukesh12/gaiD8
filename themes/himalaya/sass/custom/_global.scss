@@ -269,7 +269,7 @@ span.slider-des {
   display: block;
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 27px;
+  margin-bottom: 3em;
 }
 .our-work-title {
   font-size: 36px;
@@ -298,8 +298,6 @@ span.slider-des {
     }
      &:hover {
       .views-field-title {
-        background: $black;
-        opacity: 0.8;
         height: 100%;
         width: 100%;
         position: absolute;
@@ -307,8 +305,16 @@ span.slider-des {
         display: flex;
         align-items: center;
         justify-content: center;
+        &:before {
+          content: "";
+          background: $black;
+          opacity: 0.5;
+          height: 100%;
+          width: 100%;
+          position: relative;
+          z-index: 0;
+        }
       }
-
     }
   }
   .views-field-title {
@@ -332,6 +338,7 @@ span.slider-des {
     img {
       transition: all 500ms;
       transform: scale(1,1);
+      border: 1px solid $light-black;
     }
   }
 }
