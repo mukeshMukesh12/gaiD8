@@ -1335,9 +1335,13 @@ span.slider-link a:after {
 /* line 52, ../sass/custom/_footer.scss */
 div#block-footerblock .detail li {
   font-size: 16px;
-  display: block;
+  display: inline-block;
 }
 /* line 55, ../sass/custom/_footer.scss */
+div#block-footerblock .detail li:first-child {
+  margin-right: 65px;
+}
+/* line 58, ../sass/custom/_footer.scss */
 div#block-footerblock .detail li a {
   font-size: 20px;
   color: #ffffff;
@@ -1346,7 +1350,7 @@ div#block-footerblock .detail li a {
   font-weight: bold;
   position: relative;
 }
-/* line 62, ../sass/custom/_footer.scss */
+/* line 65, ../sass/custom/_footer.scss */
 div#block-footerblock .detail li a:before {
   content: "";
   background: url("../images/message.png") no-repeat;
@@ -1355,11 +1359,11 @@ div#block-footerblock .detail li a:before {
   position: absolute;
   left: -45px;
 }
-/* line 72, ../sass/custom/_footer.scss */
+/* line 75, ../sass/custom/_footer.scss */
 div#block-footerblock .detail li:last-child a {
   font-size: 16px;
 }
-/* line 74, ../sass/custom/_footer.scss */
+/* line 77, ../sass/custom/_footer.scss */
 div#block-footerblock .detail li:last-child a:before {
   content: "";
   background: url("../images/phone.png") no-repeat;
@@ -1369,7 +1373,7 @@ div#block-footerblock .detail li:last-child a:before {
   left: -43px;
 }
 
-/* line 87, ../sass/custom/_footer.scss */
+/* line 90, ../sass/custom/_footer.scss */
 .social__link-main--wrapper {
   display: -webkit-box;
   /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1383,12 +1387,27 @@ div#block-footerblock .detail li:last-child a:before {
   min-height: 130px;
 }
 
-/* line 91, ../sass/custom/_footer.scss */
-ul.social__link {
+/* line 95, ../sass/custom/_footer.scss */
+ul.social__link li {
   padding: 5px;
 }
 
-/* line 94, ../sass/custom/_footer.scss */
+/* line 100, ../sass/custom/_footer.scss */
+.career__detail--wrapper a {
+  padding: 10px 20px;
+  border: 1px solid;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+/* line 105, ../sass/custom/_footer.scss */
+.career__detail--wrapper a:hover {
+  background: #c42431;
+}
+
+/* line 110, ../sass/custom/_footer.scss */
 .footer__wrapper {
   width: 100%;
   align-items: center;
@@ -1404,37 +1423,37 @@ ul.social__link {
   /* NEW - Chrome */
   display: flex;
 }
-/* line 100, ../sass/custom/_footer.scss */
+/* line 116, ../sass/custom/_footer.scss */
 .footer__wrapper.contact__detail--wrapper {
   justify-content: flex-end;
 }
 
 /** sticky footer **/
-/* line 105, ../sass/custom/_footer.scss */
+/* line 121, ../sass/custom/_footer.scss */
 body,
 html {
   height: 100%;
 }
 
-/* line 109, ../sass/custom/_footer.scss */
+/* line 125, ../sass/custom/_footer.scss */
 div#page-wrapper {
   min-height: 80%;
 }
 
-/* line 112, ../sass/custom/_footer.scss */
+/* line 128, ../sass/custom/_footer.scss */
 #page-wrapper:after {
   content: "";
   display: block;
 }
 
-/* line 116, ../sass/custom/_footer.scss */
+/* line 132, ../sass/custom/_footer.scss */
 #footer,
 #page-wrapper:after {
   height: 160px;
 }
 
 /** back to top */
-/* line 123, ../sass/custom/_footer.scss */
+/* line 139, ../sass/custom/_footer.scss */
 .scrolltop {
   position: fixed;
   width: 57px;

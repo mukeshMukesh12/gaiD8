@@ -51,7 +51,10 @@ div#block-footerblock {
   .detail {
   li {
     font-size: 16px;
-    display: block;
+    display: inline-block;
+    &:first-child {
+       margin-right: 65px;
+    }
     a {
       font-size: 20px;
       color: $white;
@@ -89,7 +92,20 @@ div#block-footerblock {
   min-height: 130px;
 }
 ul.social__link {
-  padding: 5px;
+  li {
+    padding: 5px;
+  }
+}
+.career__detail--wrapper {
+  a { 
+    padding: 10px 20px;
+    border: 1px solid;
+    @include border-radius(5px);
+    font-size: 18px;
+    &:hover {
+      background: $color-red;
+    }
+  }
 }
 .footer__wrapper {
   width: 100%;
