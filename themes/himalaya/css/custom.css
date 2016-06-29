@@ -1988,7 +1988,7 @@ div#page-wrapper {
     padding: 0 20px;
   }
 }
-@media (min-width: 480px) {
+@media (max-width: 480px) {
   /* line 443, ../sass/custom/_responsive.scss */
   span.slider-title a {
     font-size: 24px;
