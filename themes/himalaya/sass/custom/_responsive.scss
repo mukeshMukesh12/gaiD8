@@ -260,6 +260,9 @@
     justify-content: center;
     @include display(flex);
   }
+  #block-views-block-our-services-block-block-1 {
+    margin-bottom: -8.5vh;
+  }
 }
 @media (max-width: 767px) {
   #block-views-block-our-work-block-1,
