@@ -259,8 +259,10 @@
     justify-content: center;
     @include display(flex);
   }
-  #block-views-block-our-services-block-block-1 {
-    margin-bottom: -8.5vh;
+  .node--type-page {
+    #block-views-block-our-services-block-block-1 {
+      margin-bottom: -8.5vh;
+    }
   }
 }
 @include mobile {
