@@ -1247,7 +1247,7 @@ h1#page__node--title {
   right: 15px;
 }
 /* line 924, ../sass/custom/_global.scss */
-.drupal__eight--logo a {
+.drupal__eight--logo img {
   content: url("../images/120X120-01.png");
   height: 100%;
   width: auto;
