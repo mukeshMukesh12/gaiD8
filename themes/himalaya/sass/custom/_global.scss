@@ -915,3 +915,20 @@ h1#page__node--title {
   color: $white;
   font-size: 16px;
 }
+/*** drupal 8 logo in site **/
+.drupal__eight--logo {
+  position: absolute;
+  bottom: -19px;
+  z-index: 99;
+  right: 15px;
+  a {
+    content: url("../images/120X120-01.png");
+    height: 100%;
+    width: auto;
+  }
+}
+.views-element-container {
+  footer {
+    position: relative;
+  }
+}

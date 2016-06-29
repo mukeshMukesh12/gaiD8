@@ -1238,6 +1238,26 @@ h1#page__node--title {
   font-size: 16px;
 }
 
+/*** drupal 8 logo in site **/
+/* line 919, ../sass/custom/_global.scss */
+.drupal__eight--logo {
+  position: absolute;
+  bottom: -19px;
+  z-index: 99;
+  right: 15px;
+}
+/* line 924, ../sass/custom/_global.scss */
+.drupal__eight--logo a {
+  content: url("../images/120X120-01.png");
+  height: 100%;
+  width: auto;
+}
+
+/* line 931, ../sass/custom/_global.scss */
+.views-element-container footer {
+  position: relative;
+}
+
 /** css for button **/
 /* line 2, ../sass/custom/_button.scss */
 span.slider-link a {
