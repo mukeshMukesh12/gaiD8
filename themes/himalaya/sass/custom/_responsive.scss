@@ -1,5 +1,5 @@
 
-@include tablet-mobile {
+@media (min-width: 992px) {
   .sub-menu-himalaya {
     width: 170px !important;
   }
@@ -24,7 +24,7 @@
   }
 }
 
-@include desktop-mobile { 
+@media (max-width: 1024px) { 
    .meanmenu-reveal span {
       background: #000 !important;
    }
@@ -54,7 +54,7 @@
    }
 }
 
-@include tablet-mobile {
+@media (max-width: 992px) {
    #navigation {
     margin-bottom: 0px !important;
    }
@@ -118,7 +118,7 @@
     }
   }
 }
-@include tablet {
+@media (min-width: 768px) and (max-width: 1024px) {
   .slider-content {
     top: 10%;
     padding: 0 15px;
@@ -224,7 +224,7 @@
      height: 265px !important;
    }
 }
-@include tablet-desktop {
+@media (min-width: 768px) {
   .node--view-mode-full {
     .node__content.clearfix {
       padding: 0 20px;
@@ -264,7 +264,7 @@
     margin-bottom: -8.5vh;
   }
 }
-@include mobile {
+@media (max-width: 767px) {
   #block-views-block-our-work-block-1,
   #block-views-block-our-work-block-2,
   #block-views-block-our-work-block-4 {
@@ -345,7 +345,7 @@
 
 }
 
-@include mobile-landscape {
+@media (min-width: 480px) and (max-width: 767px) {
   span.slider-title a {
     font-size: 32px;
     line-height: normal;
@@ -438,7 +438,7 @@
   }
 
 }
-@include mobile-portrait {
+@media (max-width: 480px) {
   
   span.slider-title a {
     font-size: 24px;

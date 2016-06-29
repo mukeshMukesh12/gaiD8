@@ -1444,7 +1444,7 @@ div#page-wrapper {
   border: 2px solid;
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   /* line 3, ../sass/custom/_responsive.scss */
   .sub-menu-himalaya {
     width: 170px !important;
@@ -1587,7 +1587,7 @@ div#page-wrapper {
     font-size: 14px;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   /* line 122, ../sass/custom/_responsive.scss */
   .slider-content {
     top: 10%;
