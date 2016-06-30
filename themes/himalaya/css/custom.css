@@ -1594,7 +1594,7 @@ div#page-wrapper {
   }
 
   /* line 92, ../sass/custom/_responsive.scss */
-  #navigation .main-menu li.menu-item.menu-item--active-trail a:hover {
+  #navigation .main-menu li.menu-item.menu-item--active-trail > a:hover {
     color: #ffffff !important;
   }
   /* line 100, ../sass/custom/_responsive.scss */

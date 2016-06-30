@@ -6,6 +6,7 @@
 (function($, Drupal, drupalSettings) {
   Drupal.behaviors.himalaya = {
       attach: function(context, settings) {
+        //event for humbergur menu
         $(".meanmenu-reveal").click(function() {
           var X = $(this).attr('id');
             if (X == 1) {
@@ -33,13 +34,17 @@
         // change text of filter any to all in our listing page
         $('#block-views-block-our-work-block-3 .form-select option:first-child').text('All');
         $('.blog-read-more a').text('Read More');
-        // js for main menu mobile **/
-        var allPanels = $('.menu-item--expanded .sub-menu-himalaya').hide();
-        $('.menu-item--expanded > a').click(function() {
-          allPanels.slideUp();
-          $(this).parent().children('ul').slideDown('slow');
-          return false;
-        });
+        // js for main menu mobile for child**/
+        if ($(window).width() < 992) {
+          var allPanels = $('.menu-item--expanded .sub-menu-himalaya').hide();
+          $('.menu-item--expanded > a').click(function() {
+            allPanels.slideUp();
+            $(this).parent().children('ul').slideDown('slow');
+            return false;
+          });
+        } else {
+          return true;
+        }
         // click event for previous page
         $('.back-to-page').click(function(){
           parent.history.back();
