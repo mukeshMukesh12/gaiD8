@@ -64,17 +64,19 @@
    }
    li.menu-item {
       &.menu-item--active-trail {
-        background: red;
+        background: $color-red;
+        margin-top: 0;
       }  
       &.menu-item--expanded {
         background: transparent;
         &.menu-item--active-trail {
-          
-          &:hover {
-            a {
-              color: $white;
-            }
-          }   
+          background: $color-red;
+           > a {
+            color: $white;
+              &:hover {
+                color: $white !important;
+              }
+            } 
         }
       }
     }
@@ -83,6 +85,17 @@
      position: initial;
    }
    #navigation {
+    .main-menu {
+      li {
+        &.menu-item.menu-item--active-trail{
+         a {
+            &:hover {
+              color: $white !important;
+            }
+          }
+        }
+      }
+    }
      .menu {
        a {
         color: $white !important;

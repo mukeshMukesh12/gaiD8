@@ -723,6 +723,15 @@ span.slider-des {
 .contact-us-page-block {
  h2 {
   text-align: center;
+  background: url("../images/bg-blue-blueprint.jpg");
+  padding: 6% 0;
+  font-size: 56px;
+  color: #fff;
+  margin-top: 0;
+  @include mobile-portrait {
+    padding: 10% 20px;
+    font-size: 40px;
+  }
  }
 }
 .contact-message-feedback-form  {
