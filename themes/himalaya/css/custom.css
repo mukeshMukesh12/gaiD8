@@ -1258,14 +1258,27 @@ h1#page__node--title {
   z-index: 99;
   right: 15px;
 }
-/* line 933, ../sass/custom/_global.scss */
+@media (max-width: 480px) {
+  /* line 928, ../sass/custom/_global.scss */
+  .drupal__eight--logo {
+    bottom: -15px;
+  }
+}
+/* line 936, ../sass/custom/_global.scss */
 .drupal__eight--logo img {
   content: url("../images/120X120-01.png");
   height: 100%;
   width: auto;
 }
+@media (max-width: 480px) {
+  /* line 936, ../sass/custom/_global.scss */
+  .drupal__eight--logo img {
+    width: 65%;
+    float: right;
+  }
+}
 
-/* line 940, ../sass/custom/_global.scss */
+/* line 947, ../sass/custom/_global.scss */
 .views-element-container footer {
   position: relative;
 }
