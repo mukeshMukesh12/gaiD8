@@ -1,3 +1,8 @@
+@include desktop {
+  .blogs .node__content div:first-child div:last-child {
+     width: 60%;
+  }
+}
 @include tablet-landscape-desktop {
   .sub-menu-himalaya {
     width: 170px !important;
