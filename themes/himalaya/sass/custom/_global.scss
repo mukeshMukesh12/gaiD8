@@ -50,6 +50,9 @@
     -webkit-transition: transform 500ms;
     -moz-transition: transform 500ms;
     -ms-transition: transform 500ms;
+    @include mobile-landscape {
+      height: 325px;
+    }
   }
   &:hover {
     img {
@@ -78,6 +81,9 @@ span.slider-title a {
 span.slider-des {
   font-size: 25px;
   line-height: 5px;
+  @include mobile-landscape {
+    line-height: 1.5em;
+  }
 }
 .slider-link {
   margin-top: 42px;
