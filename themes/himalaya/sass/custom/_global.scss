@@ -14,14 +14,17 @@
     width: 30%;
     vertical-align: top;
     h2 {
-     font-size: 56px;
-     margin-top: 10px;
+      font-size: 56px;
+      width: 70%;
+      text-align: left;
+      line-height: 1;
+      margin-top: .3em;
     }
   }
   .about-desc {
     display: inline-block;
     width: 67%;
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 /*** slider css **/
@@ -372,7 +375,7 @@ span.slider-des {
 }
 
 /* our services blcok */
-#block-views-block-our-services-block-block-1{
+.block-view-our-service {
   background: $base_color;
   display: inline-block;
   margin: 0 auto;
@@ -386,7 +389,7 @@ span.slider-des {
     font-size: 40px;
   }
   .views-row {
-    float: left;
+    display: inline-block;
     margin: 0 auto;
     width: 25%;
   }
@@ -394,6 +397,7 @@ span.slider-des {
     color: $white;
   }
 }
+
 /* css for Testimonai block */
 .testimonial_block {
   h2{
