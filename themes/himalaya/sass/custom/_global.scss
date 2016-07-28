@@ -92,6 +92,22 @@ span.slider-des {
   margin-top: 42px;
   display: block;
 }
+.view-block-home-slider {
+  .views-row-2 {
+    .slider-title {
+      display: none;
+    }
+    h3 {
+      font-size: 50px;
+      font-weight: bold;
+      text-transform: uppercase;
+      strong {
+        color: $color-navyblue;
+      }
+    } 
+  }
+}
+
 /** our work block **/
 #block-drupalservicestomakeyourwebpresenceshine {
   padding: 0 20px;
@@ -390,14 +406,16 @@ span.slider-des {
   }
   .views-row {
     display: inline-block;
-    &:nth-child(3) {
+    &:nth-child(2) {
       margin: 0 2em;
     }
     // margin: 0 auto;
     // width: 25%;
   }
   h3 {
-    color: $white;
+    a {
+      color: $white;
+    }  
   }
 }
 
