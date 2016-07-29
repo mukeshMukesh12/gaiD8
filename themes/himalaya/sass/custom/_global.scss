@@ -124,21 +124,17 @@ span.slider-des {
     padding: 0 20px;
   }
 }
-#block-views-block-our-work-block-1,
-#block-views-block-our-work-block-2 {
-    display: inline-block;
-    margin-right: 5%;
-    width: 29.7%;
-    text-align: center;
+.view-block-our-work {
+  display: inline-block;
+  margin-right: 5%;
+  width: 29.7%;
+  text-align: center;
+  &:nth-child(3) {
+    margin-right: 0;
+  }
 }
-#block-views-block-our-work-block-4 {
-    width: 29.7%;
-    display: inline-block;
-    text-align: center;
-}
-#block-views-block-our-work-block-4,
-#block-views-block-our-work-block-1,
-#block-views-block-our-work-block-2 {
+
+.view-block-our-work {
   img {
     width: 100%;
   }
@@ -204,7 +200,7 @@ span.slider-des {
     font-size: 18px;
   }
 }
-#block-views-block-our-work-block-3 {
+.view-block-our-work-list {
   h2 {
     width: 100%;
     text-align: center;
