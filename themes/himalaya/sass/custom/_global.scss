@@ -93,18 +93,20 @@ span.slider-des {
   display: block;
 }
 .view-block-home-slider {
-  .views-row-2 {
-    .slider-title {
-      display: none;
-    }
-    h3 {
-      font-size: 50px;
-      font-weight: bold;
-      text-transform: uppercase;
-      strong {
-        color: $color-navyblue;
+  .views-row-3 {
+    .views-row-2 {
+      .slider-title {
+        display: none;
       }
-    } 
+      h3 {
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        strong {
+          color: $color-navyblue;
+        }
+      }
+    }   
   }
 }
 
