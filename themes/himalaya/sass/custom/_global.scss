@@ -404,8 +404,9 @@ span.slider-des {
   }
   .views-row {
     display: inline-block;
-    &:nth-child(3) {
-      margin: 0 2em;
+    margin-right: 2em;
+    &:last-child {
+      margin-right: 0;
     }
   }
   h3 {
@@ -505,6 +506,7 @@ span.slider-des {
     position: absolute;
     opacity: 0.5;
     top: 0;
+    left: 0;
   }
   .footer-col {
    position: relative;
