@@ -95,10 +95,12 @@ ul.social__link {
   a { 
     padding: 10px 20px;
     border: 1px solid;
+    transition: 0.9s all linear;
     @include border-radius(5px);
     font-size: 18px;
     &:hover {
-      background: $color-red;
+      background: $white;
+      color: $black;
     }
   }
 }

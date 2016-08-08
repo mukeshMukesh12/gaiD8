@@ -42,6 +42,7 @@
   display: none;
  }
 }
+
 .home-slider {
   position: relative;
   overflow: hidden;
@@ -430,6 +431,10 @@ span.slider-des {
       float: left;
       padding-right: 3em;
       min-height: 220px;
+      padding-top: 10px;
+        @include mobile-portrait {
+          padding-bottom: 10px;
+        }
     }
     .views-field-title{
       a{
@@ -564,6 +569,7 @@ span.slider-des {
       color: $white;
       font-size: 20px;
       text-align: center;
+      height: 80px;
     }
     .views-field.views-field-field-link {
       text-align: center;
@@ -580,7 +586,8 @@ span.slider-des {
        border-radius: 5px;
        &:hover {
         transition: 0.9s linear all;
-        background: $black;
+        background: $white;
+        color: $black;
        }
       }
     }
