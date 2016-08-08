@@ -16,7 +16,7 @@
 }
 /* line 14, ../sass/custom/_header.scss */
 #navigation .menu a {
-  color: #000000 !important;
+  color: black !important;
   font-weight: bold;
 }
 /* line 19, ../sass/custom/_header.scss */
@@ -98,7 +98,7 @@
 }
 
 /** slide show **/
-/* line 82, ../sass/custom/_header.scss */
+/* line 83, ../sass/custom/_header.scss */
 .views_slideshow_cycle_teaser_section,
 .views_slideshow_cycle_slide {
   width: 100% !important;
@@ -115,7 +115,7 @@
   padding-bottom: 10px;
 }
 
-/* line 96, ../sass/custom/_header.scss */
+/* line 98, ../sass/custom/_header.scss */
 .contact-message-feedback-form .form-text,
 .contact-message-feedback-form .text-full,
 .contact-message-feedback-form .form-email {
@@ -261,7 +261,7 @@
   top: 40%;
   width: 100%;
   text-align: center;
-  color: #ffffff;
+  color: white;
 }
 
 /* line 77, ../sass/custom/_global.scss */
@@ -270,7 +270,7 @@ span.slider-title a {
   font-size: 50px;
   font-weight: bold;
   line-height: 3.3125rem;
-  color: #ffffff;
+  color: white;
 }
 
 /* line 84, ../sass/custom/_global.scss */
@@ -303,7 +303,7 @@ span.slider-des {
 }
 /* line 105, ../sass/custom/_global.scss */
 .view-block-home-slider .views-row-3 .views-row-2 h3 strong {
-  color: #28A8E0;
+  color: #28a8e0;
 }
 
 /** our work block **/
@@ -353,13 +353,13 @@ span.slider-des {
   top: 0;
   width: 100%;
   text-align: center;
-  color: #ffffff;
+  color: white;
   height: 100%;
 }
 /* line 157, ../sass/custom/_global.scss */
 .view-block-our-work .views-field.views-field-title p {
   font-size: 24px;
-  color: #ffffff;
+  color: white;
   position: relative;
   top: 3%;
   z-index: 9;
@@ -368,7 +368,7 @@ span.slider-des {
 .view-block-our-work .views-field.views-field-title .field-content {
   font-size: 24px;
   width: 100%;
-  color: #ffffff;
+  color: white;
   height: 100%;
   position: relative;
   display: block;
@@ -383,7 +383,7 @@ span.slider-des {
   content: "";
   height: 99%;
   width: 100%;
-  background: #000000;
+  background: black;
   left: 0;
   top: 0;
   opacity: 0.7;
@@ -393,8 +393,8 @@ span.slider-des {
 /** our work listing page **/
 /* line 191, ../sass/custom/_global.scss */
 .views-exposed-form select {
-  color: #000000;
-  border: 2px solid #000000;
+  color: black;
+  border: 2px solid black;
   font-size: 18px;
   height: 40px;
   margin-top: -2px;
@@ -442,12 +442,12 @@ span.slider-des {
 .view-block-our-work-list .views-field.views-field-title {
   font-size: 25px;
   font-weight: bold;
-  color: #000000;
+  color: black;
   padding-bottom: 10px;
 }
 /* line 236, ../sass/custom/_global.scss */
 .view-block-our-work-list .views-field.views-field-title a {
-  color: #000000;
+  color: black;
 }
 
 /* line 241, ../sass/custom/_global.scss */
@@ -468,7 +468,7 @@ span.slider-des {
 /* line 251, ../sass/custom/_global.scss */
 .our-work-des {
   position: absolute;
-  color: #ffffff;
+  color: white;
   padding: 20px 30px;
   line-height: 20px;
   width: 100%;
@@ -483,7 +483,7 @@ span.slider-des {
   content: "";
   width: 100%;
   height: 98%;
-  background: #000000;
+  background: black;
   opacity: 0.5;
   position: absolute;
   top: 0;
@@ -493,7 +493,7 @@ span.slider-des {
 
 /* line 275, ../sass/custom/_global.scss */
 .our-work-list-title a {
-  color: #ffffff;
+  color: white;
   font-size: 30px;
 }
 
@@ -556,7 +556,7 @@ span.slider-des {
 /* line 331, ../sass/custom/_global.scss */
 .listing-of-our-work .views-row:hover .views-field-title:before {
   content: "";
-  background: #000000;
+  background: black;
   opacity: 0.5;
   height: 100%;
   width: 100%;
@@ -570,7 +570,7 @@ span.slider-des {
 }
 /* line 346, ../sass/custom/_global.scss */
 .listing-of-our-work .views-field-title a {
-  color: #ffffff;
+  color: white;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -623,7 +623,7 @@ span.slider-des {
 /* our services blcok */
 /* line 392, ../sass/custom/_global.scss */
 .block-view-our-service {
-  background: #7BB2D0;
+  background: #7bb2d0;
   display: inline-block;
   margin: 0 auto;
   padding: 2em 5em;
@@ -633,7 +633,7 @@ span.slider-des {
 }
 /* line 400, ../sass/custom/_global.scss */
 .block-view-our-service h2 {
-  color: #ffffff;
+  color: white;
   margin-top: 0px;
   font-size: 40px;
 }
@@ -648,13 +648,13 @@ span.slider-des {
 }
 /* line 413, ../sass/custom/_global.scss */
 .block-view-our-service h3 a {
-  color: #ffffff;
+  color: white;
 }
 
 /* css for Testimonai block */
 /* line 421, ../sass/custom/_global.scss */
 .testimonial_block h2 {
-  color: #ffffff;
+  color: white;
   font-size: 40px;
   text-align: center;
 }
@@ -671,14 +671,14 @@ span.slider-des {
 }
 /* line 435, ../sass/custom/_global.scss */
 .testimonial_block .views-row .views-field-title a {
-  color: #ffffff;
+  color: white;
   font-size: 22px;
   font-weight: bold;
 }
 /* line 442, ../sass/custom/_global.scss */
 .testimonial_block .views-field.views-field-body {
   font-size: 18px;
-  color: #ffffff;
+  color: white;
 }
 
 /* line 448, ../sass/custom/_global.scss */
@@ -721,7 +721,7 @@ span.slider-des {
 }
 
 /**** testimonial block ***/
-/* line 479, ../sass/custom/_global.scss */
+/* line 480, ../sass/custom/_global.scss */
 .testimonial_block .views_slideshow_cycle_teaser_section,
 .testimonial_block .views_slideshow_cycle_slide {
   max-height: 220px !important;
@@ -751,7 +751,7 @@ span.slider-des {
   content: "";
   height: 100%;
   width: 100%;
-  background: #000000;
+  background: black;
   z-index: 1;
   position: absolute;
   opacity: 0.5;
@@ -796,7 +796,7 @@ span.slider-des {
   display: inline-block;
   text-align: center;
   font-weight: bold;
-  color: #ffffff;
+  color: white;
 }
 /* line 547, ../sass/custom/_global.scss */
 .top-contributor .views-row {
@@ -810,7 +810,7 @@ span.slider-des {
 }
 /* line 556, ../sass/custom/_global.scss */
 .top-contributor .views-field-field-title {
-  color: #ffffff;
+  color: white;
   font-size: 24px;
   text-align: center;
   display: block;
@@ -818,7 +818,7 @@ span.slider-des {
 }
 /* line 563, ../sass/custom/_global.scss */
 .top-contributor .views-field-body {
-  color: #ffffff;
+  color: white;
   font-size: 20px;
   text-align: center;
 }
@@ -834,15 +834,15 @@ span.slider-des {
 .top-contributor .views-field.views-field-field-link a {
   font-size: 20px;
   padding: 10px;
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  border: 1px solid white;
+  color: white;
   transition: 0.9s linear all;
   border-radius: 5px;
 }
 /* line 581, ../sass/custom/_global.scss */
 .top-contributor .views-field.views-field-field-link a:hover {
   transition: 0.9s linear all;
-  background: #000000;
+  background: black;
 }
 /* line 588, ../sass/custom/_global.scss */
 .top-contributor .views-field-field-image {
@@ -851,7 +851,7 @@ span.slider-des {
 /* line 590, ../sass/custom/_global.scss */
 .top-contributor .views-field-field-image img {
   border-radius: 0px 120px 0px 120px;
-  border: 10px solid #ffffff;
+  border: 10px solid white;
   width: 100%;
   transition: 0.5s linear all;
 }
@@ -866,7 +866,7 @@ span.slider-des {
 .pager {
   display: block;
   padding: 50px 0;
-  background: #000000;
+  background: black;
 }
 /* line 608, ../sass/custom/_global.scss */
 .pager .js-pager__items {
@@ -883,8 +883,8 @@ span.slider-des {
 .pager .pager__item--next a,
 .pager .pager__item--last a {
   padding: 5px 15px;
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  border: 1px solid white;
+  color: white;
 }
 /* line 625, ../sass/custom/_global.scss */
 .pager li.pager__item {
@@ -894,7 +894,7 @@ span.slider-des {
 /* line 628, ../sass/custom/_global.scss */
 .pager li.pager__item a {
   font-size: 18px;
-  color: #ffffff;
+  color: white;
   padding: 0 9px;
   transition: 0.9s linear all;
   border-radius: 5px;
@@ -903,7 +903,7 @@ span.slider-des {
 .pager li.pager__item a:hover {
   background: #e7e7e7;
   transition: 0.9s linear all;
-  color: #000000;
+  color: black;
   border-radius: 5px;
 }
 /* line 641, ../sass/custom/_global.scss */
@@ -970,12 +970,12 @@ span.slider-des {
 /* line 702, ../sass/custom/_global.scss */
 .path-user #block-himalaya-local-tasks li a.is-active {
   background: #333;
-  color: #ffffff;
+  color: white;
 }
 /* line 706, ../sass/custom/_global.scss */
 .path-user #block-himalaya-local-tasks li a:hover {
   background: #333;
-  color: #ffffff;
+  color: white;
   transition: 0.9s linear all;
 }
 
@@ -1039,7 +1039,7 @@ span.slider-des {
 
 /* line 767, ../sass/custom/_global.scss */
 .contact-message-feedback-form label {
-  color: #000000;
+  color: black;
 }
 
 /** css for blog **/
@@ -1054,7 +1054,7 @@ span.slider-des {
   text-align: center;
   padding: 6% 0;
   background: url("../images/bg-blue-blueprint.jpg");
-  color: #ffffff;
+  color: white;
   background-attachment: fixed;
 }
 /* line 786, ../sass/custom/_global.scss */
@@ -1113,7 +1113,7 @@ span.slider-des {
 /* line 823, ../sass/custom/_global.scss */
 .blog-title a {
   font-size: 24px;
-  color: #000000;
+  color: black;
   font-weight: bold;
 }
 /* line 827, ../sass/custom/_global.scss */
@@ -1154,18 +1154,18 @@ span.slider-des {
   padding: 10px;
   font-size: 16px;
   font-weight: bold;
-  border: 1px solid #000000;
+  border: 1px solid black;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px;
-  color: #000000;
+  color: black;
   transition: .9s linear all;
 }
 /* line 861, ../sass/custom/_global.scss */
 .blog-read-more a:hover {
   background-color: #c42431;
-  color: #ffffff;
+  color: white;
   transition: .9s linear all;
   border-color: #c42431;
 }
@@ -1245,7 +1245,7 @@ span.slider-des {
 h1#page__node--title {
   padding: 6% 20px;
   background: url("../images/bg-blue-blueprint.jpg");
-  color: #ffffff;
+  color: white;
   font-size: 56px;
   text-align: center;
   margin-top: 0px;
@@ -1262,7 +1262,7 @@ h1#page__node--title {
   border-radius: 5px;
   cursor: pointer;
   background: #0678be;
-  color: #ffffff;
+  color: white;
   font-size: 16px;
 }
 
@@ -1280,12 +1280,6 @@ h1#page__node--title {
     bottom: -15px;
   }
 }
-/* line 965, ../sass/custom/_global.scss */
-.drupal__eight--logo img {
-  content: url("../images/120X120-01.png");
-  height: 100%;
-  width: auto;
-}
 @media (max-width: 480px) {
   /* line 965, ../sass/custom/_global.scss */
   .drupal__eight--logo img {
@@ -1294,7 +1288,7 @@ h1#page__node--title {
   }
 }
 
-/* line 976, ../sass/custom/_global.scss */
+/* line 973, ../sass/custom/_global.scss */
 .views-element-container footer {
   position: relative;
 }
@@ -1307,26 +1301,26 @@ span.slider-link a {
   background: transparent;
   border-radius: 5px;
   margin-top: 8em;
-  color: #ffffff;
+  color: white;
   text-transform: capitalize;
   font-size: 20px;
-  border: 2px solid #ffffff;
+  border: 2px solid white;
   position: relative;
 }
 /* line 13, ../sass/custom/_button.scss */
 span.slider-link a:hover {
-  background: #ffffff;
-  color: #000000;
+  background: white;
+  color: black;
 }
 /* line 17, ../sass/custom/_button.scss */
 span.slider-link a:after {
   content: "";
   width: 100%;
   height: 100%;
-  background: #ffffff;
+  background: white;
   opacity: 0.2;
   border-radius: 5px;
-  border: 2px solid #ffffff;
+  border: 2px solid white;
   top: 0;
   left: 0;
   position: absolute;
@@ -1355,7 +1349,7 @@ span.slider-link a:after {
 }
 /* line 14, ../sass/custom/_footer.scss */
 #footer h2 {
-  color: #000000;
+  color: black;
 }
 /* line 17, ../sass/custom/_footer.scss */
 #footer li {
@@ -1363,9 +1357,9 @@ span.slider-link a:after {
 }
 /* line 19, ../sass/custom/_footer.scss */
 #footer li a {
-  color: #000000;
+  color: black;
 }
-/* line 23, ../sass/custom/_footer.scss */
+/* line 25, ../sass/custom/_footer.scss */
 #footer #block-ourwork,
 #footer #block-aboutus,
 #footer #block-resources {
@@ -1381,9 +1375,9 @@ span.slider-link a:after {
 /* line 33, ../sass/custom/_footer.scss */
 #footer nav h2 {
   border: 1px solid;
-  background: #000000;
+  background: black;
   opacity: 0.8;
-  color: #ffffff;
+  color: white;
   padding: 10px 0px;
   cursor: pointer;
   transition: 0.9s linear all;
@@ -1391,8 +1385,8 @@ span.slider-link a:after {
 }
 /* line 42, ../sass/custom/_footer.scss */
 #footer nav h2:hover {
-  background: #ffffff;
-  color: #000000;
+  background: white;
+  color: black;
 }
 
 /* line 52, ../sass/custom/_footer.scss */
@@ -1411,7 +1405,7 @@ div#block-footerblock .detail li {
 /* line 56, ../sass/custom/_footer.scss */
 div#block-footerblock .detail li a {
   font-size: 20px;
-  color: #ffffff;
+  color: white;
   padding: 10px 0px;
   display: inline-block;
   font-weight: bold;
@@ -1461,7 +1455,7 @@ ul.social__link li {
 }
 
 /** sticky footer **/
-/* line 106, ../sass/custom/_footer.scss */
+/* line 107, ../sass/custom/_footer.scss */
 body,
 html {
   height: 100%;
@@ -1478,7 +1472,7 @@ div#page-wrapper {
   display: block;
 }
 
-/* line 117, ../sass/custom/_footer.scss */
+/* line 119, ../sass/custom/_footer.scss */
 #footer,
 #page-wrapper:after {
   height: 160px;
@@ -1497,7 +1491,7 @@ div#page-wrapper {
   bottom: 10px;
   right: 10px;
   text-align: center;
-  background: url("../images/top-arrow.png") #fff no-repeat;
+  background: url("../images/top-arrow.png") white no-repeat;
   font-size: 0;
   transform: rotate(90deg);
   background-size: 62px;
@@ -1610,11 +1604,11 @@ div#page-wrapper {
   }
   /* line 74, ../sass/custom/_responsive.scss */
   li.menu-item.menu-item--expanded.menu-item--active-trail > a {
-    color: #ffffff;
+    color: white;
   }
   /* line 76, ../sass/custom/_responsive.scss */
   li.menu-item.menu-item--expanded.menu-item--active-trail > a:hover {
-    color: #ffffff !important;
+    color: white !important;
   }
 
   /* line 84, ../sass/custom/_responsive.scss */
@@ -1624,15 +1618,15 @@ div#page-wrapper {
 
   /* line 92, ../sass/custom/_responsive.scss */
   #navigation .main-menu li.menu-item.menu-item--active-trail > a:hover {
-    color: #ffffff !important;
+    color: white !important;
   }
   /* line 100, ../sass/custom/_responsive.scss */
   #navigation .menu a {
-    color: #ffffff !important;
+    color: white !important;
   }
   /* line 104, ../sass/custom/_responsive.scss */
   #navigation .menu ul a {
-    color: #000000 !important;
+    color: black !important;
   }
 
   /* line 110, ../sass/custom/_responsive.scss */
@@ -1642,7 +1636,7 @@ div#page-wrapper {
 
   /* line 115, ../sass/custom/_responsive.scss */
   #navigation .menu a {
-    color: #ffffff !important;
+    color: white !important;
   }
 
   /* line 120, ../sass/custom/_responsive.scss */
@@ -1685,7 +1679,7 @@ div#page-wrapper {
     padding-left: 20px;
   }
 
-  /* line 153, ../sass/custom/_responsive.scss */
+  /* line 154, ../sass/custom/_responsive.scss */
   #block-views-block-our-work-block-1,
   #block-views-block-our-work-block-2 {
     width: 29.5%;
@@ -1784,7 +1778,7 @@ div#page-wrapper {
   }
 }
 @media (max-width: 520px) {
-  /* line 238, ../sass/custom/_responsive.scss */
+  /* line 240, ../sass/custom/_responsive.scss */
   .views_slideshow_cycle_slide img,
   .views_slideshow_cycle_teaser_section,
   .views_slideshow_cycle_slide {
@@ -1852,7 +1846,7 @@ div#page-wrapper {
   }
 }
 @media (max-width: 767px) {
-  /* line 287, ../sass/custom/_responsive.scss */
+  /* line 289, ../sass/custom/_responsive.scss */
   #block-views-block-our-work-block-1,
   #block-views-block-our-work-block-2,
   #block-views-block-our-work-block-4 {
@@ -2100,7 +2094,7 @@ div#page-wrapper {
     text-align: center;
   }
 
-  /* line 487, ../sass/custom/_responsive.scss */
+  /* line 489, ../sass/custom/_responsive.scss */
   #block-views-block-our-work-block-4,
   #block-views-block-our-work-block-1,
   #block-views-block-our-work-block-2 {
@@ -2114,7 +2108,7 @@ div#page-wrapper {
     padding-top: 20px !important;
   }
 
-  /* line 499, ../sass/custom/_responsive.scss */
+  /* line 500, ../sass/custom/_responsive.scss */
   .about-gai-block .about-title,
   .about-gai-block .about-desc {
     width: 100%;
@@ -2205,4 +2199,52 @@ div#page-wrapper {
     padding: 10% 20px;
     font-size: 40px;
   }
+}
+/* line 1, ../sass/custom/_node-page.scss */
+article.node--type-our-services {
+  display: block;
+  width: 100%;
+  max-width: 80%;
+  margin: auto;
+}
+@media (max-width: 480px) {
+  /* line 1, ../sass/custom/_node-page.scss */
+  article.node--type-our-services {
+    max-width: 100%;
+  }
+}
+/* line 9, ../sass/custom/_node-page.scss */
+article.node--type-our-services .node__content {
+  display: inline-block;
+  width: 100%;
+}
+@media (max-width: 480px) {
+  /* line 14, ../sass/custom/_node-page.scss */
+  article.node--type-our-services .node__content div img {
+    width: 100%;
+  }
+}
+/* line 20, ../sass/custom/_node-page.scss */
+article.node--type-our-services .node__content div p {
+  line-height: 26px !important;
+}
+/* line 23, ../sass/custom/_node-page.scss */
+article.node--type-our-services .node__content div:nth-of-type(1) {
+  text-align: center;
+  margin-bottom: 25px;
+}
+/* line 31, ../sass/custom/_node-page.scss */
+article.node--type-our-services .node__content div:nth-of-type(2) > p:nth-of-type(1) span {
+  display: block;
+}
+/* line 34, ../sass/custom/_node-page.scss */
+article.node--type-our-services .node__content div:nth-of-type(2) > p:nth-of-type(1) span:first-letter {
+  font-size: 30px !important;
+  text-shadow: 1px 2px #28a8e0;
+}
+/* line 42, ../sass/custom/_node-page.scss */
+article.node--type-our-services .node__content div span {
+  font-size: 18px !important;
+  font-family: opensans-light !important;
+  font-weight: 100 !important;
 }
