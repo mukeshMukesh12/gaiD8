@@ -60,5 +60,212 @@ p.drupal_background {
         text-shadow: 1px 2px $color-navyblue;
       }
 }
+/***css for case-studies page***/
+.path-case-studies {
+    #page-wrapper  {
+        background-image: -webkit-linear-gradient(right, $grey, $medium-grey); 
+        background-image:    -moz-linear-gradient(right, $grey, $medium-grey); 
+        background-image:     -ms-linear-gradient(right, $grey, $medium-grey); 
+        background-image:      -o-linear-gradient(right, $grey, $medium-grey); 
+        background-image:         linear-gradient(right, $grey, $medium-grey);
+    .main-content-wrapper {
+      width: 100%;
+      max-width: 95%;
+      @include tablet {
+        max-width: 100%;
+      }
+      @include mobile {
+        max-width: 300px;
+      }
+      margin: auto;
+      box-sizing: border-box;
+        .views-row {
+            
+             @include tablet {
+                width: 46%;
+                 float: left;
+                 margin: 1em 2%;
+            } 
+            @include mobile {
+                width: 100%;
+                display: inline-block;
+                margin: 1em 0;
+                height: auto;
+            }
+            width: 32%;
+            display: inline-flex;
+            vertical-align: top;
+            box-shadow: 2px -2px 14px -2px $black;
+            margin: 2em 0.5%;
+            background: $white;
+            box-sizing: border-box;
+            height: 400px;
+               
+            
+              .cs-wrapper {
+                padding: 15px;
+                 > a {
+                    width: 100%;
+                    display: inline-block;
+                    text-align: center;
+                    display: block;
+                    font-size: 18px;
+                    font-family: cursive;
+                    color: $black;
+                      &:first-letter {
+                        font-size: 30px;
+                        text-shadow: 1px 2px $color-red;
+                        display: inline-block;
+                        font-style: italic;
 
+                      }
+                      &:hover {
+                        color: $color-navyblue;
+                        text-decoration: none;
+                      }
+                      &:focus {
+                        outline: none;
+                      }
+                 }
+                 div {
+                    height: 160px;
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                     a {
+                        text-align: center;
+                        width: 100%;
+                        display: inline-block;
+                     }
+                    
+                 }
+                 ul{
+                    margin: 20px 0px;
 
+                 }
+              }
+        }
+    }
+  }
+  #footer {
+    margin-top: 0;
+  }
+}
+/**css node page case studies**/
+.node--type-case-studies {
+   .main-content-wrapper {
+     .bottom {
+        width: 100%;
+        max-width: 90%;
+        margin: auto;
+        float: none !important;
+        @include mobile {
+            max-width: 100%;
+        }
+     }
+     .views-row {
+        width: 100%;
+        display: inline-block;
+        .views-field-nothing {
+           width: 100%;
+           display: table;
+           border-collapse: separate;
+           border-spacing: 10px;
+             .main-wrapper {
+                display: table-row;
+                width: 100%;
+                vertical-align: top;
+                 .left-wrapper {
+                    width: 70%;
+                    @include tablet {
+                        width: 100%;
+                        display: inline-block;
+                    }
+                    @include mobile {
+                        width: 100%;
+                        display: inline-block;
+                    }
+                    display: table-cell;
+                    vertical-align: top;
+                    background-image: -webkit-linear-gradient(right, $grey, $medium-grey); 
+                    background-image:    -moz-linear-gradient(right, $grey, $medium-grey); 
+                    background-image:     -ms-linear-gradient(right, $grey, $medium-grey); 
+                    background-image:      -o-linear-gradient(right, $grey, $medium-grey); 
+                    background-image:         linear-gradient(right, $grey, $medium-grey);
+
+                 }
+                 .right-wrapper {
+                    width: 30%;
+                    @include tablet {
+                        width: 100%;
+                        display: inline-block;
+                    }
+                    @include mobile {
+                        width: 100%;
+                        display: inline-block;
+                    }
+                    display: table-cell;
+                    vertical-align: top;
+
+                    background-image: -webkit-linear-gradient(right, $grey, $medium-grey); 
+                    background-image:    -moz-linear-gradient(right, $grey, $medium-grey); 
+                    background-image:     -ms-linear-gradient(right, $grey, $medium-grey); 
+                    background-image:      -o-linear-gradient(right, $grey, $medium-grey); 
+                    background-image:         linear-gradient(right, $grey, $medium-grey);
+                     .cs-main-row {
+                       
+                        &:nth-of-type(1) {
+                            text-align: center;
+                        }
+                       p {
+                         font-family: cursive;
+                         padding: 10px;
+                       }
+                     }
+                 }
+                 .cs-wrapper {
+                        display:  table;
+                        width: 100%;
+                        border-collapse: separate;
+                        border-spacing: 10px;
+
+                          .cs-main-row {
+                            display: table-row;
+                            width: 100%;
+                            vertical-align: top;
+                             background: $white;
+                             .cs-left-content {
+                                display: table-cell;
+                                width: 30%;
+                                vertical-align: middle;
+                                padding: 10px;
+                                text-align: center;
+                                font-family: cursive;
+                                @include mobile {
+                                    width: 100%;
+                                    display: inline-block;
+                                }
+                                  &:first-letter {
+                                    font-size: 30px;
+
+                                  }
+                                
+                             }
+                             .cs-right-content {
+                                display: table-cell;
+                                width: 70%;
+                                vertical-align: middle;
+                                padding: 10px;
+                                @include mobile {
+                                    width: 100%;
+                                    display: inline-block;
+                                }
+                                
+                             }
+                          }
+                     }
+             }
+        }
+     }
+   }
+}

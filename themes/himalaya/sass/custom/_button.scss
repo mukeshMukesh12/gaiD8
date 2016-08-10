@@ -10,6 +10,7 @@ span.slider-link a {
   font-size: 20px;
   border: 2px solid $white;
   position: relative;
+  transition: 0.9s all linear;
   &:hover {
     background: $white;
     color: $black;
