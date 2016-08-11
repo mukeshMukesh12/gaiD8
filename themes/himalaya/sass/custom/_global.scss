@@ -81,6 +81,7 @@ span.slider-title a {
   font-weight: bold;
   line-height: 3.3125rem;
   color: $white;
+  pointer-events: none;
 }
 span.slider-des {
   font-size: 25px;
@@ -953,7 +954,8 @@ h1#page__node--title {
 .back-to-page {
   padding: 10px 20px;
   border: 1px solid;
-  display: inline-block;
+  /* display: inline-block; */
+  display: none;/**temporary change**/
   @include border-radius(5px);
   cursor: pointer;
   background: #0678be;

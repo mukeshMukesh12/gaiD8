@@ -269,3 +269,24 @@ p.drupal_background {
      }
    }
 }
+/***css for our work listing page ***/
+ .ourwork-listing {
+    padding: 20px 20px 50px;
+    box-shadow: 2px -2px 14px -2px $black;
+     > a {
+        font-size: 25px;
+        font-weight: bold;
+        color: $black;
+        
+     }
+     .img-text {
+        margin-top: 10px;
+     }
+     .logo-text {
+        div {
+            &:nth-of-type(1) {
+                text-align: center;
+            }
+        }
+     }
+ }
