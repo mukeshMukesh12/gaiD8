@@ -2387,14 +2387,14 @@ p.drupal_background:first-letter {
 /* line 157, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .bottom {
   width: 100%;
-  max-width: 90%;
-  margin: auto;
-  float: none !important;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 @media (max-width: 767px) {
   /* line 157, ../sass/custom/_node-page.scss */
   .node--type-case-studies .main-content-wrapper .bottom {
-    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 /* line 166, ../sass/custom/_node-page.scss */
@@ -2491,7 +2491,7 @@ p.drupal_background:first-letter {
 /* line 237, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .cs-wrapper .cs-main-row .cs-left-content {
   display: table-cell;
-  width: 30%;
+  width: 20%;
   vertical-align: middle;
   padding: 10px;
   text-align: center;
@@ -2511,7 +2511,7 @@ p.drupal_background:first-letter {
 /* line 254, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .cs-wrapper .cs-main-row .cs-right-content {
   display: table-cell;
-  width: 70%;
+  width: 80%;
   vertical-align: middle;
   padding: 10px;
 }

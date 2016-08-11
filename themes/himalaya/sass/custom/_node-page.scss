@@ -155,13 +155,13 @@ p.drupal_background {
 .node--type-case-studies {
    .main-content-wrapper {
      .bottom {
-        width: 100%;
-        max-width: 90%;
-        margin: auto;
-        float: none !important;
+       width: 100%;
+       padding-left: 5%;
+       padding-right: 5%;
         @include mobile {
-            max-width: 100%;
-        }
+            padding-left: 0;
+            padding-right: 0;
+        }  
      }
      .views-row {
         width: 100%;
@@ -236,7 +236,7 @@ p.drupal_background {
                              background: $white;
                              .cs-left-content {
                                 display: table-cell;
-                                width: 30%;
+                                width: 20%;
                                 vertical-align: middle;
                                 padding: 10px;
                                 text-align: center;
@@ -253,7 +253,7 @@ p.drupal_background {
                              }
                              .cs-right-content {
                                 display: table-cell;
-                                width: 70%;
+                                width: 80%;
                                 vertical-align: middle;
                                 padding: 10px;
                                 @include mobile {
