@@ -1,0 +1,17 @@
+diff --git a/public_html/core/misc/ajax.js b/public_html/core/misc/ajax.js
+index 507a40b..d87acf7 100644
+--- a/public_html/core/misc/ajax.js
++++ b/public_html/core/misc/ajax.js
+@@ -1210,8 +1210,10 @@
+         // Ajax behavior.
+         if (instance.selector) {
+           var selector = instance.selector.replace('#', '');
+-          if (selector in ajaxSettings) {
+-            delete ajaxSettings[selector];
++          if (!typeof ajaxSettings === 'undefined') {
++            if (selector in ajaxSettings) {
++              delete ajaxSettings[selector];
++            }
+           }
+         }
+       });

@@ -1210,8 +1210,10 @@
         // Ajax behavior.
         if (instance.selector) {
           var selector = instance.selector.replace('#', '');
-          if (selector in ajaxSettings) {
-            delete ajaxSettings[selector];
+          if (!typeof ajaxSettings === 'undefined') {
+            if (selector in ajaxSettings) {
+              delete ajaxSettings[selector];
+            }
           }
         }
       });
