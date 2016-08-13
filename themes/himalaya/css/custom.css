@@ -2777,7 +2777,7 @@ p.drupal_background:first-letter {
 .path-white-papers main#content section .whitepaper-wrapper .main-row .img-section {
   display: table-cell;
   width: 20%;
-  vertical-align: top;
+  vertical-align: middle;
   background: white;
   text-align: center;
 }
