@@ -1,5 +1,9 @@
 /** css for button **/
 span.slider-link a {
+  @include mobile {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
   padding: 10px 20px;
   min-width: 250px;
   background: transparent;

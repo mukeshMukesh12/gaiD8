@@ -340,3 +340,139 @@ p.drupal_background {
          }
      }
  }
+/**white paper page **/
+.path-white-papers {
+    main#content {
+        section {
+            @include mobile {
+                max-width: 94%;
+            }
+            max-width: 80%;
+            margin:20px  auto;
+            display: block;
+            .views-row {
+                margin: 25px 0px;
+                background: $white;
+                display: inline-block;
+                width: 100%;
+                .views-field-nothing {
+                    background: $light-grey;
+                      p.download {
+                        text-align: center;
+                        font-family: cursive;
+                        -webkit-animation: color-change 1s infinite;
+                        -moz-animation: color-change 1s infinite;
+                        -o-animation: color-change 1s infinite;
+                        -ms-animation: color-change 1s infinite;
+                        animation: color-change 1s infinite;
+                      }
+                     > span {
+                        display: inline-block;
+                        width: 100%;
+                        text-align: center;
+                        margin: 0 0 20px;
+                          span {
+                             a {
+                                position: relative;
+                                bottom: 34px;
+                                  &:before {
+                                    content: "";
+                                    width: 50px;
+                                    height: 50px;
+                                    background: url('../images/dowload-pdf.gif') no-repeat scroll center center / 100% 100%;
+                                    display: inline-block;
+                                    position: relative;
+                                    top: 0;
+                                  }
+                             }
+                          }
+                     }
+                }
+            }
+              .whitepaper-wrapper {
+                width: 100%;
+                @include mobile {
+                    display: inline-block;
+                }
+                display: table;
+                border-collapse: separate;
+                border-spacing: 10px;
+                padding: 10px;
+                 .title {
+                    @include mobile {
+                        display: inline-block;
+                    }
+                    display: table-caption;
+                    background: $white;
+                    padding: 5px;
+                    text-align: center;
+                    font-size: 24px;
+                    font-family: cursive;
+                    margin: 10px;
+                 }
+                  .main-row {
+                    width: 100%;
+                    @include mobile {
+                        display: inline-block;
+                    }
+                    display: table-row;
+                     .img-section {
+                        @include mobile {
+                            width: 100%;
+                            display: inline-block;
+                        }
+                        display: table-cell;
+                        width: 20%;
+                        vertical-align: top;
+                        background: $white;
+                        text-align: center;
+                     }
+                     .text-section {
+                        @include mobile {
+                            width: 100%;
+                            display: inline-block;
+                        }
+                        display: table-cell;
+                        width: 80%;
+                        vertical-align: middle;
+                        background: $white;
+                        padding: 10px;
+                         p {
+                            display: block;
+                               &:first-letter {
+                                font-size: 24px;
+                                font-weight: bold;
+                               }
+                         }
+                     }
+                  }
+              }
+        }
+    }
+}
+
+@-webkit-keyframes color-change {
+    0% { color: $color-red; }
+    50% { color: $base_color; }
+    100% { color: $red; }
+}
+@-moz-keyframes color-change {
+    0% { color: $color-red; }
+    50% { color: $base_color; }
+    100% { color: $red; }
+}
+@-ms-keyframes color-change {
+    0% { color: $color-red; }
+    50% { color: $base_color; }
+    100% { color: $red; }
+}
+@-o-keyframes color-change {
+    0% { color: $color-red; }
+    50% { color: $base_color; }
+    100% { color: $red; }
+}
+@keyframes color-change {
+    0% { color: $color-red; }
+    50% { color: $base_color; }
+    100% { color: $red; }
+}

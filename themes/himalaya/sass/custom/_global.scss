@@ -77,6 +77,10 @@
 }
 span.slider-title a {
   text-transform: uppercase;
+  @include mobile {
+    font-size: 14px;
+    line-height: 1.5;
+  }
   @include tablet {
     font-size: 35px;
     line-height: 2.3125rem;
@@ -89,6 +93,9 @@ span.slider-title a {
   pointer-events: none;
 }
 span.slider-des {
+  @include mobile {
+    font-size: 10px;
+  }
   @include tablet {
     font-size: 18px;
     line-height: 4px;
@@ -100,8 +107,12 @@ span.slider-des {
   }
 }
 .slider-link {
+  @include mobile {
+    margin-top: 2px;
+   }
   margin-top: 42px;
   display: block;
+
 }
 .view-block-home-slider {
   .views-row-3 {
@@ -110,6 +121,9 @@ span.slider-des {
         display: none;
       }
       h3 {
+        @include mobile {
+          font-size: 14px;
+        }
         @include tablet {
           font-size: 35px;
         }

@@ -290,7 +290,7 @@
     margin-right:0px;
   }
   .slider-content {
-    top: 8%;
+    top: 4%;
   }
   #block-views-block-our-services-block-block-1 {
     padding: 15px 20px;
@@ -366,7 +366,7 @@
 
 @include mobile-landscape {
   span.slider-title a {
-    font-size: 32px;
+    /* font-size: 32px; */
     line-height: normal;
   }
   .about-gai-block {
@@ -460,11 +460,11 @@
 @include mobile-portrait {
   
   span.slider-title a {
-    font-size: 24px;
+    /* font-size: 24px; */
     line-height: normal;
   }
   span.slider-des {
-    font-size: 18px;
+    /* font-size: 18px; */
     line-height: normal;
     padding: 0px 20px;
     width: 100%;
