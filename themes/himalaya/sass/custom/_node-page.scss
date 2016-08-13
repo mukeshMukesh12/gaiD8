@@ -290,3 +290,53 @@ p.drupal_background {
         }
      }
  }
+ /**theming fixes on testinomial slider text is hiding*/
+ .testimonial-slider-wrapper {
+   width: 100%;
+   display: inline-block;
+     .img-section {
+        @include mobile {
+            width: 100%;
+            float: none;
+            text-align: center;
+        }
+        width: 20%;
+        float: left;
+         @media mobile {
+            width: 100%;
+            text-align: center;
+            float: none;
+         }
+         img {
+            padding-top: 10px;
+         }
+     }
+     .text-section {
+        @include mobile {
+            width: 100%;
+            float: none;
+        }
+        width: 80%;
+        float: left;
+       
+       
+         a {
+            font-size: 22px;
+            color: $white;
+            font-weight: bold;
+            pointer-events: none;
+               @media screen and (max-width: 975px) {
+                font-size: 18px;
+               }
+           
+         }
+         h3, em {
+            color: $white;
+            font-size: 18px;
+             @media screen and (max-width: 975px) {
+                font-size: 14px;
+             }
+            
+         }
+     }
+ }

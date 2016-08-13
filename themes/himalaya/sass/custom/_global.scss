@@ -77,13 +77,22 @@
 }
 span.slider-title a {
   text-transform: uppercase;
+  @include tablet {
+    font-size: 35px;
+    line-height: 2.3125rem;
+  }
   font-size: 50px;
   font-weight: bold;
   line-height: 3.3125rem;
   color: $white;
+
   pointer-events: none;
 }
 span.slider-des {
+  @include tablet {
+    font-size: 18px;
+    line-height: 4px;
+  }
   font-size: 25px;
   line-height: 5px;
   @include mobile-landscape {
@@ -101,6 +110,9 @@ span.slider-des {
         display: none;
       }
       h3 {
+        @include tablet {
+          font-size: 35px;
+        }
         font-size: 50px;
         font-weight: bold;
         text-transform: uppercase;
@@ -484,7 +496,13 @@ span.slider-des {
 .testimonial_block {
   .views_slideshow_cycle_teaser_section,
   .views_slideshow_cycle_slide {
-    max-height: 220px !important;
+    @media screen and (max-width: 641px) {
+      height: 360px !important;
+    }
+     @media screen and (min-width: 645px) {
+      max-height: 220px !important;
+    }
+    
   }
 }
 .path-frontpage {

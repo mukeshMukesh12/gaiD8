@@ -183,7 +183,7 @@
     .views-row {
       padding-right: 15px;
       img {
-        border-radius: 100%;
+        padding-right: 10px;
       }
       .views-field-title  {
         a {
@@ -238,7 +238,7 @@
    .views_slideshow_cycle_slide img,
    .views_slideshow_cycle_teaser_section, 
    .views_slideshow_cycle_slide {
-     height: 265px !important;
+    /*  height: 265px !important; */
    }
 }
 @include tablet-desktop {
