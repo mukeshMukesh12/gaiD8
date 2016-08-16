@@ -1359,6 +1359,19 @@ h1#page__node--title {
   position: relative;
 }
 
+/* line 1019, ../sass/custom/_global.scss */
+.node__content ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+/* line 1022, ../sass/custom/_global.scss */
+.node__content ul li:before {
+  content: '\2713';
+  display: inline-block;
+  color: #28a8e0;
+  padding: 0 6px 0 0;
+}
+
 /** css for button **/
 /* line 2, ../sass/custom/_button.scss */
 span.slider-link a {
@@ -2406,7 +2419,7 @@ p.drupal_background:first-letter {
   text-align: center;
   display: block;
   font-size: 18px;
-  font-family: cursive;
+  font-weight: bold;
   color: black;
 }
 /* line 115, ../sass/custom/_node-page.scss */
@@ -2442,44 +2455,40 @@ p.drupal_background:first-letter {
 .path-case-studies #page-wrapper .main-content-wrapper .views-row .cs-wrapper ul {
   margin: 20px 0px;
 }
-/* line 150, ../sass/custom/_node-page.scss */
-.path-case-studies #footer {
-  margin-top: 0;
-}
 
 /**css node page case studies**/
-/* line 157, ../sass/custom/_node-page.scss */
+/* line 155, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .bottom {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
 }
 @media (max-width: 767px) {
-  /* line 157, ../sass/custom/_node-page.scss */
+  /* line 155, ../sass/custom/_node-page.scss */
   .node--type-case-studies .main-content-wrapper .bottom {
     padding-left: 0;
     padding-right: 0;
   }
 }
-/* line 166, ../sass/custom/_node-page.scss */
+/* line 164, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .views-row {
   width: 100%;
   display: inline-block;
 }
-/* line 169, ../sass/custom/_node-page.scss */
+/* line 167, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing {
   width: 100%;
   display: table;
   border-collapse: separate;
   border-spacing: 10px;
 }
-/* line 174, ../sass/custom/_node-page.scss */
+/* line 172, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper {
   display: table-row;
   width: 100%;
   vertical-align: top;
 }
-/* line 178, ../sass/custom/_node-page.scss */
+/* line 176, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .left-wrapper {
   width: 70%;
   display: table-cell;
@@ -2491,20 +2500,20 @@ p.drupal_background:first-letter {
   background-image: linear-gradient(right, #e7e7e7, #f1f1f1);
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* line 178, ../sass/custom/_node-page.scss */
+  /* line 176, ../sass/custom/_node-page.scss */
   .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .left-wrapper {
     width: 100%;
     display: inline-block;
   }
 }
 @media (max-width: 767px) {
-  /* line 178, ../sass/custom/_node-page.scss */
+  /* line 176, ../sass/custom/_node-page.scss */
   .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .left-wrapper {
     width: 100%;
     display: inline-block;
   }
 }
-/* line 197, ../sass/custom/_node-page.scss */
+/* line 195, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .right-wrapper {
   width: 30%;
   display: table-cell;
@@ -2516,63 +2525,63 @@ p.drupal_background:first-letter {
   background-image: linear-gradient(right, #e7e7e7, #f1f1f1);
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* line 197, ../sass/custom/_node-page.scss */
+  /* line 195, ../sass/custom/_node-page.scss */
   .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .right-wrapper {
     width: 100%;
     display: inline-block;
   }
 }
 @media (max-width: 767px) {
-  /* line 197, ../sass/custom/_node-page.scss */
+  /* line 195, ../sass/custom/_node-page.scss */
   .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .right-wrapper {
     width: 100%;
     display: inline-block;
   }
 }
-/* line 217, ../sass/custom/_node-page.scss */
+/* line 215, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .right-wrapper .cs-main-row:nth-of-type(1) {
   text-align: center;
 }
-/* line 220, ../sass/custom/_node-page.scss */
+/* line 218, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .right-wrapper .cs-main-row p {
-  font-family: cursive;
+  font-weight: bold;
   padding: 10px;
 }
-/* line 226, ../sass/custom/_node-page.scss */
+/* line 224, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .cs-wrapper {
   display: table;
   width: 100%;
   border-collapse: separate;
   border-spacing: 10px;
 }
-/* line 232, ../sass/custom/_node-page.scss */
+/* line 230, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .cs-wrapper .cs-main-row {
   display: table-row;
   width: 100%;
   vertical-align: top;
   background: white;
 }
-/* line 237, ../sass/custom/_node-page.scss */
+/* line 235, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .cs-wrapper .cs-main-row .cs-left-content {
   display: table-cell;
   width: 20%;
   vertical-align: middle;
   padding: 10px;
   text-align: center;
-  font-family: cursive;
+  font-weight: bold;
 }
 @media (max-width: 767px) {
-  /* line 237, ../sass/custom/_node-page.scss */
+  /* line 235, ../sass/custom/_node-page.scss */
   .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .cs-wrapper .cs-main-row .cs-left-content {
     width: 100%;
     display: inline-block;
   }
 }
-/* line 248, ../sass/custom/_node-page.scss */
+/* line 246, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .cs-wrapper .cs-main-row .cs-left-content:first-letter {
   font-size: 30px;
 }
-/* line 254, ../sass/custom/_node-page.scss */
+/* line 252, ../sass/custom/_node-page.scss */
 .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .cs-wrapper .cs-main-row .cs-right-content {
   display: table-cell;
   width: 80%;
@@ -2580,7 +2589,7 @@ p.drupal_background:first-letter {
   padding: 10px;
 }
 @media (max-width: 767px) {
-  /* line 254, ../sass/custom/_node-page.scss */
+  /* line 252, ../sass/custom/_node-page.scss */
   .node--type-case-studies .main-content-wrapper .views-row .views-field-nothing .main-wrapper .cs-wrapper .cs-main-row .cs-right-content {
     width: 100%;
     display: inline-block;
@@ -2588,39 +2597,39 @@ p.drupal_background:first-letter {
 }
 
 /***css for our work listing page ***/
-/* line 273, ../sass/custom/_node-page.scss */
+/* line 271, ../sass/custom/_node-page.scss */
 .ourwork-listing {
   padding: 20px 20px 50px;
   box-shadow: 2px -2px 14px -2px black;
 }
-/* line 276, ../sass/custom/_node-page.scss */
+/* line 274, ../sass/custom/_node-page.scss */
 .ourwork-listing > a {
   font-size: 25px;
   font-weight: bold;
   color: black;
 }
-/* line 282, ../sass/custom/_node-page.scss */
+/* line 280, ../sass/custom/_node-page.scss */
 .ourwork-listing .img-text {
   margin-top: 10px;
 }
-/* line 287, ../sass/custom/_node-page.scss */
+/* line 285, ../sass/custom/_node-page.scss */
 .ourwork-listing .logo-text div:nth-of-type(1) {
   text-align: center;
 }
 
 /**theming fixes on testinomial slider text is hiding*/
-/* line 294, ../sass/custom/_node-page.scss */
+/* line 292, ../sass/custom/_node-page.scss */
 .testimonial-slider-wrapper {
   width: 100%;
   display: inline-block;
 }
-/* line 297, ../sass/custom/_node-page.scss */
+/* line 295, ../sass/custom/_node-page.scss */
 .testimonial-slider-wrapper .img-section {
   width: 20%;
   float: left;
 }
 @media (max-width: 767px) {
-  /* line 297, ../sass/custom/_node-page.scss */
+  /* line 295, ../sass/custom/_node-page.scss */
   .testimonial-slider-wrapper .img-section {
     width: 100%;
     float: none;
@@ -2628,30 +2637,30 @@ p.drupal_background:first-letter {
   }
 }
 @media mobile {
-  /* line 297, ../sass/custom/_node-page.scss */
+  /* line 295, ../sass/custom/_node-page.scss */
   .testimonial-slider-wrapper .img-section {
     width: 100%;
     text-align: center;
     float: none;
   }
 }
-/* line 310, ../sass/custom/_node-page.scss */
+/* line 308, ../sass/custom/_node-page.scss */
 .testimonial-slider-wrapper .img-section img {
   padding-top: 10px;
 }
-/* line 314, ../sass/custom/_node-page.scss */
+/* line 312, ../sass/custom/_node-page.scss */
 .testimonial-slider-wrapper .text-section {
   width: 80%;
   float: left;
 }
 @media (max-width: 767px) {
-  /* line 314, ../sass/custom/_node-page.scss */
+  /* line 312, ../sass/custom/_node-page.scss */
   .testimonial-slider-wrapper .text-section {
     width: 100%;
     float: none;
   }
 }
-/* line 323, ../sass/custom/_node-page.scss */
+/* line 321, ../sass/custom/_node-page.scss */
 .testimonial-slider-wrapper .text-section a {
   font-size: 22px;
   color: white;
@@ -2659,37 +2668,37 @@ p.drupal_background:first-letter {
   pointer-events: none;
 }
 @media screen and (max-width: 975px) {
-  /* line 323, ../sass/custom/_node-page.scss */
+  /* line 321, ../sass/custom/_node-page.scss */
   .testimonial-slider-wrapper .text-section a {
     font-size: 18px;
   }
 }
-/* line 333, ../sass/custom/_node-page.scss */
+/* line 331, ../sass/custom/_node-page.scss */
 .testimonial-slider-wrapper .text-section h3, .testimonial-slider-wrapper .text-section em {
   color: white;
   font-size: 18px;
 }
 @media screen and (max-width: 975px) {
-  /* line 333, ../sass/custom/_node-page.scss */
+  /* line 331, ../sass/custom/_node-page.scss */
   .testimonial-slider-wrapper .text-section h3, .testimonial-slider-wrapper .text-section em {
     font-size: 14px;
   }
 }
 
 /**white paper page **/
-/* line 346, ../sass/custom/_node-page.scss */
+/* line 344, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section {
   max-width: 80%;
   margin: 20px  auto;
   display: block;
 }
 @media (max-width: 767px) {
-  /* line 346, ../sass/custom/_node-page.scss */
+  /* line 344, ../sass/custom/_node-page.scss */
   .path-white-papers main#content section {
     max-width: 94%;
   }
 }
-/* line 353, ../sass/custom/_node-page.scss */
+/* line 351, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .views-row {
   margin: 25px 0px;
   background: white;
@@ -2697,25 +2706,25 @@ p.drupal_background:first-letter {
   width: 100%;
   box-shadow: 2px -2px 14px -2px black;
 }
-/* line 360, ../sass/custom/_node-page.scss */
+/* line 358, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .views-row .views-field-nothing {
   background: #f6f6f6;
 }
-/* line 362, ../sass/custom/_node-page.scss */
+/* line 360, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .views-row .views-field-nothing .download {
   text-align: center;
-  font-family: cursive;
+  font-weight: bold;
   -webkit-animation: color-change 1s infinite;
   -moz-animation: color-change 1s infinite;
   -o-animation: color-change 1s infinite;
   -ms-animation: color-change 1s infinite;
   animation: color-change 1s infinite;
 }
-/* line 370, ../sass/custom/_node-page.scss */
+/* line 368, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .views-row .views-field-nothing .download:focus {
   outline: none;
 }
-/* line 373, ../sass/custom/_node-page.scss */
+/* line 371, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .views-row .views-field-nothing .download:before {
   content: "";
   width: 50px;
@@ -2725,14 +2734,14 @@ p.drupal_background:first-letter {
   position: relative;
   top: 0;
 }
-/* line 383, ../sass/custom/_node-page.scss */
+/* line 381, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .views-row .views-field-nothing > span {
   display: inline-block;
   width: 100%;
   text-align: center;
   margin: 0 0 20px;
 }
-/* line 395, ../sass/custom/_node-page.scss */
+/* line 393, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .whitepaper-wrapper {
   width: 100%;
   display: table;
@@ -2741,39 +2750,39 @@ p.drupal_background:first-letter {
   padding: 10px;
 }
 @media (max-width: 767px) {
-  /* line 395, ../sass/custom/_node-page.scss */
+  /* line 393, ../sass/custom/_node-page.scss */
   .path-white-papers main#content section .whitepaper-wrapper {
     display: inline-block;
   }
 }
-/* line 404, ../sass/custom/_node-page.scss */
+/* line 402, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .whitepaper-wrapper .title {
   display: table-caption;
   background: white;
   padding: 5px;
   text-align: center;
   font-size: 24px;
-  font-family: cursive;
+  font-weight: bold;
   margin: 10px;
 }
 @media (max-width: 767px) {
-  /* line 404, ../sass/custom/_node-page.scss */
+  /* line 402, ../sass/custom/_node-page.scss */
   .path-white-papers main#content section .whitepaper-wrapper .title {
     display: inline-block;
   }
 }
-/* line 416, ../sass/custom/_node-page.scss */
+/* line 414, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .whitepaper-wrapper .main-row {
   width: 100%;
   display: table-row;
 }
 @media (max-width: 767px) {
-  /* line 416, ../sass/custom/_node-page.scss */
+  /* line 414, ../sass/custom/_node-page.scss */
   .path-white-papers main#content section .whitepaper-wrapper .main-row {
     display: inline-block;
   }
 }
-/* line 422, ../sass/custom/_node-page.scss */
+/* line 420, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .whitepaper-wrapper .main-row .img-section {
   display: table-cell;
   width: 20%;
@@ -2782,13 +2791,13 @@ p.drupal_background:first-letter {
   text-align: center;
 }
 @media (max-width: 767px) {
-  /* line 422, ../sass/custom/_node-page.scss */
+  /* line 420, ../sass/custom/_node-page.scss */
   .path-white-papers main#content section .whitepaper-wrapper .main-row .img-section {
     width: 100%;
     display: inline-block;
   }
 }
-/* line 433, ../sass/custom/_node-page.scss */
+/* line 431, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .whitepaper-wrapper .main-row .text-section {
   display: table-cell;
   width: 80%;
@@ -2797,103 +2806,135 @@ p.drupal_background:first-letter {
   padding: 10px;
 }
 @media (max-width: 767px) {
-  /* line 433, ../sass/custom/_node-page.scss */
+  /* line 431, ../sass/custom/_node-page.scss */
   .path-white-papers main#content section .whitepaper-wrapper .main-row .text-section {
     width: 100%;
     display: inline-block;
   }
 }
-/* line 443, ../sass/custom/_node-page.scss */
+/* line 441, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .whitepaper-wrapper .main-row .text-section p {
   display: block;
 }
-/* line 445, ../sass/custom/_node-page.scss */
+/* line 443, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .whitepaper-wrapper .main-row .text-section p:first-letter {
   font-size: 24px;
   font-weight: bold;
 }
 
 @-webkit-keyframes color-change {
-  /* line 458, ../sass/custom/_node-page.scss */
+  /* line 456, ../sass/custom/_node-page.scss */
   0% {
     color: #c42431;
   }
 
-  /* line 459, ../sass/custom/_node-page.scss */
+  /* line 457, ../sass/custom/_node-page.scss */
   50% {
     color: #7bb2d0;
   }
 
-  /* line 460, ../sass/custom/_node-page.scss */
+  /* line 458, ../sass/custom/_node-page.scss */
   100% {
     color: #ed1c24;
   }
 }
 
 @-moz-keyframes color-change {
-  /* line 463, ../sass/custom/_node-page.scss */
+  /* line 461, ../sass/custom/_node-page.scss */
   0% {
     color: #c42431;
   }
 
-  /* line 464, ../sass/custom/_node-page.scss */
+  /* line 462, ../sass/custom/_node-page.scss */
   50% {
     color: #7bb2d0;
   }
 
-  /* line 465, ../sass/custom/_node-page.scss */
+  /* line 463, ../sass/custom/_node-page.scss */
   100% {
     color: #ed1c24;
   }
 }
 
 @-ms-keyframes color-change {
-  /* line 468, ../sass/custom/_node-page.scss */
+  /* line 466, ../sass/custom/_node-page.scss */
   0% {
     color: #c42431;
   }
 
-  /* line 469, ../sass/custom/_node-page.scss */
+  /* line 467, ../sass/custom/_node-page.scss */
   50% {
     color: #7bb2d0;
   }
 
-  /* line 470, ../sass/custom/_node-page.scss */
+  /* line 468, ../sass/custom/_node-page.scss */
   100% {
     color: #ed1c24;
   }
 }
 
 @-o-keyframes color-change {
-  /* line 473, ../sass/custom/_node-page.scss */
+  /* line 471, ../sass/custom/_node-page.scss */
   0% {
     color: #c42431;
   }
 
-  /* line 474, ../sass/custom/_node-page.scss */
+  /* line 472, ../sass/custom/_node-page.scss */
   50% {
     color: #7bb2d0;
   }
 
-  /* line 475, ../sass/custom/_node-page.scss */
+  /* line 473, ../sass/custom/_node-page.scss */
   100% {
     color: #ed1c24;
   }
 }
 
 @keyframes color-change {
-  /* line 478, ../sass/custom/_node-page.scss */
+  /* line 476, ../sass/custom/_node-page.scss */
   0% {
     color: #c42431;
   }
 
-  /* line 479, ../sass/custom/_node-page.scss */
+  /* line 477, ../sass/custom/_node-page.scss */
   50% {
     color: #7bb2d0;
   }
 
-  /* line 480, ../sass/custom/_node-page.scss */
+  /* line 478, ../sass/custom/_node-page.scss */
   100% {
     color: #ed1c24;
   }
+}
+
+/* line 481, ../sass/custom/_node-page.scss */
+.node__content ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+/* line 484, ../sass/custom/_node-page.scss */
+.node__content ul li:before {
+  content: '\2713';
+  display: inline-block;
+  color: #28a8e0;
+  padding: 0 6px 0 0;
+}
+
+/* line 496, ../sass/custom/_node-page.scss */
+.about_us > p strong {
+  display: block;
+}
+/* line 498, ../sass/custom/_node-page.scss */
+.about_us > p strong:first-letter {
+  font-size: 24px;
+  text-shadow: 1px 2px #28a8e0;
+}
+/* line 506, ../sass/custom/_node-page.scss */
+.about_us > h2, .about_us h2 strong {
+  display: block;
+}
+/* line 508, ../sass/custom/_node-page.scss */
+.about_us > h2:first-letter, .about_us h2 strong:first-letter {
+  font-size: 35px;
+  text-shadow: 1px 2px #28a8e0;
 }

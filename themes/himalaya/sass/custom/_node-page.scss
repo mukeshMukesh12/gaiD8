@@ -110,7 +110,7 @@ p.drupal_background {
                     text-align: center;
                     display: block;
                     font-size: 18px;
-                    font-family: cursive;
+                    font-weight: bold;
                     color: $black;
                       &:first-letter {
                         font-size: 30px;
@@ -147,9 +147,7 @@ p.drupal_background {
         }
     }
   }
-  #footer {
-    margin-top: 0;
-  }
+  
 }
 /**css node page case studies**/
 .node--type-case-studies {
@@ -218,7 +216,7 @@ p.drupal_background {
                             text-align: center;
                         }
                        p {
-                         font-family: cursive;
+                         font-weight: bold;
                          padding: 10px;
                        }
                      }
@@ -240,7 +238,7 @@ p.drupal_background {
                                 vertical-align: middle;
                                 padding: 10px;
                                 text-align: center;
-                                font-family: cursive;
+                                font-weight: bold;
                                 @include mobile {
                                     width: 100%;
                                     display: inline-block;
@@ -361,7 +359,7 @@ p.drupal_background {
                     background: $light-grey;
                       .download {
                         text-align: center;
-                        font-family: cursive;
+                        font-weight: bold;
                         -webkit-animation: color-change 1s infinite;
                         -moz-animation: color-change 1s infinite;
                         -o-animation: color-change 1s infinite;
@@ -410,7 +408,7 @@ p.drupal_background {
                     padding: 5px;
                     text-align: center;
                     font-size: 24px;
-                    font-family: cursive;
+                    font-weight: bold;
                     margin: 10px;
                  }
                   .main-row {
@@ -478,4 +476,38 @@ p.drupal_background {
     0% { color: $color-red; }
     50% { color: $base_color; }
     100% { color: $red; }
+}
+//li styling
+.node__content ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+    &:before {
+      content:'\2713';
+      display:inline-block;
+      color:$color-navyblue;
+      padding:0 6px 0 0;
+    }
+
+  
+}
+//about us page theming
+.about_us {
+    > p {
+        strong {
+            display: block;
+          &:first-letter {
+            font-size: 24px;
+            text-shadow: 1px 2px $color-navyblue;
+
+          }
+        }
+        
+    }
+    > h2, h2 strong {
+        display: block;
+          &:first-letter {
+            font-size: 35px;
+            text-shadow: 1px 2px $color-navyblue;
+          }
+    }
 }
