@@ -2695,13 +2695,14 @@ p.drupal_background:first-letter {
   background: white;
   display: inline-block;
   width: 100%;
+  box-shadow: 2px -2px 14px -2px black;
 }
-/* line 358, ../sass/custom/_node-page.scss */
+/* line 360, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .views-row .views-field-nothing {
   background: #f6f6f6;
 }
-/* line 360, ../sass/custom/_node-page.scss */
-.path-white-papers main#content section .views-row .views-field-nothing p.download {
+/* line 362, ../sass/custom/_node-page.scss */
+.path-white-papers main#content section .views-row .views-field-nothing .download {
   text-align: center;
   font-family: cursive;
   -webkit-animation: color-change 1s infinite;
@@ -2710,29 +2711,28 @@ p.drupal_background:first-letter {
   -ms-animation: color-change 1s infinite;
   animation: color-change 1s infinite;
 }
-/* line 369, ../sass/custom/_node-page.scss */
+/* line 370, ../sass/custom/_node-page.scss */
+.path-white-papers main#content section .views-row .views-field-nothing .download:focus {
+  outline: none;
+}
+/* line 373, ../sass/custom/_node-page.scss */
+.path-white-papers main#content section .views-row .views-field-nothing .download:before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background: url("../images/pdf-icon.png") no-repeat scroll center center/100% 100%;
+  display: inline-block;
+  position: relative;
+  top: 0;
+}
+/* line 383, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .views-row .views-field-nothing > span {
   display: inline-block;
   width: 100%;
   text-align: center;
   margin: 0 0 20px;
 }
-/* line 375, ../sass/custom/_node-page.scss */
-.path-white-papers main#content section .views-row .views-field-nothing > span span a {
-  position: relative;
-  bottom: 34px;
-}
-/* line 378, ../sass/custom/_node-page.scss */
-.path-white-papers main#content section .views-row .views-field-nothing > span span a:before {
-  content: "";
-  width: 50px;
-  height: 50px;
-  background: url("../images/dowload-pdf.gif") no-repeat scroll center center/100% 100%;
-  display: inline-block;
-  position: relative;
-  top: 0;
-}
-/* line 392, ../sass/custom/_node-page.scss */
+/* line 395, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .whitepaper-wrapper {
   width: 100%;
   display: table;
@@ -2741,12 +2741,12 @@ p.drupal_background:first-letter {
   padding: 10px;
 }
 @media (max-width: 767px) {
-  /* line 392, ../sass/custom/_node-page.scss */
+  /* line 395, ../sass/custom/_node-page.scss */
   .path-white-papers main#content section .whitepaper-wrapper {
     display: inline-block;
   }
 }
-/* line 401, ../sass/custom/_node-page.scss */
+/* line 404, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .whitepaper-wrapper .title {
   display: table-caption;
   background: white;
@@ -2757,23 +2757,23 @@ p.drupal_background:first-letter {
   margin: 10px;
 }
 @media (max-width: 767px) {
-  /* line 401, ../sass/custom/_node-page.scss */
+  /* line 404, ../sass/custom/_node-page.scss */
   .path-white-papers main#content section .whitepaper-wrapper .title {
     display: inline-block;
   }
 }
-/* line 413, ../sass/custom/_node-page.scss */
+/* line 416, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .whitepaper-wrapper .main-row {
   width: 100%;
   display: table-row;
 }
 @media (max-width: 767px) {
-  /* line 413, ../sass/custom/_node-page.scss */
+  /* line 416, ../sass/custom/_node-page.scss */
   .path-white-papers main#content section .whitepaper-wrapper .main-row {
     display: inline-block;
   }
 }
-/* line 419, ../sass/custom/_node-page.scss */
+/* line 422, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .whitepaper-wrapper .main-row .img-section {
   display: table-cell;
   width: 20%;
@@ -2782,13 +2782,13 @@ p.drupal_background:first-letter {
   text-align: center;
 }
 @media (max-width: 767px) {
-  /* line 419, ../sass/custom/_node-page.scss */
+  /* line 422, ../sass/custom/_node-page.scss */
   .path-white-papers main#content section .whitepaper-wrapper .main-row .img-section {
     width: 100%;
     display: inline-block;
   }
 }
-/* line 430, ../sass/custom/_node-page.scss */
+/* line 433, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .whitepaper-wrapper .main-row .text-section {
   display: table-cell;
   width: 80%;
@@ -2797,102 +2797,102 @@ p.drupal_background:first-letter {
   padding: 10px;
 }
 @media (max-width: 767px) {
-  /* line 430, ../sass/custom/_node-page.scss */
+  /* line 433, ../sass/custom/_node-page.scss */
   .path-white-papers main#content section .whitepaper-wrapper .main-row .text-section {
     width: 100%;
     display: inline-block;
   }
 }
-/* line 440, ../sass/custom/_node-page.scss */
+/* line 443, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .whitepaper-wrapper .main-row .text-section p {
   display: block;
 }
-/* line 442, ../sass/custom/_node-page.scss */
+/* line 445, ../sass/custom/_node-page.scss */
 .path-white-papers main#content section .whitepaper-wrapper .main-row .text-section p:first-letter {
   font-size: 24px;
   font-weight: bold;
 }
 
 @-webkit-keyframes color-change {
-  /* line 455, ../sass/custom/_node-page.scss */
+  /* line 458, ../sass/custom/_node-page.scss */
   0% {
     color: #c42431;
   }
 
-  /* line 456, ../sass/custom/_node-page.scss */
+  /* line 459, ../sass/custom/_node-page.scss */
   50% {
     color: #7bb2d0;
   }
 
-  /* line 457, ../sass/custom/_node-page.scss */
+  /* line 460, ../sass/custom/_node-page.scss */
   100% {
     color: #ed1c24;
   }
 }
 
 @-moz-keyframes color-change {
-  /* line 460, ../sass/custom/_node-page.scss */
+  /* line 463, ../sass/custom/_node-page.scss */
   0% {
     color: #c42431;
   }
 
-  /* line 461, ../sass/custom/_node-page.scss */
+  /* line 464, ../sass/custom/_node-page.scss */
   50% {
     color: #7bb2d0;
   }
 
-  /* line 462, ../sass/custom/_node-page.scss */
+  /* line 465, ../sass/custom/_node-page.scss */
   100% {
     color: #ed1c24;
   }
 }
 
 @-ms-keyframes color-change {
-  /* line 465, ../sass/custom/_node-page.scss */
+  /* line 468, ../sass/custom/_node-page.scss */
   0% {
     color: #c42431;
   }
 
-  /* line 466, ../sass/custom/_node-page.scss */
+  /* line 469, ../sass/custom/_node-page.scss */
   50% {
     color: #7bb2d0;
   }
 
-  /* line 467, ../sass/custom/_node-page.scss */
+  /* line 470, ../sass/custom/_node-page.scss */
   100% {
     color: #ed1c24;
   }
 }
 
 @-o-keyframes color-change {
-  /* line 470, ../sass/custom/_node-page.scss */
+  /* line 473, ../sass/custom/_node-page.scss */
   0% {
     color: #c42431;
   }
 
-  /* line 471, ../sass/custom/_node-page.scss */
+  /* line 474, ../sass/custom/_node-page.scss */
   50% {
     color: #7bb2d0;
   }
 
-  /* line 472, ../sass/custom/_node-page.scss */
+  /* line 475, ../sass/custom/_node-page.scss */
   100% {
     color: #ed1c24;
   }
 }
 
 @keyframes color-change {
-  /* line 475, ../sass/custom/_node-page.scss */
+  /* line 478, ../sass/custom/_node-page.scss */
   0% {
     color: #c42431;
   }
 
-  /* line 476, ../sass/custom/_node-page.scss */
+  /* line 479, ../sass/custom/_node-page.scss */
   50% {
     color: #7bb2d0;
   }
 
-  /* line 477, ../sass/custom/_node-page.scss */
+  /* line 480, ../sass/custom/_node-page.scss */
   100% {
     color: #ed1c24;
   }

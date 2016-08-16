@@ -355,9 +355,11 @@ p.drupal_background {
                 background: $white;
                 display: inline-block;
                 width: 100%;
+                 box-shadow: 2px -2px 14px -2px $black;
+
                 .views-field-nothing {
                     background: $light-grey;
-                      p.download {
+                      .download {
                         text-align: center;
                         font-family: cursive;
                         -webkit-animation: color-change 1s infinite;
@@ -365,27 +367,28 @@ p.drupal_background {
                         -o-animation: color-change 1s infinite;
                         -ms-animation: color-change 1s infinite;
                         animation: color-change 1s infinite;
+                          &:focus{
+                            outline: none;
+                          }
+                         &:before {
+                                    content: "";
+                                    width: 50px;
+                                    height: 50px;
+                                    background: url('../images/pdf-icon.png') no-repeat scroll center center / 100% 100%;
+                                    display: inline-block;
+                                    position: relative;
+                                    top: 0;
+                                  }
                       }
                      > span {
                         display: inline-block;
                         width: 100%;
                         text-align: center;
                         margin: 0 0 20px;
-                          span {
-                             a {
-                                position: relative;
-                                bottom: 34px;
-                                  &:before {
-                                    content: "";
-                                    width: 50px;
-                                    height: 50px;
-                                    background: url('../images/dowload-pdf.gif') no-repeat scroll center center / 100% 100%;
-                                    display: inline-block;
-                                    position: relative;
-                                    top: 0;
-                                  }
-                             }
-                          }
+                          
+                               
+                                 
+                             
                      }
                 }
             }
