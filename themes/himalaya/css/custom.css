@@ -1359,19 +1359,6 @@ h1#page__node--title {
   position: relative;
 }
 
-/* line 1019, ../sass/custom/_global.scss */
-.node__content ul li {
-  list-style-type: none;
-  margin-bottom: 10px;
-}
-/* line 1022, ../sass/custom/_global.scss */
-.node__content ul li:before {
-  content: '\2713';
-  display: inline-block;
-  color: #28a8e0;
-  padding: 0 6px 0 0;
-}
-
 /** css for button **/
 /* line 2, ../sass/custom/_button.scss */
 span.slider-link a {
@@ -2907,27 +2894,26 @@ p.drupal_background:first-letter {
   }
 }
 
-/* line 481, ../sass/custom/_node-page.scss */
-.node__content ul li {
+/* line 484, ../sass/custom/_node-page.scss */
+.about_us > p strong {
+  display: block;
+}
+/* line 486, ../sass/custom/_node-page.scss */
+.about_us > p strong:first-letter {
+  font-size: 24px;
+  text-shadow: 1px 2px #28a8e0;
+}
+/* line 494, ../sass/custom/_node-page.scss */
+.about_us ul li {
   list-style-type: none;
   margin-bottom: 10px;
 }
-/* line 484, ../sass/custom/_node-page.scss */
-.node__content ul li:before {
+/* line 497, ../sass/custom/_node-page.scss */
+.about_us ul li:before {
   content: '\2713';
   display: inline-block;
   color: #28a8e0;
   padding: 0 6px 0 0;
-}
-
-/* line 496, ../sass/custom/_node-page.scss */
-.about_us > p strong {
-  display: block;
-}
-/* line 498, ../sass/custom/_node-page.scss */
-.about_us > p strong:first-letter {
-  font-size: 24px;
-  text-shadow: 1px 2px #28a8e0;
 }
 /* line 506, ../sass/custom/_node-page.scss */
 .about_us > h2, .about_us h2 strong {

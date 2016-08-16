@@ -1015,16 +1015,3 @@ h1#page__node--title {
     position: relative;
   }
 }
-//li styling
-.node__content ul li {
-  list-style-type: none;
-  margin-bottom: 10px;
-    &:before {
-      content:'\2713';
-      display:inline-block;
-      color:$color-navyblue;
-      padding:0 6px 0 0;
-    }
-
-  
-}

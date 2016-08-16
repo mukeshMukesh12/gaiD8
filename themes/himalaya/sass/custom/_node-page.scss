@@ -477,19 +477,7 @@ p.drupal_background {
     50% { color: $base_color; }
     100% { color: $red; }
 }
-//li styling
-.node__content ul li {
-  list-style-type: none;
-  margin-bottom: 10px;
-    &:before {
-      content:'\2713';
-      display:inline-block;
-      color:$color-navyblue;
-      padding:0 6px 0 0;
-    }
 
-  
-}
 //about us page theming
 .about_us {
     > p {
@@ -503,6 +491,18 @@ p.drupal_background {
         }
         
     }
+    ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+    &:before {
+      content:'\2713';
+      display:inline-block;
+      color:$color-navyblue;
+      padding:0 6px 0 0;
+    }
+
+  
+}
     > h2, h2 strong {
         display: block;
           &:first-letter {
