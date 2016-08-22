@@ -557,7 +557,7 @@ h2.our-service strong  {
     50% { color: $base_color; }
     100% { color: $color-red; }
 }
-//animation on footer social icons
+//animation on footer social icons and footer detail block
     ul.social__link {
        img {
         -webkit-transition-duration: 0.8s;
@@ -580,3 +580,70 @@ h2.our-service strong  {
           }
        }
     }
+    ul.detail {
+        a {
+            &:before {
+               -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+
+    -webkit-transition-property: -webkit-transform, -webkit-filter;
+    -moz-transition-property: -moz-transform, -moz-filter;
+    -o-transition-property: -o-transform, -o-filter;
+    transition-property: transform, filter; 
+            }
+            &:hover {
+                &:before {
+                    -webkit-transform: rotateY(360deg);
+      -moz-transform: rotateY(360deg);
+      -ms-transform: rotateY(360deg);
+      -o-transform: rotateY(360deg);
+      transform: rotateY(360deg);
+            -webkit-filter: grayscale(100%); filter: grayscale(100%); 
+                }
+            }
+        }
+    }
+// on small screen change styling of OUR SERVICES block heading on home page
+.block-view-our-service {
+    position: relative;
+    z-index: 100;
+     > h2 {
+         position: relative;
+   
+  display: block;
+  margin: 0 auto 40px;
+  width: 200px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 22px !important;
+  text-align: center;
+  background: $color-navyblue;
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba(0,0,0,.15) inset,
+                    0 6px 10px rgba(0,0,0,.15);
+      &:before, &:after {
+        content: '';
+  position: absolute;
+  z-index: -1;
+  left: -53px;
+  top: 16px;
+  display: block;
+  width: 40px;
+  height: 0px;
+  border: 15px solid $color-red;
+  border-right: 10px solid $light-black;
+  border-bottom-color: $color-navyblue;
+  border-left-color: transparent;
+  transform: rotate(-5deg);
+      }
+      &:after {
+        left: auto;
+  right: -53px;
+  border-left: 10px solid $light-black;
+  border-right: 15px solid transparent;
+  transform: rotate(5deg);
+      }
+     }
+}
