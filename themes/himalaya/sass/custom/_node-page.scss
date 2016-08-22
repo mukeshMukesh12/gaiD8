@@ -524,39 +524,8 @@ h2.our-service strong  {
         text-shadow: 1px 2px  $color-navyblue;
     }
 }
-//home page some animation
-.about-title h2 strong{
-    -webkit-animation: color-change2 5s infinite;
-    -moz-animation: color-change2 5s infinite;
-    -o-animation: color-change2 5s infinite;
-    -ms-animation: color-change2 5s infinite;
-    animation: color-change2 5s infinite;
-}
-@-webkit-keyframes color-change2 {
-    0% { color: $black; }
-    50% { color: $base_color; }
-    100% { color: $color-red; }
-}
-@-moz-keyframes color-change2 {
-    0% { color: $black; }
-    50% { color: $base_color; }
-    100% { color: $color-red; }
-}
-@-ms-keyframes color-change2 {
-    0% { color: $black; }
-    50% { color: $base_color; }
-    100% { color: $color-red; }
-}
-@-o-keyframes color-change2 {
-    0% { color: $black; }
-    50% { color: $base_color; }
-    100% { color: $color-red; }
-}
-@keyframes color-change2 {
-    0% { color: $black; }
-    50% { color: $base_color; }
-    100% { color: $color-red; }
-}
+
+
 //animation on footer social icons and footer detail block
     ul.social__link {
        img {
