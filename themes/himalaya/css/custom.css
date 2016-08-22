@@ -3034,3 +3034,25 @@ h2.our-service strong:first-letter {
     color: #c42431;
   }
 }
+
+/* line 562, ../sass/custom/_node-page.scss */
+ul.social__link img {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transition-property: -webkit-transform, -webkit-filter;
+  -moz-transition-property: -moz-transform, -moz-filter;
+  -o-transition-property: -o-transform, -o-filter;
+  transition-property: transform, filter;
+}
+/* line 572, ../sass/custom/_node-page.scss */
+ul.social__link img:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
