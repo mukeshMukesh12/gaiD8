@@ -616,3 +616,83 @@ h2.our-service strong  {
       }
      }
 }
+/**/
+h2.gai-websites {
+  position: relative;
+   /*  display: inline-block; */
+    letter-spacing: 0.15em;
+    text-align: center;
+  font-size: 22px;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+  
+
+    &:after,
+    &:before {
+        content: " ";
+        display: block;
+        position: absolute;
+        bottom: -.5em;
+        width: 1em;
+        height: 100%;
+        background-color: lighten($color-navyblue,10);
+        
+    }
+
+    &:after {
+        right: -13px;
+        z-index: -1;
+    }
+
+    &:before {
+        bottom: auto;
+        top: -.5em;
+        left: -13px;
+        z-index: -1;
+    }
+
+    span {
+        display: inline-block;
+        position: relative;
+        padding: .15em .75em;
+        text-decoration: none;
+        color: darken($black,0);
+        background-color: lighten($color-navyblue,20);
+        text-shadow: 0px 1px 0px #CCC, 0px 2px 0px #C9C9C9, 0px 3px 0px #BBB, 0px 4px 0px #B9B9B9, 0px 5px 0px #AAA, 0px 6px 1px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 5px 10px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 20px rgba(0, 0, 0, 0.15);
+
+
+
+        &:after,
+        &:before {
+            content: " ";
+            display: block;
+            position: absolute;
+            width: 0;
+            height: 0;
+            bottom: -.5em;
+            left: -.05em;
+            pointer-events: none;
+            -webkit-mask: none;
+        }
+
+        &:before {
+            bottom: auto;
+            top: -.5em;
+            border-bottom: .5em solid darken($base_color,10);
+            border-left: .5em solid transparent;
+        }
+
+        &:after {
+            left:  auto;
+            right: -.05em;
+            border-top: .5em solid darken($base_color,10);
+            border-right: .5em solid transparent;
+        }
+    }
+
+}
+p.about-quality {
+     text-shadow: $light-black 0 -1px 4px, $light-grey 0 -2px 10px, $medium-grey 0 -10px 20px, $white 0 -18px 40px;
+}
+/**/

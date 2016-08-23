@@ -213,7 +213,7 @@
 }
 /* line 55, ../sass/custom/_global.scss */
 .about-gai-block p:nth-of-type(2) span {
-  text-shadow: #7bb2d0 0 -1px 4px, #28a8e0 0 -2px 10px, #f1ecd9 0 -10px 20px, #c42431 0 -18px 40px;
+  text-shadow: #333333 0 -1px 4px, #f6f6f6 0 -2px 10px, #f1f1f1 0 -10px 20px, white 0 -18px 40px;
 }
 /* line 58, ../sass/custom/_global.scss */
 .about-gai-block p strong {
@@ -3054,3 +3054,81 @@ ul.detail a:hover:before {
   border-right: 15px solid transparent;
   transform: rotate(5deg);
 }
+
+/**/
+/* line 620, ../sass/custom/_node-page.scss */
+h2.gai-websites {
+  position: relative;
+  /*  display: inline-block; */
+  letter-spacing: 0.15em;
+  text-align: center;
+  font-size: 22px;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+}
+/* line 632, ../sass/custom/_node-page.scss */
+h2.gai-websites:after, h2.gai-websites:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: -.5em;
+  width: 1em;
+  height: 100%;
+  background-color: #55bae6;
+}
+/* line 643, ../sass/custom/_node-page.scss */
+h2.gai-websites:after {
+  right: -13px;
+  z-index: -1;
+}
+/* line 648, ../sass/custom/_node-page.scss */
+h2.gai-websites:before {
+  bottom: auto;
+  top: -.5em;
+  left: -13px;
+  z-index: -1;
+}
+/* line 655, ../sass/custom/_node-page.scss */
+h2.gai-websites span {
+  display: inline-block;
+  position: relative;
+  padding: .15em .75em;
+  text-decoration: none;
+  color: black;
+  background-color: #81cced;
+  text-shadow: 0px 1px 0px #cccccc, 0px 2px 0px #c9c9c9, 0px 3px 0px #bbbbbb, 0px 4px 0px #b9b9b9, 0px 5px 0px #aaaaaa, 0px 6px 1px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 5px 10px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 20px rgba(0, 0, 0, 0.15);
+}
+/* line 667, ../sass/custom/_node-page.scss */
+h2.gai-websites span:after, h2.gai-websites span:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -.5em;
+  left: -.05em;
+  pointer-events: none;
+  -webkit-mask: none;
+}
+/* line 679, ../sass/custom/_node-page.scss */
+h2.gai-websites span:before {
+  bottom: auto;
+  top: -.5em;
+  border-bottom: 0.5em solid #559cc3;
+  border-left: .5em solid transparent;
+}
+/* line 686, ../sass/custom/_node-page.scss */
+h2.gai-websites span:after {
+  left: auto;
+  right: -.05em;
+  border-top: 0.5em solid #559cc3;
+  border-right: .5em solid transparent;
+}
+
+/* line 695, ../sass/custom/_node-page.scss */
+p.about-quality {
+  text-shadow: #333333 0 -1px 4px, #f6f6f6 0 -2px 10px, #f1f1f1 0 -10px 20px, white 0 -18px 40px;
+}
+
+/**/
