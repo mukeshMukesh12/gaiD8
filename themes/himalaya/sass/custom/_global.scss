@@ -192,7 +192,7 @@ span.slider-des {
   display: inline-block;
   width: 29.7%;
   text-align: center;
-  box-shadow: 0px 0px 1px 1px $grey;
+  box-shadow: 0px 0px 1px 1px $medium-grey;
     &:nth-of-type(3) {
       margin: 0 2.8%;
       @media screen and (max-width: 480px) {
@@ -581,8 +581,8 @@ span.slider-des {
 }
 .footer-inner-section {
   padding: 20px 0 0 0;
-  background: url("../images/images.jpg");
-  background-attachment: fixed;
+  background: url("../images/mbfoter.jpeg") no-repeat fixed center center / 100% 100%;
+/*   background-attachment: fixed; */
   position: relative;
   z-index: 1;
   &:before {

@@ -386,7 +386,7 @@ span.slider-des {
   display: inline-block;
   width: 29.7%;
   text-align: center;
-  box-shadow: 0px 0px 1px 1px #e7e7e7;
+  box-shadow: 0px 0px 1px 1px #f1f1f1;
 }
 /* line 196, ../sass/custom/_global.scss */
 .view-block-our-work:nth-of-type(3) {
@@ -832,8 +832,8 @@ span.slider-des {
 /* line 582, ../sass/custom/_global.scss */
 .footer-inner-section {
   padding: 20px 0 0 0;
-  background: url("../images/images.jpg");
-  background-attachment: fixed;
+  background: url("../images/mbfoter.jpeg") no-repeat fixed center center/100% 100%;
+  /*   background-attachment: fixed; */
   position: relative;
   z-index: 1;
 }
