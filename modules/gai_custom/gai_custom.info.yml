@@ -1,0 +1,5 @@
+name: Gai Custom
+type: module
+description: Say Gai Custom Code For Drupal8
+package: Custom
+core: 8.x

@@ -3135,3 +3135,21 @@ p.about-quality {
 }
 
 /**/
+/* line 699, ../sass/custom/_node-page.scss */
+.map-container {
+  width: 100%;
+}
+
+/* line 703, ../sass/custom/_node-page.scss */
+.map-container iframe {
+  width: 100%;
+  display: block;
+  pointer-events: none;
+  position: relative;
+  /* IE needs a position other than static */
+}
+
+/* line 709, ../sass/custom/_node-page.scss */
+.map-container iframe.clicked {
+  pointer-events: auto !important;
+}

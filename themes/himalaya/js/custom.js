@@ -6,6 +6,10 @@
 (function($, Drupal, drupalSettings) {
   Drupal.behaviors.himalaya = {
       attach: function(context, settings) {
+         $('#block-gmap').click(function(){
+            $(this).find('iframe').addClass('clicked')}).mouseleave(function(){
+            $(this).find('iframe').removeClass('clicked')});
+
         //event for humbergur menu
         $(".meanmenu-reveal").click(function() {
           var X = $(this).attr('id');
@@ -45,6 +49,8 @@
         } else {
           return true;
         }
+        //
+       
         // click event for previous page
         $('.back-to-page').click(function(){
           parent.history.back();
