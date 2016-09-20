@@ -257,9 +257,14 @@ span.slider-des {
   }
 }
 .view-block-our-work-list {
-  > div > div{
-  display: flex !important;
+  .view-content {
+  display: -webkit-box;      
+  display: -moz-box;       
+  display: -ms-flexbox;     
+  display: -webkit-flex;     
+  display: flex;
     flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
   }
   h2 {
     width: 100%;
@@ -275,8 +280,13 @@ span.slider-des {
     flex-basis: 100%;
   }
   .views-row {
-    display: flex !important;
-    flex-direction: row !important;
+    display: -webkit-box;      
+    display: -moz-box;       
+    display: -ms-flexbox;     
+    display: -webkit-flex;     
+    display: flex;
+     -webkit-flex-direction: row;
+    flex-direction: row;
     align-items: center;
     @include mobile {
       flex: 1 1 98%;

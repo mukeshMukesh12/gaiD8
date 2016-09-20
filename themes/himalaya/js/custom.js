@@ -51,6 +51,7 @@
         }
         //
        
+         
         // click event for previous page
         $('.back-to-page').click(function(){
           parent.history.back();
