@@ -287,21 +287,43 @@ span.slider-des {
     display: flex;
      -webkit-flex-direction: row;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
+    position: relative;
     @include mobile {
-      flex: 1 1 98%;
-      margin: 0 1% 30px; 
+      flex: 1 0 96%;
+      margin: 0 2% 30px; 
     }
     @media screen and (min-width: 768px) and (max-width: 1024px) {
-      flex: 1 1 48%;
-      margin: 0 1% 30px;
+      flex: 0 0 46%;
+      margin: 0 2% 30px;
 
     }
-    flex: 1 1 32%;
+    flex: 0 0 32%;
     margin: 0px 0.444% 30px;
     box-shadow: 2px -2px 14px -2px $black;
       .views-field-nothing {
         width: 100%;
+        min-height: 100%;
+           .ourwork-listing {
+               display: -webkit-box;      
+                display: -moz-box;       
+                display: -ms-flexbox;     
+                display: -webkit-flex;     
+                display: flex;
+               flex-flow: row wrap;
+               -webkit-flex-flow: row wrap;
+                 .blog-read-more {
+                    display: -webkit-box;      
+                    display: -moz-box;       
+                    display: -ms-flexbox;     
+                    display: -webkit-flex;     
+                    display: flex;
+                     -webkit-flex-direction: row;
+                    flex-direction: row;
+                    align-items: flex-end;
+                 }
+           }
+          
       }
   }
   .views-exposed-form {
