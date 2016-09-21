@@ -228,7 +228,10 @@ class Url {
    *   that are known not to be handled by the Drupal routing system (such as
    *   static files), use base: for the scheme to get a link relative to the
    *   Drupal base path (like the <base> HTML element). For a link to an entity
-   *   you may use entity:{entity_type}/{entity_id} URIs.
+   *   you may use entity:{entity_type}/{entity_id} URIs. The internal: scheme
+   *   should be avoided except when processing actual user input that may or
+   *   may not correspond to a Drupal route. Normally use Url::fromRoute() for
+   *   code linking to any any Drupal page.
    * @param array $options
    *   (optional) An associative array of additional URL options, with the
    *   following elements:
@@ -249,14 +252,9 @@ class Url {
    *     defined, the current scheme is used, so the user stays on HTTP or HTTPS
    *     respectively. TRUE enforces HTTPS and FALSE enforces HTTP.
    *
-   * Note: the internal: scheme should be avoided except when processing actual
-   * user input that may or may not correspond to a Drupal route. Normally use
-   * Url::fromRoute() for code linking to any any Drupal page.
-   *
-   * You can call access() on the returned object to do access checking.
-   *
    * @return \Drupal\Core\Url
-   *   A new Url object with properties depending on the URI scheme.
+   *   A new Url object with properties depending on the URI scheme. Call the
+   *   access() method on this to do access checking.
    *
    * @throws \InvalidArgumentException
    *   Thrown when the passed in path has no scheme.
@@ -274,7 +272,11 @@ class Url {
     if ($uri_parts === FALSE) {
       throw new \InvalidArgumentException("The URI '$uri' is malformed.");
     }
-    if (empty($uri_parts['scheme'])) {
+    // We support protocol-relative URLs.
+    if (strpos($uri, '//') === 0) {
+      $uri_parts['scheme'] = '';
+    }
+    elseif (empty($uri_parts['scheme'])) {
       throw new \InvalidArgumentException("The URI '$uri' is invalid. You must use a valid URI scheme.");
     }
     $uri_parts += ['path' => ''];
@@ -496,7 +498,7 @@ class Url {
   }
 
   /**
-   * Generates a URI string that represents tha data in the Url object.
+   * Generates a URI string that represents the data in the Url object.
    *
    * The URI will typically have the scheme of route: even if the object was
    * constructed using an entity: or internal: scheme. A internal: URI that
@@ -843,7 +845,7 @@ class Url {
   /**
    * Sets the URL generator.
    *
-   * @param \Drupal\Core\Routing\UrlGeneratorInterface
+   * @param \Drupal\Core\Routing\UrlGeneratorInterface $url_generator
    *   (optional) The URL generator, specify NULL to reset it.
    *
    * @return $this
@@ -857,7 +859,7 @@ class Url {
   /**
    * Sets the unrouted URL assembler.
    *
-   * @param \Drupal\Core\Utility\UnroutedUrlAssemblerInterface
+   * @param \Drupal\Core\Utility\UnroutedUrlAssemblerInterface $url_assembler
    *   The unrouted URL assembler.
    *
    * @return $this

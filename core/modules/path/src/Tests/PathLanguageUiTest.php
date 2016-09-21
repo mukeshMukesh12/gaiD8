@@ -41,7 +41,7 @@ class PathLanguageUiTest extends PathTestBase {
     $name = $this->randomMachineName(8);
     $edit = array();
     $edit['source'] = '/admin/config/search/path';
-    $edit['alias'] ='/' . $name;
+    $edit['alias'] = '/' . $name;
     $this->drupalPostForm('admin/config/search/path/add', $edit, t('Save'));
 
     $this->drupalGet($name);
@@ -77,4 +77,5 @@ class PathLanguageUiTest extends PathTestBase {
     $this->drupalGet('fr/' . $name);
     $this->assertText(t('Filter aliases'), 'Foreign URL alias works');
   }
+
 }
