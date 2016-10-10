@@ -1746,7 +1746,7 @@ div#page-wrapper {
 
   /* line 53, ../sass/custom/_responsive.scss */
   .views_slideshow_cycle_teaser_section, .views_slideshow_cycle_slide {
-    z-index: -1;
+    /* z-index: -1; */
   }
 
   /* line 56, ../sass/custom/_responsive.scss */
