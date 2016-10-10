@@ -7,6 +7,11 @@ function gai_custom_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $for
 
 
 	}
+	if($form_id === 'contact_message_request_for_a_quote_form') {
+		$form['actions']['submit']['#submit'][]  = 'custom_node_form_submit';	
+
+
+	}
 	
 }
 

@@ -85,7 +85,7 @@
 }
 
 /*** contact us form **/
-.contact-message-feedback-form label {
+.contact-form label {
   color: red;
   width: 100%;
   float: left;
@@ -93,9 +93,9 @@
   font-weight: bold;
   padding-bottom: 10px;
 }
-.contact-message-feedback-form .form-text, 
-.contact-message-feedback-form .text-full, 
-.contact-message-feedback-form .form-email {
+.contact-form .form-text, 
+.contact-form .text-full, 
+.contact-form .form-email {
     width: 100%;
     float: left;
     margin-bottom: 1em;
@@ -119,7 +119,7 @@
     -moz-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
-.contact-message-feedback-form #edit-preview {
+.contact-form #edit-preview {
   display: none;
 }
 .captcha.form-wrapper {

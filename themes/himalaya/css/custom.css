@@ -106,7 +106,7 @@
 
 /*** contact us form **/
 /* line 88, ../sass/custom/_header.scss */
-.contact-message-feedback-form label {
+.contact-form label {
   color: red;
   width: 100%;
   float: left;
@@ -116,9 +116,9 @@
 }
 
 /* line 98, ../sass/custom/_header.scss */
-.contact-message-feedback-form .form-text,
-.contact-message-feedback-form .text-full,
-.contact-message-feedback-form .form-email {
+.contact-form .form-text,
+.contact-form .text-full,
+.contact-form .form-email {
   width: 100%;
   float: left;
   margin-bottom: 1em;
@@ -144,7 +144,7 @@
 }
 
 /* line 122, ../sass/custom/_header.scss */
-.contact-message-feedback-form #edit-preview {
+.contact-form #edit-preview {
   display: none;
 }
 
@@ -1197,7 +1197,7 @@ span.slider-des {
 }
 
 /* line 893, ../sass/custom/_global.scss */
-.contact-message-feedback-form label {
+.contact-form label {
   color: black;
 }
 
